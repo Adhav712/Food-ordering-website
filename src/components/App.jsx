@@ -9,7 +9,7 @@ import Body from './Body'
 function App() {
   return (
     // className='bg-gray-400'
-    <div >
+    <div className=''>
       <Header />
       <Outlet />
     </div>
