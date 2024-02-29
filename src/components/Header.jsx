@@ -1,6 +1,7 @@
 import images from '../images/applogo.png'
 import { Link } from 'react-router-dom'
 
+
 export const Header = () => {
     return (
         <div className='overflow-hidden flex justify-between items-center m-2 px-20 p-4 h-28 shadow-lg shadow-gray-300 md:px-10 sm:px-2 max-sm:px-4 max-sm:block max-sm:text-center max-sm:h-40 max-sm:py-0'>

@@ -4,7 +4,7 @@ import About from './About'
 import Contact from './Contact'
 import Carts from './Carts'
 import Offers from './Offers'
-
+import Body from './Body'
 
 function App() {
   return (
@@ -22,6 +22,10 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: '/home',
+        element: <Body />
+      },
+      {
         path: '/about',
         element: <About />
       },
@@ -38,10 +42,6 @@ const router = createBrowserRouter([
         element: <Carts />
       }
     ]
-  },
-  {
-    path: '/home',
-    element: <App />
   },
 ])
 
