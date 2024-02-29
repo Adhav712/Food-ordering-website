@@ -1,6 +1,5 @@
 import images from '../images/applogo.png'
-
-console.log(images);
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
     return (
@@ -9,11 +8,11 @@ export const Header = () => {
                 <img src={images} alt="logo" className='w-32' />
             </div>
             <ul className='inline-flex '>
-                <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>Home</li>
-                <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>About</li>
-                <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>Contact us</li>
-                <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>offers</li>
-                <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>Carts</li>
+                <Link to={'/home'}> <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>Home</li></Link>
+                <Link to={'/about'}> <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>About</li></Link>
+                <Link to={'/contact'}> <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>Contact us</li></Link>
+                <Link to={'/offers'}> <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>Offers</li></Link>
+                <Link to={'/carts'}> <li className='mx-4 text-xl text-gray-500 font-semibold max-sm:text-sm max-sm:mx-[0.4em] hover:text-orange-600 hover:border-b border-orange-600'>Carts</li></Link>
             </ul>
         </div >
     )
