@@ -5,6 +5,8 @@ import { BadgePercent, Home, Store, Contact, ShoppingCart } from 'lucide-react';
 
 
 export const Header = () => {
+
+
     return (
         <div className='overflow-hidden flex justify-between items-center m-2
           max-sm:block max-md:px-1 

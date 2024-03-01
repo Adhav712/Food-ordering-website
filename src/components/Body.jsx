@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 
 export const Body = () => {
@@ -13,12 +14,11 @@ export const Body = () => {
     const { header, imageGridCards } = data
 
 
+
     let sliderRef = useRef(null);
-    console.log(sliderRef);
 
     const next = () => {
         sliderRef.slickNext();
-        console.log(sliderRef);
 
     };
     const previous = () => {
@@ -32,6 +32,17 @@ export const Body = () => {
         slidesToShow: 8,
         slidesToScroll: 5,
     }
+
+    let resid = []
+
+    const filterdata = data?.gridElements?.infoWithStyle?.info.map(item => {
+
+
+    })
+
+    // let res = filterdata.shift().join('')
+
+    // console.log(res);
 
     return (
         <div className="max-md:mx-10 mx-40 my-10 pb-5 border-b-2 border-slate-300" >
@@ -49,15 +60,26 @@ export const Body = () => {
             }}
                 {...settings}>
                 {
-                    imageGridCards?.info.map((imgitem, index) => {
-                        return (
-                            <div key={index} className='outline-none'>
-                                <img
-                                    className=''
-                                    width={"120em"}
-                                    src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/" + imgitem?.imageId} alt="img-not-found" />
-                            </div>
-                        )
+                    imageGridCards?.info.map((imgitem) => {
+
+                        if (imgitem.entityId > 5 === false) {
+                            const numbersString = imgitem.entityId.replace(/\D/g, '');
+                            let idArray = numbersString.split('');
+                            idArray.shift();
+                            let id = idArray.join("");
+
+                            console.log(id, imgitem?.accessibility?.altText);
+
+                            return (
+                                <Link key={imgitem.id} to={'/specificdish/' + id || imgitem.entityId}>
+                                    <img key={imgitem.id}
+                                        className=''
+                                        width={"120em"}
+                                        src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/" + imgitem?.imageId} alt="img-not-found" />
+                                </Link>
+                            )
+                        }
+
                     })
                 }
             </Slider>

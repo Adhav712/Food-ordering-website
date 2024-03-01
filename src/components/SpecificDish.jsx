@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import usescrollreataurent from '../Hooks/usescrollreataurent'
 import { Star } from 'lucide-react'
 
@@ -6,13 +5,12 @@ export const SpecificDish = () => {
 
     const { restitem } = usescrollreataurent()
 
-    // console.log(restitem[3]?.card?.card?.info?.sla?.deliveryTime);
 
     const typedatas = restitem.filter(data => {
         return data?.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.Restaurant"
     })
 
-    console.log(restitem.length);
+
 
     return restitem.length < 0 ? <h1>Loading..........</h1> : (
         < div >
@@ -27,9 +25,7 @@ export const SpecificDish = () => {
                 </div>
 
                 <div className='flex justify-center flex-wrap '>
-
                     {
-
                         typedatas.map(item => {
                             // console.log(item?.card?.card?.info?.id);
                             return (
@@ -53,7 +49,6 @@ export const SpecificDish = () => {
                         })
                     }
                 </div>
-
             </div >
         </div >
     )
