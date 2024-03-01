@@ -5,6 +5,7 @@ import Contact from './Contact'
 import Carts from './Carts'
 import Offers from './Offers'
 import { Body } from './Body'
+import { SpecificDish } from './SpecificDish'
 
 function App() {
   return (
@@ -39,8 +40,13 @@ const router = createBrowserRouter([
       {
         path: '/carts',
         element: <Carts />
+      },
+      {
+        path: `/specificdish/:resId`,
+        element: <SpecificDish />
       }
-    ]
+    ],
+    // errorElement
   },
 ])
 
