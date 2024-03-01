@@ -4,7 +4,7 @@ import About from './About'
 import Contact from './Contact'
 import Carts from './Carts'
 import Offers from './Offers'
-import Body from './Body'
+import { Body } from './Body'
 
 function App() {
   return (
