@@ -19,7 +19,7 @@ const usescrollreataurent = () => {
     }, [])
 
     const restfetch = async () => {
-        const data = await fetch(SCROLLAPI)
+        const data = await fetch('https://thingproxy.freeboard.io/fetch/' + SCROLLAPI)
         const jsondata = await data.json()
         setdata(jsondata?.data?.cards[0]?.card?.card)
 
@@ -29,7 +29,7 @@ const usescrollreataurent = () => {
     // console.log(filterdata);
 
     const restdata = async () => {
-        const item = await fetch(SCROLLEACHITEM + resId + '&tags=layout_CCS_Burger&sortBy=&filters=&type=rcv2&offset=0&page_type=null')
+        const item = await fetch('https://thingproxy.freeboard.io/fetch/' + SCROLLEACHITEM + resId + '&tags=layout_CCS_Burger&sortBy=&filters=&type=rcv2&offset=0&page_type=null')
         const jsondata = await item.json()
         setrestitem(jsondata?.data?.cards)
     }
