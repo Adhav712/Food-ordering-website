@@ -13,8 +13,6 @@ export const Body = () => {
 
     const { header, imageGridCards } = data
 
-
-
     let sliderRef = useRef(null);
 
     const next = () => {
@@ -32,17 +30,6 @@ export const Body = () => {
         slidesToShow: 8,
         slidesToScroll: 5,
     }
-
-    let resid = []
-
-    const filterdata = data?.gridElements?.infoWithStyle?.info.map(item => {
-
-
-    })
-
-    // let res = filterdata.shift().join('')
-
-    // console.log(res);
 
     return (
         <div className="max-md:mx-10 mx-40 my-10 pb-5 border-b-2 border-slate-300" >
