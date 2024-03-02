@@ -23,7 +23,6 @@ const usescrollreataurent = () => {
         const jsondata = await data.json()
         console.log(jsondata);
         setdata(jsondata?.data?.cards)
-
     }
 
     // const filterdata = data?.gridElements?.infoWithStyle?.info.map(item => { return item.entityId })
@@ -32,11 +31,11 @@ const usescrollreataurent = () => {
     const restdata = async () => {
         const item = await fetch(SCROLLEACHITEM + resId + '&tags=layout_CCS_Burger&sortBy=&filters=&type=rcv2&offset=0&page_type=null')
         const jsondata = await item.json()
-        console.log();
+        console.log(jsondata);
         setrestitem(jsondata?.data?.cards)
     }
 
-
+    console.log(data);
     return { data, restitem }
 }
 

@@ -25,8 +25,8 @@ export const TopRatedRestaurant = () => {
 
     const settings = {
         speed: 1000,
-        slidesToShow: 8,
-        slidesToScroll: 5,
+        slidesToShow: 4,
+        slidesToScroll: 3,
     }
 
     return (
@@ -50,10 +50,11 @@ export const TopRatedRestaurant = () => {
                     mapdata?.restaurants.map((item) => {
                         const { id, name, avgRatingString, cuisines, sla, cloudinaryImageId } = item?.info
                         return (
-                            <div key={id} className=' max-sm:w-52 w-[15em] max-w-80 shadow-md shadow-gray-300  rounded-xl p-4 m-2 min-h-32 max-h-96'>
+                            <div key={id} className='transition ease-in delay-75  hover:scale-95  duration-100  
+                             max-sm:w-52 w-[14em] max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[22em] max-h-[30em]'>
                                 <div className='flex justify-center items-center'>
                                     <img
-                                        className='max-sm:w-44 max-sm:44 rounded-lg  w-72 h-44 object-cover shadow-md shadow-slate-400'
+                                        className='max-sm:w-44 max-sm:44 rounded-lg w-60 h-44 object-cover shadow-md shadow-slate-400'
                                         src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} alt="" />
                                 </div>
                                 <div className='mx-2 text-left'>
@@ -63,7 +64,7 @@ export const TopRatedRestaurant = () => {
                                         <p className='font-semibold'>{avgRatingString} </p>
                                         <p className='mx-2 font-semibold'> {sla?.slaString}</p>
                                     </div>
-                                    <p className='my-2 mx-1 max-sm:text-sm font-light'>{cuisines.splice(0, 2).join(' , ')}</p>
+                                    <p className='my-2 mx-1 max-sm:text-sm font-normal'>{cuisines.splice(0, 2).join(' , ')}</p>
                                 </div>
                             </div>
                         )
