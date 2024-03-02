@@ -18,18 +18,13 @@ export const Header = () => {
 
             <ul className='flex items-center justify-center'>
                 <Link to={'/home'}>
-                    <li className=' flex justify-center items-center outline-none mx-4 text-lg text-gray-500 font-semibold max-sm:text-sm max-sm:text-md max-sm:mx-[0.4em] hover:text-[#fe8f23] '>
+                    <li className=' flex justify-center items-center outline-none mx-2 text-lg text-gray-500 font-semibold max-sm:text-sm max-sm:text-md max-sm:mx-[0.4em] hover:text-[#fe8f23] '>
 
                         <Home className='mx-1 text-gray-500 hover:text-[#fe8f23] w-[22px] max-sm:w-[15px] max-sm:mx-0' />
                         Home</li></Link>
-                <Link to={'/about'}> <li
-                    className=' flex justify-center items-center outline-none mx-4 text-lg text-gray-500 font-semibold max-sm:text-sm max-sm:text-md max-sm:mx-[0.4em] hover:text-[#fe8f23] '>
-
-                    <Store className='mx-1 text-gray-500 hover:text-[#fe8f23] w-[22px] max-sm:w-[15px] max-sm:mx-0' />
-                    About</li></Link>
-                <Link className='flex items-center mx-2' to={'/contact'}>
+                <Link className='flex items-center ' to={'/contact'}>
                     <li
-                        className=' flex justify-center items-center mx-2 outline-none text-lg text-gray-500 font-semibold max-sm:text-md max-sm:text-sm max-sm:mx-[0.4em] hover:text-[#fe8f23]' >
+                        className=' flex justify-center items-center mx-4 outline-none text-lg text-gray-500 font-semibold max-sm:text-md max-sm:text-sm max-sm:mx-[0.4em] hover:text-[#fe8f23]' >
 
                         <Contact className='mx-1 text-gray-500 hover:text-[#fe8f23] w-[22px] max-sm:w-[15px] max-sm:mx-0' />
                         Contact us</li></Link>

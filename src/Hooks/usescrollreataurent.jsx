@@ -21,6 +21,7 @@ const usescrollreataurent = () => {
     const restfetch = async () => {
         const data = await fetch(SCROLLAPI)
         const jsondata = await data.json()
+        console.log(jsondata);
         setdata(jsondata?.data?.cards[0]?.card?.card)
 
     }
@@ -31,6 +32,7 @@ const usescrollreataurent = () => {
     const restdata = async () => {
         const item = await fetch(SCROLLEACHITEM + resId + '&tags=layout_CCS_Burger&sortBy=&filters=&type=rcv2&offset=0&page_type=null')
         const jsondata = await item.json()
+        console.log();
         setrestitem(jsondata?.data?.cards)
     }
 

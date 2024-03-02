@@ -1,6 +1,5 @@
 import { Header } from './Header'
 import { Outlet, createBrowserRouter } from 'react-router-dom'
-import About from './About'
 import Contact from './Contact'
 import Carts from './Carts'
 import Offers from './Offers'
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
       {
         path: '/home',
         element: <Body />
-      },
-      {
-        path: '/about',
-        element: <About />
       },
       {
         path: '/contact',
