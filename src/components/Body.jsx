@@ -12,15 +12,10 @@ export const Body = () => {
 
     const { data } = usescrollreataurent()
 
-    console.log(data);
-
-    const { header, imageGridCards } = data
-
-        
+    const getdata = data[0]?.card?.card
+    const mapdata = data[0]?.card?.card?.gridElements?.infoWithStyle
 
     let sliderRef = useRef("");
-
-    console.log(sliderRef);
 
     const next = () => {
         sliderRef.current.slickNext();
@@ -42,7 +37,7 @@ export const Body = () => {
             <div className=" border-b-2 border-slate-200 pb-4" >
                 <div className='flex justify-between'>
                     <div>
-                        <h1 className="text-2xl font-bold">{header?.title}</h1>
+                        <h1 className="text-2xl font-bold">{getdata?.header?.title}</h1>
                     </div>
                     <div className='inline-flex mx-4'>
                         <ArrowLeft className='size-7 mx-2 rounded-full p-1 bg-slate-300' onClick={previous} />
@@ -54,17 +49,14 @@ export const Body = () => {
                     ref={sliderRef}
                     {...settings}>
                     {
-                        imageGridCards?.info.map((imgitem) => {
+                        mapdata?.info.map((imgitem) => {
                             console.log(sliderRef);
-
 
                             if (imgitem.entityId > 5 === false) {
                                 const numbersString = imgitem.entityId.replace(/\D/g, '');
                                 let splitnum = numbersString.split('');
                                 splitnum.shift();
                                 let id = splitnum.join("");
-
-                                console.log(id, imgitem?.accessibility?.altText);
 
                                 return (
                                     <Link key={imgitem.id} to={'/specificdish/' + id || imgitem.entityId}>

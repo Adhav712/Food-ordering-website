@@ -22,7 +22,7 @@ const usescrollreataurent = () => {
         const data = await fetch(SCROLLAPI)
         const jsondata = await data.json()
         console.log(jsondata);
-        setdata(jsondata?.data?.cards[0]?.card?.card)
+        setdata(jsondata?.data?.cards)
 
     }
 
