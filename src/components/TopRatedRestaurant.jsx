@@ -6,6 +6,7 @@ import Slider from "react-slick"
 import { useRef } from "react"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Restaurantcard } from "./Restaurantcard"
 
 export const TopRatedRestaurant = () => {
 
@@ -26,7 +27,7 @@ export const TopRatedRestaurant = () => {
     const settings = {
         speed: 1000,
         slidesToShow: 4,
-        slidesToScroll: 3,
+        slidesToScroll: 5,
     }
 
     return (
@@ -71,6 +72,8 @@ export const TopRatedRestaurant = () => {
                     })
                 }
             </Slider>
+            <Restaurantcard />
         </div >
+
     )
 }
