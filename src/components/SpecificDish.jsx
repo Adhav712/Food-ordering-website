@@ -1,6 +1,7 @@
 import usescrollreataurent from '../Hooks/usescrollreataurent'
 import { Star } from 'lucide-react'
 import { Link } from "react-router-dom"
+import { Shimmercards } from './Shimmercards'
 
 export const SpecificDish = () => {
 
@@ -25,7 +26,7 @@ export const SpecificDish = () => {
 
                 <div className='flex justify-center flex-wrap '>
                     {
-                        typedatas.map(item => {
+                        typedatas.length < 1 ? <Shimmercards /> : typedatas.map(item => {
                             const { id, cloudinaryImageId, avgRatingString, sla, cuisines, name } = item?.card?.card?.info
                             console.log(cuisines.length);
                             return (

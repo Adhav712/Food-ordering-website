@@ -1,6 +1,7 @@
 import usescrollreataurent from "../Hooks/usescrollreataurent"
 import { Star } from "lucide-react"
 import { Link } from "react-router-dom"
+import { Shimmercards } from "./Shimmercards"
 
 // Restaurants with online food delivery in Chennai
 
@@ -19,7 +20,7 @@ export const Restaurantcard = () => {
             </div>
             <div className="flex flex-wrap justify-center">
                 {
-                    mapdata?.restaurants.map((item) => {
+                    data.length < 1 ? <Shimmercards /> : mapdata?.restaurants.map((item) => {
                         const { id, name, avgRatingString, cuisines, sla, cloudinaryImageId, costForTwo } = item?.info
                         return (
                             <Link key={id} to={'/home/topratedrestaurant/' + id}>

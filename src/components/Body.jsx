@@ -7,6 +7,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { TopRatedRestaurant } from './TopRatedRestaurant';
 import { Shimmerui } from './Shimmerui';
+import { Shimmercards } from './Shimmercards';
 
 
 export const Body = () => {
@@ -17,6 +18,8 @@ export const Body = () => {
 
     const getdata = data[0]?.card?.card
     const mapdata = data[0]?.card?.card?.gridElements?.infoWithStyle
+
+    console.log(mapdata?.info?.length);
 
     let sliderRef = useRef("");
 
@@ -36,7 +39,7 @@ export const Body = () => {
     }
 
 
-    return data.length > 1 ? <Shimmerui /> : (
+    return data.length < 1 ? <Shimmerui /> : (
         <div className='max-md:mx-10 mx-36 my-10 pb-5'>
             <div className=" border-b-2 border-slate-200 pb-4" >
                 <div className='flex justify-between'>
@@ -74,7 +77,7 @@ export const Body = () => {
                     }
                 </Slider>
             </div >
-            < TopRatedRestaurant />
+            {mapdata?.info?.length < 10 ? <Shimmercards /> : < TopRatedRestaurant />}
         </div>
     )
 }
