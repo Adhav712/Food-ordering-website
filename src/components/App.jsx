@@ -5,6 +5,7 @@ import Carts from './Carts'
 import Offers from './Offers'
 import { Body } from './Body'
 import { SpecificDish } from './SpecificDish'
+import { Restaurantcarddetails } from './Restaurantcarddetails'
 
 function App() {
   return (
@@ -37,12 +38,28 @@ const router = createBrowserRouter([
         element: <Carts />
       },
       {
-        path: `/specificdish/:resId`,
+        path: `/restaurant/:resId`,
         element: <SpecificDish />
+      },
+      {
+        path: '/home/restaurantdetails/:resId',
+        element: <Restaurantcarddetails />
+      },
+      {
+        path: '/home/topratedrestaurant/:resId',
+        element: <Restaurantcarddetails />
+      },
+      {
+        path: '/reataurantitem/:resId',
+        element: <Restaurantcarddetails />
       }
+
     ],
+
     // errorElement
+
   },
+
 ])
 
 export default router

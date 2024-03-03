@@ -11,7 +11,6 @@ const usescrollreataurent = () => {
     const [restitem, setrestitem] = useState([])
 
     const { resId } = useParams()
-    // console.log(resId);
 
     useEffect(() => {
         restfetch()
@@ -21,21 +20,15 @@ const usescrollreataurent = () => {
     const restfetch = async () => {
         const data = await fetch(SCROLLAPI)
         const jsondata = await data.json()
-        console.log(jsondata);
         setdata(jsondata?.data?.cards)
     }
-
-    // const filterdata = data?.gridElements?.infoWithStyle?.info.map(item => { return item.entityId })
-    // console.log(filterdata);http://alloworigin.com/get?url=
 
     const restdata = async () => {
         const item = await fetch(SCROLLEACHITEM + resId + '&tags=layout_CCS_Burger&sortBy=&filters=&type=rcv2&offset=0&page_type=null')
         const jsondata = await item.json()
-        console.log(jsondata);
         setrestitem(jsondata?.data?.cards)
     }
 
-    console.log(data);
     return { data, restitem }
 }
 

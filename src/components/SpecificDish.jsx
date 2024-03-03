@@ -1,16 +1,14 @@
 import usescrollreataurent from '../Hooks/usescrollreataurent'
 import { Star } from 'lucide-react'
+import { Link } from "react-router-dom"
 
 export const SpecificDish = () => {
 
     const { restitem } = usescrollreataurent()
 
-    console.log(restitem);
     const typedatas = restitem.filter(data => {
         return data?.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.Restaurant"
     })
-    console.log(typedatas);
-
 
     return restitem.length < 0 ? <h1>Loading..........</h1> : (
         < div >
@@ -24,27 +22,32 @@ export const SpecificDish = () => {
                     <h1>{restitem[2]?.card?.card?.gridElements?.infoWithStyle?.text}</h1>
                 </div>
 
+
                 <div className='flex justify-center flex-wrap '>
                     {
                         typedatas.map(item => {
-                            console.log(item?.card?.card?.info);
+                            const { id, cloudinaryImageId, avgRatingString, sla, cuisines, name } = item?.card?.card?.info
+                            console.log(cuisines.length);
                             return (
-                                <div key={item?.card?.card?.info?.id} className='w-72 shadow-md shadow-gray-300  rounded-xl p-4 m-2 min-h-32'>
-                                    <div className='flex justify-center items-center'>
-                                        <img
-                                            className=' rounded-lg  w-64 h-44 object-cover shadow-md shadow-slate-400'
-                                            src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + item?.card?.card?.info?.cloudinaryImageId} alt="" />
-                                    </div>
-                                    <div className='mx-2 my-2 text-left'>
-                                        <h1 className='text-xl font-semibold my-4 text-gray-800'>{item?.card?.card?.info?.name}</h1>
-                                        <div className='my-2 flex  items-center'>
-                                            <Star className='max-sm:size-5  size-6 mr-2 rounded-full p-1 bg-green-600 text-white' />
-                                            <p className='font-semibold'>{item?.card?.card?.info?.avgRatingString} </p>
-                                            <p className='mx-2 font-semibold'> {item?.card?.card?.info?.sla?.slaString}</p>
+                                <Link to={"/reataurantitem/" + id}>
+                                    <div key={id} className='w-72 shadow-md h-96 shadow-gray-300  rounded-xl p-4 m-2 min-h-32'>
+                                        <div className='flex justify-center items-center'>
+                                            <img
+                                                className=' rounded-lg  w-64 h-44 object-cover shadow-md shadow-slate-400'
+                                                src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} alt="" />
                                         </div>
-                                        <p className='my-2 mx-1 max-sm:text-sm font-light'>{item?.card?.card?.info?.cuisines.join(' , ')}</p>
+                                        <div className='mx-2 my-2 text-left'>
+                                            <h1 className='text-xl font-semibold my-4 text-gray-800'>{name}</h1>
+                                            <div className='my-2 flex  items-center'>
+                                                <Star className='max-sm:size-5  size-6 mr-2 rounded-full p-1 bg-green-600 text-white' />
+                                                <p className='font-semibold'>{avgRatingString} </p>
+                                                <p className='mx-2 font-semibold'> {sla?.slaString}</p>
+                                            </div>
+                                            <p className='my-2 mx-1 max-sm:text-sm font-light'>{cuisines.length > 5 ? cuisines.splice(0, 1).join(" , ") : cuisines.join(' , ')}</p>
+                                        </div>
                                     </div>
-                                </div>
+
+                                </Link>
                             )
                         })
                     }

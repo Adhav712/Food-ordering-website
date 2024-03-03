@@ -6,13 +6,14 @@ import "slick-carousel/slick/slick-theme.css";
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { TopRatedRestaurant } from './TopRatedRestaurant';
+import { Shimmerui } from './Shimmerui';
 
 
 export const Body = () => {
 
     const { data } = usescrollreataurent()
 
-    console.log(data);
+    console.log(data.length);
 
     const getdata = data[0]?.card?.card
     const mapdata = data[0]?.card?.card?.gridElements?.infoWithStyle
@@ -34,7 +35,8 @@ export const Body = () => {
         slidesToScroll: 5,
     }
 
-    return (
+
+    return data.length > 1 ? <Shimmerui /> : (
         <div className='max-md:mx-10 mx-36 my-10 pb-5'>
             <div className=" border-b-2 border-slate-200 pb-4" >
                 <div className='flex justify-between'>
@@ -46,14 +48,13 @@ export const Body = () => {
                         <ArrowRight className='size-7 rounded-full p-1 bg-slate-300' onClick={next} />
                     </div>
                 </div>
+
                 <Slider
                     className='flex cursor-pointer'
                     ref={sliderRef}
                     {...settings}>
                     {
                         mapdata?.info.map((imgitem) => {
-                            console.log(sliderRef);
-
                             if (imgitem.entityId > 5 === false) {
                                 const numbersString = imgitem.entityId.replace(/\D/g, '');
                                 let splitnum = numbersString.split('');
@@ -61,7 +62,7 @@ export const Body = () => {
                                 let id = splitnum.join("");
 
                                 return (
-                                    <Link key={imgitem.id} to={'/specificdish/' + id || imgitem.entityId}>
+                                    <Link key={imgitem.id} to={'/restaurant/' + id || imgitem.entityId} >
                                         <img key={imgitem.id}
                                             className=''
                                             width={"120em"}
@@ -69,7 +70,6 @@ export const Body = () => {
                                     </Link>
                                 )
                             }
-
                         })
                     }
                 </Slider>

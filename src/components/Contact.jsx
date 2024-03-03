@@ -6,21 +6,6 @@ import { Instagram } from "lucide-react"
 
 export const Contact = () => {
 
-    const [userdata, setuserdata] = useState("")
-
-    useEffect(() => {
-        const githubapi = async () => {
-            const data = await fetch('https://api.github.com/users/vaigarai14')
-            const jsondata = await data.json()
-            console.log(jsondata);
-            setuserdata(jsondata)
-        }
-        githubapi()
-    }, [])
-
-    console.log(userdata);
-    const { login, avatar_url, bio, url, name } = userdata
-
     return (
         <div className=" flex my-10  max-lg:flex max-lg:justify-center  ">
             <div className="flex justify-center w-full max-md:block max-lg:block max-lg:mx-80 ">
