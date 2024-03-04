@@ -3,7 +3,7 @@ export const Shimmercard = () => {
         <div className="mx-44 flex">
             <div>
                 <div className="h-12 w-60 bg-slate-100"></div>
-                <p className="h-20 w-60 py-1 bg-slate-200">
+                <div className="h-20 w-60 py-1 bg-slate-200">
                     <div className="flex mx-4 my-4 items-center">
                         <p className="w-10 h-10 mr-4 rounded-full bg-slate-100"></p>
                         <p className="w-28 h-2  bg-slate-100"></p>
@@ -28,7 +28,7 @@ export const Shimmercard = () => {
                         <p className="w-10 h-10 mr-4 rounded-full bg-slate-200"></p>
                         <p className="w-28 h-2  bg-slate-200"></p>
                     </div>
-                </p>
+                </div>
             </div>
             <div className="flex flex-wrap justify-center items-center ml-10">
                 <div className="">

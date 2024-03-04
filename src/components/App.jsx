@@ -6,9 +6,14 @@ import Offers from './Offers'
 import { Body } from './Body'
 import { SpecificDish } from './SpecificDish'
 import { Restaurantcarddetails } from './Restaurantcarddetails'
+import { Shimmeraccordian } from './Shimmeraccordian'
+import { userestaurantdetails } from '../Hooks/userestaurantdetails'
+
 
 function App() {
+
   return (
+
     // className='bg-gray-400'
     <div className=''>
       <Header />
@@ -16,50 +21,55 @@ function App() {
     </div>
   )
 }
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: '/home',
-        element: <Body />
-      },
-      {
-        path: '/contact',
-        element: <Contact />
-      },
-      {
-        path: '/offers',
-        element: <Offers />
-      },
-      {
-        path: '/carts',
-        element: <Carts />
-      },
-      {
-        path: `/restaurant/:resId`,
-        element: <SpecificDish />
-      },
-      {
-        path: '/home/restaurantdetails/:resId',
-        element: <Restaurantcarddetails />
-      },
-      {
-        path: '/home/topratedrestaurant/:resId',
-        element: <Restaurantcarddetails />
-      },
-      {
-        path: '/reataurantitem/:resId',
-        element: <Restaurantcarddetails />
-      }
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        {
+          path: '/',
+          element: <Body />
+        },
+        {
+          path: '/home',
+          element: <Body />
+        },
+        {
+          path: '/contact',
+          element: <Contact />
+        },
+        {
+          path: '/offers',
+          element: <Offers />
+        },
+        {
+          path: '/carts',
+          element: <Carts />
+        },
+        {
+          path: `/restaurant/:resId`,
+          element: <SpecificDish />
+        },
+        {
+          path: '/home/restaurantdetails/:resId',
+          element: <Restaurantcarddetails />
+        },
+        {
+          path: '/home/topratedrestaurant/:resId',
+          element: <Restaurantcarddetails />
+        },
+        {
+          path: '/reataurantitem/:resId',
+          element: <Restaurantcarddetails />
+        }
 
-    ],
+      ],
 
-    // errorElement
+      // errorElement
 
-  },
+    },
 
-])
+  ])
 
 export default router
