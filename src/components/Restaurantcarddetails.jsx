@@ -14,6 +14,7 @@ export const Restaurantcarddetails = () => {
     const groupedCard = data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
     const datalen = data?.cards?.length
     console.log(datalen);
+    
     return datalen === undefined ? <Shimmeraccordian /> : (
         < div className="mx-[17em] mt-20 overflow-hidden" >
             {console.log(datalen)}

@@ -8,7 +8,7 @@ export const Shimmerui = () => {
     const [iconIndex, setIconIndex] = useState(0);
 
     useEffect(() => {
-        const delay = 500;
+        const delay = 600;
 
         const icons = [Pizza, CupSoda, Croissant];
 

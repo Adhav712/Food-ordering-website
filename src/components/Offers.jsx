@@ -1,7 +1,9 @@
+import { TopRatedRestaurant } from './TopRatedRestaurant'
+
 const Offers = () => {
     return (
         <div>
-            <h1 className="text-3xl">This is Offers page </h1>
+            <TopRatedRestaurant />
         </div>
     )
 }

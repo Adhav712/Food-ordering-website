@@ -24,8 +24,8 @@ export const Restaurantcard = () => {
                         const { id, name, avgRatingString, cuisines, sla, cloudinaryImageId, costForTwo } = item?.info
                         return (
                             <Link key={id} to={'/home/topratedrestaurant/' + id}>
-                                <div key={id} className='mx-5 my-8 transition ease-in delay-75  hover:scale-95  duration-100  
-                             max-sm:w-52 w-[20em] max-w-80 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[25em] max-h-[30em]'>
+                                <div key={id} className=' my-8 transition ease-in delay-75  hover:scale-95  duration-100  
+                             max-sm:w-52 w-[16em] max-w-96 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[25em] max-h-[30em]'>
                                     <div className='flex justify-center items-center'>
                                         <img
                                             className='max-sm:w-44 max-sm:44 rounded-lg w-80 h-44 object-cover shadow-md shadow-slate-400'

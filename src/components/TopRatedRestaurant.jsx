@@ -57,7 +57,7 @@ export const TopRatedRestaurant = () => {
                             <Link key={id} to={'/home/restaurantdetails/' + id}>
 
                                 <div key={id} className='transition ease-in delay-75  hover:scale-95  duration-100  
-                             max-sm:w-52 w-[14em] max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[22em] max-h-[30em]'>
+                             max-sm:w-52 w-[24em] max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[22em] max-h-[30em]'>
                                     <div className='flex justify-center items-center'>
                                         <img
                                             className='max-sm:w-44 max-sm:44 rounded-lg w-60 h-44 object-cover shadow-md shadow-slate-400'
@@ -70,7 +70,7 @@ export const TopRatedRestaurant = () => {
                                             <p className='font-semibold'>{avgRatingString} </p>
                                             <p className='mx-2 font-semibold'> {sla?.slaString}</p>
                                         </div>
-                                        <p className='my-2 mx-1 max-sm:text-sm font-normal'>{cuisines.splice(0, 2).join(' , ')}</p>
+                                        <p className='my-2 mx-1 max-sm:text-sm font-normal text-gray-500'>{cuisines.splice(0, 2).join(' , ')}</p>
                                     </div>
                                 </div>
                             </Link>

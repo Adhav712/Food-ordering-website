@@ -6,8 +6,8 @@ import Offers from './Offers'
 import { Body } from './Body'
 import { SpecificDish } from './SpecificDish'
 import { Restaurantcarddetails } from './Restaurantcarddetails'
-import { Shimmeraccordian } from './Shimmeraccordian'
-import { userestaurantdetails } from '../Hooks/userestaurantdetails'
+import { Provider } from 'react-redux'
+import reduxstore from '../utils/reduxstore'
 
 
 function App() {
@@ -15,10 +15,12 @@ function App() {
   return (
 
     // className='bg-gray-400'
-    <div className=''>
-      <Header />
-      <Outlet />
-    </div>
+    <Provider store={reduxstore}>
+      <div className=''>
+        <Header />
+        <Outlet />
+      </div>
+    </Provider >
   )
 }
 const router = createBrowserRouter(
