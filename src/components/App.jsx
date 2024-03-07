@@ -6,8 +6,8 @@ import Offers from './Offers'
 import { Body } from './Body'
 import { SpecificDish } from './SpecificDish'
 import { Restaurantcarddetails } from './Restaurantcarddetails'
+import appstore from '../utils/appstore'
 import { Provider } from 'react-redux'
-import reduxstore from '../utils/reduxstore'
 
 
 function App() {
@@ -15,12 +15,12 @@ function App() {
   return (
 
     // className='bg-gray-400'
-    <Provider store={reduxstore}>
-      <div className=''>
+    <Provider store={appstore}>
+      <div className='w-full'>
         <Header />
         <Outlet />
       </div>
-    </Provider >
+    </Provider>
   )
 }
 const router = createBrowserRouter(

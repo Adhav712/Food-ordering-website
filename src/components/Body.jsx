@@ -1,6 +1,6 @@
 import usescrollreataurent from '../Hooks/usescrollreataurent'
 import Slider from "react-slick";
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ArrowLeft, ArrowRight } from 'lucide-react';
@@ -32,19 +32,45 @@ export const Body = () => {
 
     };
 
+    const [show, setshow] = useState()
+
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth < 425) {
+                setshow(4)
+            }
+            else if (window.innerWidth < 700) {
+                setshow(5)
+            }
+            else if (window.innerWidth < 1100) {
+                setshow(6)
+            }
+            else {
+                setshow(9)
+            }
+        }
+        handleResize()
+
+        window.addEventListener('resize', handleResize)
+
+        return () => {
+            window.removeEventListener('resize', handleResize)
+        }
+    }, [])
+
     const settings = {
         speed: 1000,
-        slidesToShow: 8,
         slidesToScroll: 5,
+        slidesToShow: show
     }
-
 
     return data.length < 1 ? <Shimmerui /> : (
         <div className='max-md:mx-10 mx-36 my-10 pb-5'>
             <div className=" border-b-2 border-slate-200 pb-4" >
                 <div className='flex justify-between'>
                     <div>
-                        <h1 className="text-2xl font-bold">{getdata?.header?.title}</h1>
+                        <h1 className="text-2xl font-bold max-sm:text-sm">{getdata?.header?.title}</h1>
                     </div>
                     <div className='inline-flex mx-4'>
                         <ArrowLeft className='size-7 mx-2 rounded-full p-1 bg-slate-300' onClick={previous} />
@@ -59,6 +85,7 @@ export const Body = () => {
                     {
                         mapdata?.info.map((imgitem) => {
                             if (imgitem.entityId > 5 === false) {
+
                                 const numbersString = imgitem.entityId.replace(/\D/g, '');
                                 let splitnum = numbersString.split('');
                                 splitnum.shift();

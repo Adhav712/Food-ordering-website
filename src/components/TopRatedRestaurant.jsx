@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react"
 import usescrollreataurent from "../Hooks/usescrollreataurent"
 import { Star } from "lucide-react"
 import Slider from "react-slick"
-import { useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Restaurantcard } from "./Restaurantcard"
@@ -17,38 +17,68 @@ export const TopRatedRestaurant = () => {
     const item = data[1]?.card?.card
     const mapdata = data[1]?.card?.card?.gridElements?.infoWithStyle
 
+
+
+    const [slidesToShow, setSlidesToShow] = useState(4)
+
     const sliderRef = useRef()
 
-    const previous = () => {
-        sliderRef.current.slickPrev()
-        console.log(sliderRef.current);
-    }
-    const next = () => {
-        sliderRef.current.slickNext()
-    }
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 640) {
+                setSlidesToShow(1);
+            } else if (window.innerWidth <= 1000) {
+                setSlidesToShow(2);
+            }
+            else if (window.innerWidth <= 1300) {
+                setSlidesToShow(3);
+            }
 
-    const settings = {
+            else {
+                setSlidesToShow(4)
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
+    const sliderSettings = {
+        ref: useRef(),
         speed: 1000,
-        slidesToShow: 4,
-        slidesToScroll: 5,
-    }
+        slidesToShow: slidesToShow,
+        slidesToScroll: 3,
+    };
+
+    const previous = () => {
+        sliderSettings.ref.current.slickPrev();
+    };
+
+    const next = () => {
+        sliderSettings.ref.current.slickNext();
+    };
+
 
     return (
         <div>
             <div className="flex items-center justify-between my-1">
                 <div className="">
-                    <h1 className="text-gray-900 text-2xl font-bold mt-5">{item?.header?.title}</h1>
+                    <h1 className="text-gray-900 text-2xl font-bold mt-5 max-sm:text-sm">{item?.header?.title}</h1>
                 </div>
                 <div className='inline-flex mx-4'>
                     <ArrowLeft onClick={previous} className='size-7 mx-2 rounded-full p-1 bg-slate-300 ' />
-                    {/* onClick={previous}  onClick={next}*/}
+
                     <ArrowRight onClick={next} className='size-7 rounded-full p-1 bg-slate-300' />
                 </div>
             </div>
             <Slider
                 className=" max-sm:justify-center inline-flex  "
-                ref={sliderRef}
-                {...settings}
+                {...sliderSettings}
             >
                 {
                     mapdata?.restaurants?.length < 1 ? <Shimmercard /> : mapdata?.restaurants.map((item) => {
@@ -57,10 +87,10 @@ export const TopRatedRestaurant = () => {
                             <Link key={id} to={'/home/restaurantdetails/' + id}>
 
                                 <div key={id} className='transition ease-in delay-75  hover:scale-95  duration-100  
-                             max-sm:w-52 w-[24em] max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[22em] max-h-[30em]'>
+                           w-[24em] max-sm:w-[12em] max-sm:h-[18em] max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[24em] max-h-[30em] '>
                                     <div className='flex justify-center items-center'>
                                         <img
-                                            className='max-sm:w-44 max-sm:44 rounded-lg w-60 h-44 object-cover shadow-md shadow-slate-400'
+                                            className='max-sm:w-36 max-sm:10 max-sm:h-28 rounded-lg w-60 h-44 object-cover shadow-md shadow-slate-400'
                                             src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} alt="" />
                                     </div>
                                     <div className='mx-2 text-left'>

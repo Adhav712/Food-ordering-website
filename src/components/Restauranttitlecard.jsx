@@ -15,7 +15,7 @@ export const Restauranttitlecard = (props) => {
     console.log(data?.cards.length);
 
     return (
-        <div className="my-10 mx-5 ">
+        <div className="my-10  ">
             {
                 data?.cards.filter((item) => item?.card?.card?.["@type"] ===
                     "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory")
@@ -37,11 +37,7 @@ export const Restauranttitlecard = (props) => {
                                 {
                                     showdata === index && (
                                         < div >
-                                            {
-                                                item?.card?.card?.itemCards.map((item) => {
-                                                    { return < Restaurantgroupcard key={item?.card?.info?.id} data={item} /> }
-                                                })
-                                            }
+                                            < Restaurantgroupcard key={item?.card?.info?.id} data={item?.card?.card?.itemCards} />
                                         </div>
                                     )
                                 }
