@@ -64,6 +64,10 @@ const router = createBrowserRouter(
         {
           path: '/reataurantitem/:resId',
           element: <Restaurantcarddetails />
+        },
+        {
+          path: '/offers/:resId',
+          element: <Restaurantcarddetails />
         }
 
       ],

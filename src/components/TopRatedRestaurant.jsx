@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Restaurantcard } from "./Restaurantcard"
 import { Shimmercard } from "./Shimmercard"
 import { Topratedcart } from "./Topratedcart"
+import { Link } from "react-router-dom"
 
 
 export const TopRatedRestaurant = () => {
@@ -81,7 +82,7 @@ export const TopRatedRestaurant = () => {
                 {
                     mapdata?.restaurants?.length < 1 ? <Shimmercard /> : mapdata?.restaurants.map((item) => {
                         return (
-                            <div>
+                            <div key={item?.info?.id}>
                                 <Topratedcart key={item.info.id} data={item} />
                             </div>
                         )

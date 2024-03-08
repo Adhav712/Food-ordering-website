@@ -47,11 +47,11 @@ export const Restaurantcard = () => {
 
         console.log(originallist);
         if (e.target.innerText === "Rating 4+") {
-            const ratings = originallist.filter((item) => { return item.info.avgRating < 4 })
+            const ratings = originallist.filter((item) => { return item.info.avgRating >= 4.3 })
             setfilterarray(ratings)
 
         } else if (e.target.innerText === "Fast Delivery") {
-            const delivery = originallist.filter((item) => { return item.info.sla.deliveryTime < 25 })
+            const delivery = originallist.filter((item) => { return item.info.sla.deliveryTime < 30 })
             setfilterarray(delivery)
         }
         else {
@@ -95,7 +95,7 @@ export const Restaurantcard = () => {
             </div>
             <div className="flex flex-wrap justify-center">
                 {
-                    data.length > 0 && mapdata.map((item) => {
+                    data.length > 0 && filterarray.map((item) => {
                         return <Link key={item.info.id} to={'/home/topratedrestaurant/' + item.info.id}>
                             {item.info.aggregatedDiscountInfoV3 === undefined ?
                                 <Restaurantmainmenucart data={item} /> : <Restaurantoffercart data={item} />

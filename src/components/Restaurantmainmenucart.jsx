@@ -36,7 +36,7 @@ export const withofferlabel = (Restaurantmainmenucart) => {
         return <div className="text-center">
             <Restaurantmainmenucart {...data} />
             <h1 className="relative bottom-[17.9em] text-lg font-bold text-gray-100 shadow-md
-          bg-gradient-to-t  from-gray-900  mx-7 rounded-b-lg py-1">{header} {subHeader}</h1>
+           bg-gradient-to-t  from-gray-900  mx-7 rounded-b-lg py-1">{header} {subHeader}</h1>
         </div>
     }
 }
