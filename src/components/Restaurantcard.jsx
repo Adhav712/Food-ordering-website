@@ -2,45 +2,99 @@ import usescrollreataurent from "../Hooks/usescrollreataurent"
 import { Star } from "lucide-react"
 import { Link } from "react-router-dom"
 import { Shimmercards } from "./Shimmercards"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 // Restaurants with online food delivery in Chennai
 
 export const Restaurantcard = () => {
 
     const { data } = usescrollreataurent()
+    const [originallist, setoriginallist] = useState([])
+    const [inputsearch, setinputsearch] = useState()
+    const [filterarray, setfilterarray] = useState([])
 
     const headingdata = data[2]?.card?.card
+    const mapdata = data[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
 
-    const mapdata = data[4]?.card?.card?.gridElements?.infoWithStyle
+    useEffect(() => {
+        setoriginallist(mapdata)
+        setfilterarray(mapdata)
+    }, [mapdata])
 
-    const [search, setsearch] = useState()
+    const sendinput = (e) => {
+        console.log();
+        if (inputsearch !== undefined) {
+            if (e.type === "keydown" && e.key === "Enter" || e.type === "click") {
+                const filteritem = originallist.filter((item) => (item?.info?.name.toLocaleLowerCase().includes(inputsearch.toLocaleLowerCase())
+                ));
+                setfilterarray(filteritem);
+            }
+        }
+    }
 
-    const [originallist, setoriginallist] = useState([])
-    console.log(originallist);
+    const featuresbutton = (e) => {
+        e.target.className = "text-gray-600  py-2 px-4 border  border-gray-300 mx-2 rounded-3xl"
+        e.target.classList.add("bg-gray-200")
+        const button = e.target.parentNode.querySelectorAll('Button')
 
-    return (
+        button.forEach(element => {
+            if (element !== e.target) {
+                element.classList.remove("bg-gray-200")
+            }
+        });
+
+        console.log(originallist);
+        if (e.target.innerText === "Rating 4+") {
+            const ratings = originallist.filter((item) => { return item.info.avgRating < 4 })
+            setfilterarray(ratings)
+
+        } else if (e.target.innerText === "Fast Delivery") {
+            const delivery = originallist.filter((item) => { return item.info.sla.deliveryTime < 25 })
+            setfilterarray(delivery)
+        }
+        else {
+            setfilterarray(originallist)
+        }
+    }
+
+
+
+    return originallist === undefined ? <Shimmercards /> : (
         <div>
             <div >
                 <h1 className="max-sm:text-sm text-gray-900 text-2xl font-bold mt-10">{headingdata?.title}</h1>
             </div>
-            <div className="my-5">
-                <input className="outline-none border-2 rounded-lg p-2 mx-2 px-4 border-[#fca729]" type="text" name="search" id="search"
+            <div className="my-5 mt-10">
+                {/* //& input */}
+                <input className="outline-none border-2 rounded-lg p-2 mx-2 px-4 border-[#fca729]" type="search" name="search" id="search"
                     onChange={(e) => {
-                        e.target.value === item?.info?.name
-                        console.log(e.target.value);
+                        setinputsearch(e.target.value);
+
                     }}
+                    onKeyDown={sendinput}
                 />
-
+                {/* //& search btn */}
                 <button
-                    onClick={() => { }}
-                    className="text-white bg-[#fca729] rounded-lg px-8 text-lg py-[0.3em] hover:text-[#fca729] hover:bg-white hover:border-[#fca729] hover:border-2">Search</button>
+                    onClick={sendinput}
+                    className="text-white bg-[#fca729] rounded-lg px-8 text-lg py-[0.3em] ml-3 hover:text-[#fca729] hover:bg-white hover:border-[#fca729] hover:border-2">Search</button>
 
-                <button className="text-black py-1 px-4 border border-black mx-2 rounded-3xl">Offers</button>
+                {/* //& ratings */}
+                <button
+                    onClick={featuresbutton}
+                    className="text-gray-600  py-2 px-4 border border-gray-300 mx-2 ml-5 rounded-3xl">Rating 4+</button>
+                <button
+                    onClick={featuresbutton}
+                    className="text-gray-600  py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Fast Delivery</button>
+                <button
+                    onClick={featuresbutton}
+                    className="text-gray-600  py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Reset</button>
+
+
+
             </div>
             <div className="flex flex-wrap justify-center">
                 {
-                    data.length < 1 ? <Shimmercards /> : mapdata?.restaurants.map((item) => {
+                    filterarray.map((item) => {
                         const { id, name, avgRatingString, cuisines, sla, cloudinaryImageId, costForTwo } = item?.info
                         return (
                             <Link key={id} to={'/home/topratedrestaurant/' + id}>
@@ -74,9 +128,9 @@ export const Restaurantcard = () => {
     )
 }
 
-const Offercart = () => {
+export const Offercart = () => {
     return (
-        <div>
+        <div className="">
             <Restaurantcard />
         </div>
     )

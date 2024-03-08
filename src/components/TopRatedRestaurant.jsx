@@ -6,7 +6,7 @@ import Slider from "react-slick"
 import { useEffect, useRef, useState } from "react"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Restaurantcard } from "./Restaurantcard"
+import { Offercart, Restaurantcard } from "./Restaurantcard"
 import { Link } from "react-router-dom"
 import { Shimmercard } from "./Shimmercard"
 
@@ -108,7 +108,7 @@ export const TopRatedRestaurant = () => {
                     })
                 }
             </Slider>
-            <Restaurantcard />
+            <Offercart />
         </div >
 
     )

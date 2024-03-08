@@ -14,12 +14,8 @@ export const Body = () => {
 
     const { data } = usescrollreataurent()
 
-    console.log(data.length);
-
     const getdata = data[0]?.card?.card
     const mapdata = data[0]?.card?.card?.gridElements?.infoWithStyle
-
-    console.log(mapdata?.info?.length);
 
     let sliderRef = useRef("");
 
