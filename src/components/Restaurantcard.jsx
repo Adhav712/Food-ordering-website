@@ -1,8 +1,10 @@
 import usescrollreataurent from "../Hooks/usescrollreataurent"
-import { Star } from "lucide-react"
-import { Link } from "react-router-dom"
 import { Shimmercards } from "./Shimmercards"
 import { useEffect, useState } from "react"
+import { Restaurantmainmenucart } from "./Restaurantmainmenucart"
+import { Link } from "react-router-dom"
+import { withofferlabel } from './Restaurantmainmenucart'
+
 
 // Restaurants with online food delivery in Chennai
 
@@ -57,6 +59,7 @@ export const Restaurantcard = () => {
         }
     }
 
+    const Restaurantoffercart = withofferlabel(Restaurantmainmenucart)
 
 
     return originallist === undefined ? <Shimmercards /> : (
@@ -89,38 +92,15 @@ export const Restaurantcard = () => {
                     onClick={featuresbutton}
                     className="text-gray-600  py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Reset</button>
 
-
-
             </div>
             <div className="flex flex-wrap justify-center">
                 {
-                    filterarray.map((item) => {
-                        const { id, name, avgRatingString, cuisines, sla, cloudinaryImageId, costForTwo } = item?.info
-                        return (
-                            <Link key={id} to={'/home/topratedrestaurant/' + id}>
-                                <div key={id} className=' my-8 transition ease-in delay-75  hover:scale-95  duration-100  
-                             max-sm:w-52 w-[18em]  shadow-md shadow-slate-300  rounded-xl p-4 m-3 min-h-48 h-[28em] max-h-[30em]'>
-                                    <div className='flex justify-center items-center'>
-                                        <img
-                                            className='max-sm:w-44 max-sm:44 rounded-lg w-80 h-44 object-cover shadow-md shadow-slate-400'
-                                            src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} alt="" />
-                                    </div>
-                                    <div className='mx-2 text-left'>
-                                        <h1 className='text-xl font-semibold my-4 text-gray-800'>{name}</h1>
-                                        <div className=' flex  items-center'>
-                                            <Star className='max-sm:size-5  size-6 mr-2 rounded-full p-1 bg-green-600 text-white' />
-                                            <p className='font-semibold '>{avgRatingString} </p>
-                                            <p className='mx-4 font-semibold'> {sla?.slaString}</p>
-                                        </div>
-                                        <div className="flex items-center ">
-                                            <p className='my-4 mx-1 max-sm:text-sm font-semibold '>{costForTwo}</p>
-                                            <p className='my-4 mx-4 max-sm:text-sm font-semibold'>{sla?.lastMileTravelString}</p>
-                                        </div>
-                                        <p className='mx-1 max-sm:text-sm font-normal'>{cuisines.length > 4 ? cuisines.splice(0, 1).join(" , ") : cuisines.join(' , ')}</p>
-                                    </div>
-                                </div>
-                            </Link>
-                        )
+                    data.length > 0 && mapdata.map((item) => {
+                        return <Link key={item.info.id} to={'/home/topratedrestaurant/' + item.info.id}>
+                            {item.info.aggregatedDiscountInfoV3 === undefined ?
+                                <Restaurantmainmenucart data={item} /> : <Restaurantoffercart data={item} />
+                            }
+                        </Link>
                     })
                 }
             </div>
@@ -128,10 +108,3 @@ export const Restaurantcard = () => {
     )
 }
 
-export const Offercart = () => {
-    return (
-        <div className="">
-            <Restaurantcard />
-        </div>
-    )
-}
