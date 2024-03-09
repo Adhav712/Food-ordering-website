@@ -1,12 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
 import { additems } from "../utils/Cartslice";
-import { useEffect, useState } from "react";
 
 
 export const Restaurantgroupcard = ({ data }) => {
 
     const dispatch = useDispatch()
-    const selector = useSelector((store) => store.cart.items)
 
     const handlecheck = (item) => {
         dispatch(additems(item))
@@ -15,7 +13,6 @@ export const Restaurantgroupcard = ({ data }) => {
     return (<div>
         {data.map((item) => {
             const { name, description, defaultPrice, imageId, id, price } = item?.card?.info
-
             return < div key={id + 1} className="mt-10 mb-12 max-sm:mb-1 flex justify-between items-center border-b-2 pb-8 border-gray-200" >
                 <div>
                     <h1 className="text-xl mb-2 font-semibold "> {name} </h1>
