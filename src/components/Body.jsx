@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { TopRatedRestaurant } from './TopRatedRestaurant';
 import { Shimmerui } from './Shimmerui';
 import { Shimmercards } from './Shimmercards';
+import { Accordiandata } from '../Mock/Accordiandata';
 
 
 export const Body = () => {
@@ -15,6 +16,8 @@ export const Body = () => {
     const { data } = usescrollreataurent()
 
     console.log(data);
+
+    console.log(Accordiandata);
 
     const getdata = data[0]?.card?.card
     const mapdata = data[0]?.card?.card?.gridElements?.infoWithStyle

@@ -10,9 +10,9 @@ import { withofferlabel } from './Restaurantmainmenucart'
 
 export const Restaurantcard = () => {
 
-    const { data, restitem } = usescrollreataurent()
+    const { data } = usescrollreataurent()
 
-    console.log(data, restitem);
+    console.log(data);
 
     const [originallist, setoriginallist] = useState([])
     const [inputsearch, setinputsearch] = useState()

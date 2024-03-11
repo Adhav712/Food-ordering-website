@@ -5,15 +5,21 @@ import { IndianRupee } from "lucide-react"
 import { userestaurantdetails } from "../Hooks/userestaurantdetails"
 import { Restauranttitlecard } from "./Restauranttitlecard"
 import { Shimmeraccordian } from './Shimmeraccordian'
-
+import { Accordiandata } from '../Mock/Accordiandata'
+import { useParams } from "react-router-dom"
 export const Restaurantcarddetails = () => {
 
+    const { resId } = useParams()
+
+    const Accordiancard = Accordiandata.find(item => item.data.cards[0].card.card.info.id === resId)
+
+    console.log(Accordiancard?.data?.cards[0]?.card?.card?.info);
+
     const { data } = userestaurantdetails()
-    const headerdata = data?.cards[0]?.card?.card?.info
-    const item = data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-    const groupedCard = data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
-    const datalen = data?.cards?.length
-    console.log(headerdata);
+    const headerdata = Accordiancard?.data?.cards[0]?.card?.card?.info
+    const item = Accordiancard?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+    const groupedCard = Accordiancard?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
+    const datalen = Accordiancard?.data?.cards?.length
 
     return datalen === undefined ? <Shimmeraccordian /> : (
         < div className="mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-20 overflow-hidden" >
