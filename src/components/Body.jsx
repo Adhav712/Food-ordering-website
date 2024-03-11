@@ -43,7 +43,7 @@ export const Body = () => {
                 setshow(6)
             }
             else {
-                setshow(9)
+                setshow(8)
             }
         }
         handleResize()

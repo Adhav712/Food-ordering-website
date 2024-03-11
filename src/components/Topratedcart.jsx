@@ -30,18 +30,3 @@ w-[24em] max-sm:w-[12em] max-sm:h-[18em] max-w-64 shadow-md shadow-slate-300  ro
     )
 }
 
-
-// export const withlabeltopratedcart = (Topratedcart) => {
-//     return (data) => {
-//         console.log(data?.data?.info);
-//         // const { header, subHeader } = data
-//         // console.log(header, subHeader);
-//         return (
-//             <div className="text-center">
-//                 <Topratedcart {...data} />
-//                 {/* <h1 className="relative bottom-[17.9em] text-lg font-bold text-gray-100 shadow-md */}
-//                 {/* bg-gradient-to-t  from-gray-900  mx-7 rounded-b-lg py-1">{header} {subHeader}</h1> */}
-//             </div>
-//         )
-//     }
-// }

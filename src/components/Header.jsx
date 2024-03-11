@@ -9,7 +9,7 @@ export const Header = () => {
 
     return (
         <div className='overflow-hidden flex justify-between items-center m-2
-          max-sm:block max-md:px-1 max-lg:block
+          max-sm:block max-md:px-1 max-lg:block  
       shadow-lg shadow-gray-300 px-32'>
 
             <div className='flex justify-center'>
@@ -18,7 +18,7 @@ export const Header = () => {
 
             <ul className='flex items-center justify-center'>
                 <Link to={'/home'}>
-                    <li className=' flex justify-center items-center outline-none mx-2 text-[1.4em]
+                    <li className=' flex justify-center items-center outline-none mx-2 text-[1.4em] 
                      text-gray-500 font-semibold  max-sm:text-sm  max-xl:text-md  max-sm:mx-[0.4em] hover:text-[#fca729] '>
 
                         <Home className='mx-1 text-gray-500 hover:text-[#fca729] w-[24px] max-sm:w-[15px] max-sm:mx-0' />
