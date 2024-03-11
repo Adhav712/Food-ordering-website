@@ -30,22 +30,27 @@ export const Body = () => {
 
     };
 
-    const [show, setshow] = useState()
+    const [show, setshow] = useState(4)
+    const [scroll, setscroll] = useState(4)
 
     useEffect(() => {
 
         const handleResize = () => {
             if (window.innerWidth < 425) {
                 setshow(4)
+                setscroll(4)
             }
             else if (window.innerWidth < 700) {
                 setshow(5)
+                setscroll(5)
             }
             else if (window.innerWidth < 1100) {
                 setshow(6)
+                setscroll(6)
             }
             else {
                 setshow(8)
+                setscroll(8)
             }
         }
         handleResize()
@@ -59,7 +64,7 @@ export const Body = () => {
 
     const settings = {
         speed: 1000,
-        slidesToScroll: 5,
+        slidesToScroll: scroll,
         slidesToShow: show
     }
 

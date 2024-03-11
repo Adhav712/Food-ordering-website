@@ -18,22 +18,23 @@ export const TopRatedRestaurant = () => {
     const mapdata = data[1]?.card?.card?.gridElements?.infoWithStyle
 
     const [slidesToShow, setSlidesToShow] = useState(4)
+    const [scroll, setscroll] = useState(1)
 
 
     const sliderRef = useRef()
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 375) {
+            if (window.innerWidth <= 475) {
                 setSlidesToShow(1);
+                setscroll(1)
             } else if (window.innerWidth <= 1000) {
                 setSlidesToShow(2);
+                setscroll(2)
             }
             else if (window.innerWidth <= 1300) {
                 setSlidesToShow(3);
-            }
-            else {
-                setSlidesToShow(4)
+                setscroll(3)
             }
         };
 
@@ -50,7 +51,7 @@ export const TopRatedRestaurant = () => {
         ref: useRef(),
         speed: 1000,
         slidesToShow: slidesToShow,
-        slidesToScroll: 1,
+        slidesToScroll: scroll,
     };
 
     const previous = () => {
