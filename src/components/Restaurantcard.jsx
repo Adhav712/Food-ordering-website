@@ -68,11 +68,11 @@ export const Restaurantcard = () => {
     return originallist === undefined ? <Shimmercards /> : (
         <div>
             <div >
-                <h1 className="max-sm:text-sm text-gray-900 text-2xl font-bold mt-10">{headingdata?.title}</h1>
+                <h1 className="max-sm:text-xl max-sm:mt-4 text-gray-900 text-2xl font-bold mt-10 ">{headingdata?.title}</h1>
             </div>
             <div className="my-5 mt-10">
                 {/* //& input */}
-                <input className="outline-none border-2 rounded-lg p-2 mx-2 px-4 border-[#fca729]" type="search" name="search" id="search"
+                <input className="max-sm:w-48 max-sm:mx-1 outline-none border-2 rounded-lg p-2 mx-2 px-4 border-[#fca729]" type="search" name="search" id="search"
                     onChange={(e) => {
                         setinputsearch(e.target.value);
 
@@ -82,18 +82,18 @@ export const Restaurantcard = () => {
                 {/* //& search btn */}
                 <button
                     onClick={sendinput}
-                    className="text-white bg-[#fca729] rounded-lg px-8 text-lg py-[0.3em] ml-3 hover:text-[#fca729] hover:bg-white hover:border-[#fca729] hover:border-2">Search</button>
+                    className="text-white max-sm:mx-1 max-sm:px-4 bg-[#fca729] rounded-lg px-8 text-lg py-[0.3em] ml-3 hover:text-[#fca729] hover:bg-white hover:border-[#fca729] hover:border-2">Search</button>
 
                 {/* //& ratings */}
                 <button
                     onClick={featuresbutton}
-                    className="text-gray-600  py-2 px-4 border border-gray-300 mx-2 ml-5 rounded-3xl">Rating 4+</button>
+                    className="text-gray-600 max-sm:text-sm max-sm:mx-1 max-sm:my-4  py-2 px-4 border border-gray-300 mx-2 ml-5 rounded-3xl">Rating 4+</button>
                 <button
                     onClick={featuresbutton}
-                    className="text-gray-600  py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Fast Delivery</button>
+                    className="text-gray-600 max-sm:text-sm max-sm:mx-1  max-sm:my-4 py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Fast Delivery</button>
                 <button
                     onClick={featuresbutton}
-                    className="text-gray-600  py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Reset</button>
+                    className="text-gray-600 max-sm:text-sm max-sm:mx-0  max-sm:my-4 py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Reset</button>
 
             </div>
             <div className="flex flex-wrap justify-center">

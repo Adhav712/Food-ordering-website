@@ -24,7 +24,7 @@ export const TopRatedRestaurant = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 640) {
+            if (window.innerWidth <= 375) {
                 setSlidesToShow(1);
             } else if (window.innerWidth <= 1000) {
                 setSlidesToShow(2);
@@ -32,7 +32,6 @@ export const TopRatedRestaurant = () => {
             else if (window.innerWidth <= 1300) {
                 setSlidesToShow(3);
             }
-
             else {
                 setSlidesToShow(4)
             }
@@ -51,7 +50,7 @@ export const TopRatedRestaurant = () => {
         ref: useRef(),
         speed: 1000,
         slidesToShow: slidesToShow,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
     };
 
     const previous = () => {
@@ -67,7 +66,7 @@ export const TopRatedRestaurant = () => {
         <div>
             <div className="flex items-center justify-between my-1">
                 <div className="">
-                    <h1 className="text-gray-900 text-2xl font-bold mt-5 max-sm:text-sm">{item?.header?.title}</h1>
+                    <h1 className="text-gray-900 text-2xl font-bold mt-5 max-sm:text-xl">{item?.header?.title}</h1>
                 </div>
                 <div className='inline-flex mx-4'>
                     <ArrowLeft onClick={previous} className='size-7 mx-2 rounded-full p-1 bg-slate-300 ' />
@@ -76,7 +75,7 @@ export const TopRatedRestaurant = () => {
                 </div>
             </div>
             <Slider
-                className=" max-sm:justify-center inline-flex  "
+                className=" max-sm:justify-center inline-flex justify-center "
                 {...sliderSettings}
             >
                 {
