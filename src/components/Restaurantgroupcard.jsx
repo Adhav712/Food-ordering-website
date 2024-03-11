@@ -1,13 +1,23 @@
 import { useDispatch, useSelector } from "react-redux";
 import { additems } from "../utils/Cartslice";
 
+export const Buttonpage = () => {
+    return (
+        <div>
+            {console.log('work')}
+            <h1 className="text-black text-2xl" >this is</h1>
+        </div>
+    )
+}
 
 export const Restaurantgroupcard = ({ data }) => {
 
     const dispatch = useDispatch()
 
-    const handlecheck = (item) => {
+    const handlecheck = (item, e) => {
         dispatch(additems(item))
+        console.log(e.type === 'click');
+        e.type === 'click' && <Buttonpage />
     }
 
     return (<div>
@@ -24,7 +34,7 @@ export const Restaurantgroupcard = ({ data }) => {
                         src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/" + imageId} alt="" />
                     }
                     {imageId ? <button
-                        onClick={() => { handlecheck(item) }}
+                        onClick={(e) => { handlecheck(item, e) }}
                         className="hover:text-green-500 text-white bg-green-500 border border-green-400 
                                         rounded-md shadow-md w-20 py-1 absolute right-4 hover:bg-white top-24" type="button">Add</button> : <button
                         onClick={() => { handlecheck(item) }}

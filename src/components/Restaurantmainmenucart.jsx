@@ -41,5 +41,3 @@ export const withofferlabel = (Restaurantmainmenucart) => {
     }
 }
 
-
-{/* transition ease-in delay-75  hover:scale-95  duration-100   */ }

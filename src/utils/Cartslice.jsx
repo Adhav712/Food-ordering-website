@@ -18,8 +18,11 @@ export const Cartslice = createSlice({
             else {
                 console.log("same");
             }
-
         },
+        decreaseitems: (state, action) => {
+            console.log(current(state));
+        },
+        increaseitems: (state, action) => { },
         clearitems: (state, action) => {
             state.items.push(action.payload)
         }

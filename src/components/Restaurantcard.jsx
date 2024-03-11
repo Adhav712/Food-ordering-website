@@ -10,7 +10,10 @@ import { withofferlabel } from './Restaurantmainmenucart'
 
 export const Restaurantcard = () => {
 
-    const { data } = usescrollreataurent()
+    const { data, restitem } = usescrollreataurent()
+
+    console.log(data, restitem);
+
     const [originallist, setoriginallist] = useState([])
     const [inputsearch, setinputsearch] = useState()
     const [filterarray, setfilterarray] = useState([])
