@@ -38401,6 +38401,8394 @@ export const Accordiandata = [
     },
 
     {
+        "data": {
+            "statusMessage": "done successfully",
+            "cards": [
+                {
+                    "card": {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                            "info": {
+                                "id": "53577",
+                                "name": "Keventers - Milkshakes & Desserts",
+                                "city": "Chennai",
+                                "slugs": {
+                                    "restaurant": "keventers-the-grand-mall-velachery-main-road-velachery",
+                                    "city": "chennai"
+                                },
+                                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                                "cloudinaryImageId": "1c8517dc925655dfff4d3617bd2191a5",
+                                "locality": "THE GRAND MALL",
+                                "areaName": "Velachery",
+                                "costForTwo": "20000",
+                                "costForTwoMessage": "₹200 for two",
+                                "cuisines": [
+                                    "Beverages",
+                                    "Ice Cream"
+                                ],
+                                "avgRating": 4.3,
+                                "veg": true,
+                                "feeDetails": {
+                                    "restaurantId": "53577",
+                                    "fees": [
+                                        {
+                                            "name": "time"
+                                        },
+                                        {
+                                            "name": "distance",
+                                            "fee": 15300
+                                        },
+                                        {
+                                            "name": "special"
+                                        }
+                                    ],
+                                    "totalFee": 15300,
+                                    "icon": "v1648208530/surgecreatives/info",
+                                    "message": "Very Far (12.3 kms) | Additional delivery fee will apply"
+                                },
+                                "parentId": "268997",
+                                "avgRatingString": "4.3",
+                                "totalRatingsString": "5K+ ratings",
+                                "sla": {
+                                    "restaurantId": "53577",
+                                    "deliveryTime": 32,
+                                    "minDeliveryTime": 32,
+                                    "maxDeliveryTime": 32,
+                                    "lastMileTravel": 12.4,
+                                    "serviceability": "SERVICEABLE",
+                                    "stressFactor": 1,
+                                    "rainMode": "RAIN_MODE_NONE",
+                                    "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                    "zoneId": 113,
+                                    "slaString": "32 MINS",
+                                    "lastMileTravelString": "12.3 km",
+                                    "iconType": "ICON_TYPE_EMPTY"
+                                },
+                                "availability": {
+                                    "nextOpenTimeMessage": "Opens next at 9:30 am, today",
+                                    "nextOpenTime": "2024-03-12 09:30:00",
+                                    "visibility": true,
+                                    "restaurantClosedMeta": {
 
+                                    }
+                                },
+                                "aggregatedDiscountInfo": {
+                                    "header": "50% off",
+                                    "shortDescriptionList": [
+                                        {
+                                            "meta": "50% off | Use TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "30% off | Use PARTY",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "descriptionList": [
+                                        {
+                                            "meta": "50% off up to ₹100 | Use code TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "30% off | Use code PARTY",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "visible": true
+                                },
+                                "badges": {
+
+                                },
+                                "slugString": "keventers-the-grand-mall-velachery-main-road-velachery",
+                                "labels": [
+                                    {
+                                        "title": "Timings",
+                                        "message": "null"
+                                    },
+                                    {
+                                        "title": "Address",
+                                        "message": "137, THE GRAND MALL, VELACHERY MAIN ROAD,, VELACHERY, Chennai, Tamil Nadu, 600042"
+                                    },
+                                    {
+                                        "title": "Cuisines",
+                                        "message": "Beverages,Ice Cream"
+                                    }
+                                ],
+                                "totalRatings": 5000,
+                                "aggregatedDiscountInfoV2": {
+                                    "header": "50% off",
+                                    "shortDescriptionList": [
+                                        {
+                                            "meta": "50% off | Use TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "30% off | Use PARTY",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "descriptionList": [
+                                        {
+                                            "meta": "50% off up to ₹100 | Use code TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "30% off | Use code PARTY",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "couponDetailsCta": "View coupon details"
+                                },
+                                "type": "F",
+                                "nudgeBanners": [
+                                    {
+                                        "minValue": 125,
+                                        "maxValue": 179,
+                                        "priority": 1,
+                                        "couponCode": "TRYNEW",
+                                        "discountInfo": {
+                                            "discountType": "Percentage",
+                                            "value": 50
+                                        },
+                                        "lockedMessage": "Add items worth ₹<amount> to save upto ₹100 | Code TRYNEW",
+                                        "unlockedMessage": "TRYNEW Coupon Unlocked! Use it to save upto ₹100",
+                                        "logoCtx": {
+
+                                        }
+                                    },
+                                    {
+                                        "minValue": 700,
+                                        "maxValue": 1000,
+                                        "priority": 2,
+                                        "couponCode": "PARTY",
+                                        "discountInfo": {
+                                            "discountType": "Percentage",
+                                            "value": 30
+                                        },
+                                        "lockedMessage": "Add items worth ₹<amount> to unlock flat 30% off | Code PARTY",
+                                        "unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 30% off",
+                                        "logoCtx": {
+
+                                        }
+                                    },
+                                    {
+                                        "minValue": 419,
+                                        "maxValue": 599,
+                                        "priority": 3,
+                                        "couponCode": "FLAT125",
+                                        "discountInfo": {
+                                            "discountType": "Flat",
+                                            "value": 125
+                                        },
+                                        "lockedMessage": "Add items worth ₹<amount> to save ₹125 | Code FLAT125",
+                                        "unlockedMessage": "FLAT125 Coupon Unlocked! Use it to save ₹125",
+                                        "logoCtx": {
+
+                                        }
+                                    }
+                                ],
+                                "headerBanner": {
+                                    "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/53577"
+                                },
+                                "generalPurposeInfoListV2": [
+                                    {
+                                        "cta": {
+                                            "info": {
+                                                "recordings": {
+
+                                                }
+                                            },
+                                            "linkCta": {
+
+                                            }
+                                        }
+                                    }
+                                ],
+                                "ratingSlab": "RATING_SLAB_5",
+                                "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 9:30 am, today",
+                                "orderabilityCommunication": {
+                                    "title": {
+                                        "text": "Currently"
+                                    },
+                                    "subTitle": {
+                                        "text": "CLOSED"
+                                    },
+                                    "message": {
+                                        "text": "Uh-oh! Outlet is not accepting orders at the moment. They should be back by 9:30 AM",
+                                        "textColour": "primary"
+                                    },
+                                    "customIcon": {
+                                        "bgGradientColorStart": "#EB8322",
+                                        "bgGradientColorEnd": "#EE5803"
+                                    }
+                                },
+                                "hasBestsellerItems": true,
+                                "hasGuiltfreeItems": true,
+                                "cartOrderabilityNudgeBanner": {
+                                    "parameters": {
+
+                                    },
+                                    "presentation": {
+
+                                    }
+                                },
+                                "latLong": "12.972183,80.21982400000002",
+                                "backgroundImageOverlayInfo": {
+
+                                }
+                            },
+                            "analytics": {
+
+                            }
+                        },
+                        "relevance": {
+                            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                            "sectionId": "POP_UP_CROUTON_MENU"
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                            "layout": {
+                                "rows": 1,
+                                "columns": 5,
+                                "horizontalScrollEnabled": true,
+                                "itemSpacing": 12,
+                                "lineSpacing": 10,
+                                "widgetPadding": {
+
+                                },
+                                "containerStyle": {
+                                    "containerPadding": {
+                                        "left": 10,
+                                        "right": 10,
+                                        "bottom": 16
+                                    }
+                                },
+                                "scrollBar": {
+
+                                }
+                            },
+                            "id": "offerCollectionWidget_UX4",
+                            "gridElements": {
+                                "infoWithStyle": {
+                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                    "offers": [
+                                        {
+                                            "info": {
+                                                "header": "50% OFF UPTO ₹100",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "7ecdb303-415e-4c05-a280-3a29a81c413b"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE TRYNEW",
+                                                "description": "ABOVE ₹179",
+                                                "offerType": "offers",
+                                                "restId": "53577",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "FLAT 30% OFF",
+                                                "offerTag": "FLAT DEAL",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "b9915a6b-42ce-4dc3-9dad-0f8837624517"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE PARTY",
+                                                "description": "ABOVE ₹1000",
+                                                "offerType": "offers",
+                                                "restId": "53577",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "FLAT ₹125 OFF",
+                                                "offerTag": "FLAT DEAL",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "cc01dc69-e640-4cfa-80f5-b75c1267f62e"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE FLAT125",
+                                                "description": "ABOVE ₹599",
+                                                "offerType": "offers",
+                                                "restId": "53577",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "20% OFF UPTO ₹120",
+                                                "offerTag": "SAVE BIG",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "fe9ea29d-d2c4-4f7e-b7c1-358a45ec941e"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE JUMBO",
+                                                "description": "ABOVE ₹500",
+                                                "offerType": "offers",
+                                                "restId": "53577",
+                                                "offerLogo": "offers/save-big",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "FLAT ₹50 OFF",
+                                                "offerTagColor": "#E46D47",
+                                                "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
+                                                "offerIds": [
+                                                    "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "NO CODE REQUIRED",
+                                                "description": "ABOVE ₹500",
+                                                "offerType": "offers",
+                                                "restId": "53577",
+                                                "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        }
+                                    ],
+                                    "habitMilestoneInfo": {
+                                        "callout": {
+
+                                        }
+                                    },
+                                    "loyaltyDiscoverPresentationInfo": {
+                                        "logoCtx": {
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "groupedCard": {
+                        "cardGroupMap": {
+                            "REGULAR": {
+                                "cards": [
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                                "isPureVeg": true,
+                                                "badges": {
+
+                                                },
+                                                "vegOnlyDetails": {
+                                                    "imageId": "AutoVegOnly_qkjowj",
+                                                    "title": "Showing only vegetarian options.",
+                                                    "description": "Tap on the VEG ONLY button to turn off the setting"
+                                                },
+                                                "topRatedFilter": {
+
+                                                },
+                                                "kidsCategoryFilter": {
+                                                    "attributes": {
+                                                        "displayText": "Kids Favourites",
+                                                        "tooltip": {
+                                                            "enabled": true,
+                                                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                        }
+                                                    }
+                                                },
+                                                "vegFilter": {
+                                                    "attributes": {
+                                                        "displayText": "VEG"
+                                                    }
+                                                },
+                                                "nonvegFilter": {
+                                                    "attributes": {
+                                                        "displayText": "NONVEG"
+                                                    }
+                                                }
+                                            },
+                                            "relevance": {
+                                                "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                                "sectionId": "MENU_FILTER_TOGGLE"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                                "title": "All New Summer Menu",
+                                                "categories": [
+                                                    {
+                                                        "title": "Sparkling Iced Beverages",
+                                                        "itemCards": [
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "135410706",
+                                                                        "name": "Masala Lemonade",
+                                                                        "category": "All New Summer Menu",
+                                                                        "description": "Zesty and Spiced! Elevate your taste buds with refreshing Masala Lemonade. Perfect blend of tangy and sweet flavors. Serving size -302/494 for Reg/Large & 121.8/193.6 Kcal respectively. Allergen: None. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "897d7ab0f610647bca759be0aa230bd1",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "39274910",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 189,
+                                                                                            "default": 1,
+                                                                                            "id": "124988682",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 279,
+                                                                                            "id": "124988683",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274910",
+                                                                                            "variationId": "124988682"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 18900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274910",
+                                                                                            "variationId": "124988683"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 27900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457951",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "140457951",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG"
+                                                                        },
+                                                                        "defaultPrice": 18900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "135410707",
+                                                                        "name": "Mast Mosambi",
+                                                                        "category": "All New Summer Menu",
+                                                                        "description": "Serves 1 | Sip into Citrus Bliss! MAST MOSAMBI delivers a burst of refreshing sweetness with every sip.\nServing size -300/490 for Reg/Large & 164.5/268.3 Kcal respectively. Allergen: None. An average active adult requires 2000 kcal energy per day",
+                                                                        "imageId": "ecb07d73755c6a9b6c3a2f5db1123d2c",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "39274911",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 189,
+                                                                                            "default": 1,
+                                                                                            "id": "124988684",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 279,
+                                                                                            "id": "124988685",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274911",
+                                                                                            "variationId": "124988684"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 18900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274911",
+                                                                                            "variationId": "124988685"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 27900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457952",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "140457952",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 18900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "title": "Special Shakes",
+                                                        "itemCards": [
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "135410708",
+                                                                        "name": "All Berries Milkshake",
+                                                                        "category": "All New Summer Menu",
+                                                                        "description": "Serves 1 | \"Berrylicious Bliss! Indulge in All Berry Shake, bursting with the vibrant flavors of finest berries. Serving size -310/500 for Reg/Large & 485.8/781.3 Kcal respectively. Allergen: Soy & Milk. An average active adult requires 2000 kcal energy per day.\"",
+                                                                        "imageId": "21b85a7e434e7880e6aea29fa1768ea8",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "39274912",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "124988686",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "124988687",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274912",
+                                                                                            "variationId": "124988686"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274912",
+                                                                                            "variationId": "124988687"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457953",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "140457953",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "135410709",
+                                                                        "name": "Caramel Popcorn Milkshake",
+                                                                        "category": "All New Summer Menu",
+                                                                        "description": "Serves 1 | \"Indulge in the sweet & savory sensation of Caramel Popcorn Shake. A delightful blend of creamy caramel and popcorn. Serving size -320/516 for Reg/Large & 509.1/819 Kcal respectively. Allergen: Soy & Milk. An average active adult requires 2000 kcal energy per day.\"",
+                                                                        "imageId": "b131dc7c03d94dc5de5960f676ad527c",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "39274913",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "124988688",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "124988689",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274913",
+                                                                                            "variationId": "124988688"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274913",
+                                                                                            "variationId": "124988689"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457954",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "140457954",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "title": "Signature Cold Coffees",
+                                                        "itemCards": [
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "135410711",
+                                                                        "name": "Java Choco Chip Cold Coffee",
+                                                                        "category": "All New Summer Menu",
+                                                                        "description": "Serves 1 | \"A blissful blend of rich Java coffee and indulgent chocolate chips, delivering a delightful caffeine kick. Serving size -294/500 for Reg/Large & 468.7/701.1 Kcal respectively. Allergen: Soy & Milk. An average active adult requires 2000 kcal energy per day.\"",
+                                                                        "imageId": "623e2b7cd76c6dab2a7dffe9a5055710",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "39274915",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 249,
+                                                                                            "default": 1,
+                                                                                            "id": "124988692",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 339,
+                                                                                            "id": "124988693",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274915",
+                                                                                            "variationId": "124988692"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 24900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "39274915",
+                                                                                            "variationId": "124988693"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 33900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "140457956",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "140457956",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 24900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                                                "title": "Milkshakes",
+                                                "categories": [
+                                                    {
+                                                        "title": "Chocolate Shakes",
+                                                        "itemCards": [
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643783",
+                                                                        "name": "Kit-Kat Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | The shake for when you need a break! Chocolate wafers blended with vanilla ice cream for a timeless, ageless favourite. Made with Kit-Kat chocolate bars. Size - 296/495 for Reg/Large & 477/823 Kcal respectively. Allergen: Contains milk and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "iwr13rj0x12itkinppua",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6143810",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "20024418",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "20024420",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143810",
+                                                                                            "variationId": "20024418"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143810",
+                                                                                            "variationId": "20024420"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718658",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718657",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70718657",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371288",
+                                                                                        "name": "Oreo",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371290",
+                                                                                        "name": "Kit-Kat",
+                                                                                        "price": 3000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371291",
+                                                                                        "name": "Chocolate Chip",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371292",
+                                                                                        "name": "Chocolate Sauce",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 5,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70718658",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.6",
+                                                                                "ratingCount": "246 ratings",
+                                                                                "ratingCountV2": "246"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643784",
+                                                                        "name": "Chocolate Oreo Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | We took the Oreo dunk to the next level! The good old cream and cookie shake now with a rich chocolaty avatar. Prepared with Oreo cookies. Size - 295/495 for Reg/Large & 478/835 Kcal respectively. Allergen: Contains milk and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/11/c00d9be2-3de3-4834-8768-99d66b334abe_ec79f6ba-e329-45d5-a446-85279983b8e3.png_compressed",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6143874",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "20024547",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "20024548",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143874",
+                                                                                            "variationId": "20024547"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143874",
+                                                                                            "variationId": "20024548"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718660",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718659",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70718659",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371288",
+                                                                                        "name": "Oreo",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371290",
+                                                                                        "name": "Kit-Kat",
+                                                                                        "price": 3000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371291",
+                                                                                        "name": "Chocolate Chip",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371292",
+                                                                                        "name": "Chocolate Sauce",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 5,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70718660",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.5",
+                                                                                "ratingCount": "263 ratings",
+                                                                                "ratingCountV2": "263"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "119409635",
+                                                                        "name": "Ferrero Rocher Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | Indulge in a perfect harmony of ferrero rocher and velvety chocolate syrup . Size - 302/494 for Reg/Large & 506/847 Kcal respectively. Allergen: Contains wheat, milk, soya and  sulphite. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "272f107cd536eb2b78d10fe0bb399e57",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "29469941",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "92288786",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "92288787",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "29469941",
+                                                                                            "variationId": "92288786"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "29469941",
+                                                                                            "variationId": "92288787"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964171",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "97964171",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.8",
+                                                                                "ratingCount": "15 ratings",
+                                                                                "ratingCountV2": "15"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643787",
+                                                                        "name": "Choco Chip Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | Crunchy chocolate chips blended with vanilla ice cream. The shake for when you can't decide which shake you want. Size - 296/495 for Reg/Large & 487/845 Kcal respectively. Allergen: Contains milk and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "pkpwz9arkuxaayevzybk",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6143955",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "20024710",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "20024708",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143955",
+                                                                                            "variationId": "20024710"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143955",
+                                                                                            "variationId": "20024708"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807338",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807334",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807334",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371288",
+                                                                                        "name": "Oreo",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371290",
+                                                                                        "name": "Kit-Kat",
+                                                                                        "price": 3000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371291",
+                                                                                        "name": "Chocolate Chip",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371292",
+                                                                                        "name": "Chocolate Sauce",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 5,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807338",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.6",
+                                                                                "ratingCount": "260 ratings",
+                                                                                "ratingCountV2": "260"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643785",
+                                                                        "name": "Chocolate Hazelnut Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | The earthy, nutty flavours of hazelnut, combined with rich cocoa flavours of chocolate: a match made in heaven. Size - 296/495 for Reg/Large & 487/845 Kcal respectively. Allergen: Contains milk, nuts and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "ktc48ujsjzs5mlhuubnu",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6143906",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 339,
+                                                                                            "id": "20024613",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "20024611",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143906",
+                                                                                            "variationId": "20024613"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 33900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143906",
+                                                                                            "variationId": "20024611"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807322",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807317",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807317",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371288",
+                                                                                        "name": "Oreo",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371290",
+                                                                                        "name": "Kit-Kat",
+                                                                                        "price": 3000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371291",
+                                                                                        "name": "Chocolate Chip",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371292",
+                                                                                        "name": "Chocolate Sauce",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 5,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807322",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.2",
+                                                                                "ratingCount": "345 ratings",
+                                                                                "ratingCountV2": "345"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "65731303",
+                                                                        "name": "Nutella Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | Sip it, don't spread it! A whole lot of Nutella blended with vanilla ice-cream, and a lil' bit more chocolate. Crafted to perfection for all the Nutella lovers. Size - 299/481 for Reg/Large & 506/799 Kcal respectively. Allergen: Contains milk and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "caanlf1mtt0gavht0xag",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "9252670",
+                                                                                    "name": "Choose Your Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "30578299",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "30578300",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "9252670",
+                                                                                            "variationId": "30578299"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "9252670",
+                                                                                            "variationId": "30578300"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807585",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807582",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807582",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371288",
+                                                                                        "name": "Oreo",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371290",
+                                                                                        "name": "Kit-Kat",
+                                                                                        "price": 3000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371291",
+                                                                                        "name": "Chocolate Chip",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371292",
+                                                                                        "name": "Chocolate Sauce",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 5,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807585",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.1",
+                                                                                "ratingCount": "113 ratings",
+                                                                                "ratingCountV2": "113"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "55379845",
+                                                                        "name": "Mint Oreo Crumble Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | Refreshing mint and indulgent Oreos perfectly balanced in a milkshake. Size - 301/500 for Reg/Large & 500/855 Kcal respectively. Allergen: Contains milk and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "sdpdknxpjc0d9vbwzcnp",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "7209185",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 339,
+                                                                                            "id": "24334247",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "24334246",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "7209185",
+                                                                                            "variationId": "24334247"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 33900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "7209185",
+                                                                                            "variationId": "24334246"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718656",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718653",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70718653",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371288",
+                                                                                        "name": "Oreo",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371290",
+                                                                                        "name": "Kit-Kat",
+                                                                                        "price": 3000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371291",
+                                                                                        "name": "Chocolate Chip",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371292",
+                                                                                        "name": "Chocolate Sauce",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 5,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70718656",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.5",
+                                                                                "ratingCount": "14 ratings",
+                                                                                "ratingCountV2": "14"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643780",
+                                                                        "name": "Peanut Butter Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | Salted peanut butter with real bits of peanut blended with the comforting sweetness of milk chocolate. Size - 294/491 for Reg/Large & 561/906 Kcal respectively. Allergen: Contains milk, nuts, and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "otrct3irtikjkfeoe8nj",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6143694",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 349,
+                                                                                            "id": "20024189",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "20024187",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143694",
+                                                                                            "variationId": "20024189"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 34900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143694",
+                                                                                            "variationId": "20024187"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718642",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371288"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371290"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371291"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718641",
+                                                                                            "addonId": "56371292"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70718641",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371288",
+                                                                                        "name": "Oreo",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371290",
+                                                                                        "name": "Kit-Kat",
+                                                                                        "price": 3000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371291",
+                                                                                        "name": "Chocolate Chip",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371292",
+                                                                                        "name": "Chocolate Sauce",
+                                                                                        "price": 2000,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 5,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70718642",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "3.1",
+                                                                                "ratingCount": "38 ratings",
+                                                                                "ratingCountV2": "38"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "title": "Special Shakes",
+                                                        "itemCards": [
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "127333822",
+                                                                        "name": "Kesar Elaichi Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "A flavour fiesta of aromatic saffron (kesar), cardamom (elaichi) , coconut, cashew nuts and almonds. Serving size -295/440 for Reg/Large & 458/632 Kcal respectively. Allergen: Contains milk and nuts. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/11/47bc43fd-4550-4e30-bcca-ff0bad3afbd1_bc84101d-9de8-454e-aee1-a8b9249797d2.png_compressed",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "33850368",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 259,
+                                                                                            "default": 1,
+                                                                                            "id": "104639173",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 339,
+                                                                                            "id": "104639174",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "33850368",
+                                                                                            "variationId": "104639173"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "33850368",
+                                                                                            "variationId": "104639174"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 33900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954052",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "119954052",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG"
+                                                                        },
+                                                                        "defaultPrice": 25900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "127333824",
+                                                                        "name": "Salted Caramel Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "A perfect balance of sweet caramel and a hint of saltiness & tiramisu. Serving size - 320/500 for Reg/Large for 575/847 Kcal. Allergen: Contains milk, nuts and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/11/b2ff5961-e3c5-425e-af99-600d50bd0f1a_4fc215c6-cb3c-4c39-bc06-9266dfc797a7.png_compressed",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "33850370",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 259,
+                                                                                            "default": 1,
+                                                                                            "id": "104639177",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 339,
+                                                                                            "id": "104639178",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "33850370",
+                                                                                            "variationId": "104639177"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "33850370",
+                                                                                            "variationId": "104639178"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 33900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "119954055",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "119954055",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG"
+                                                                        },
+                                                                        "defaultPrice": 25900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643826",
+                                                                        "name": "Bubblegum Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | Our way of doing a throwback Thursday. The flavours of pink bubblegum blended with an ice cream. Tastes like childhood. Size - 326/530 for Reg/Large & 531/867 Kcal respectively. Allergen: Contains milk, and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "gfngzornfywed4bwxaru",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6144068",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 349,
+                                                                                            "id": "20024935",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 259,
+                                                                                            "default": 1,
+                                                                                            "id": "20024936",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6144068",
+                                                                                            "variationId": "20024935"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 34900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807367",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6144068",
+                                                                                            "variationId": "20024936"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807368",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807367",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807368",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807367",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 1,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 25900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.9",
+                                                                                "ratingCount": "87 ratings",
+                                                                                "ratingCountV2": "87"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643839",
+                                                                        "name": "Keventers Strawberry Special Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | When we say strawberry, you say yum! Have a swig to know what we mean. Size - 306 for Reg & 474 Kcal respectively. Allergen: Contains milk, and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "kluofv6itge2hdncuy8n",
+                                                                        "isVeg": 1,
+                                                                        "price": 25900,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807380",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807377",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56499979",
+                                                                                        "name": "Exotic Strawberry",
+                                                                                        "price": 3500,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 2,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "3.9",
+                                                                                "ratingCount": "78 ratings",
+                                                                                "ratingCountV2": "78"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "119409636",
+                                                                        "name": "Lotus Biscoff Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "A divine blend of Biscoff spread, chocolate cookies, and silky caramel syrup. Enjoy decadent flavours in every single sip. Serving size - 316/511 for Reg/Large & 576/937 Kcal respectively. Allergen: Contains wheat, milk and soya. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "48a1a1822a6d3661a50294e79fd9a1f5",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "29469942",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 269,
+                                                                                            "default": 1,
+                                                                                            "id": "92288788",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 359,
+                                                                                            "id": "92288789",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "29469942",
+                                                                                            "variationId": "92288788"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "29469942",
+                                                                                            "variationId": "92288789"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 35900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "97964172",
+                                                                                            "addonId": "97783270"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "97964172",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG"
+                                                                        },
+                                                                        "defaultPrice": 26900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.8",
+                                                                                "ratingCount": "22 ratings",
+                                                                                "ratingCountV2": "22"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643812",
+                                                                        "name": "Kesar Badam Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | The classic Indian flavours of saffron and almond blended to prepare a drink that's distinctively desi, and unforgettably yum. Size - 294/480 for Reg/Large & 602/994 Kcal respectively. Allergen: Contains milk and nuts. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "wg7bvezbjhc2lcg3bhxc",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6143968",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 349,
+                                                                                            "id": "20024735",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 259,
+                                                                                            "default": 1,
+                                                                                            "id": "20024739",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143968",
+                                                                                            "variationId": "20024735"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 34900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807351",
+                                                                                            "addonId": "56499978"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807351",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6143968",
+                                                                                            "variationId": "20024739"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807355",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807351",
+                                                                                            "addonId": "56499978"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807351",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807355",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807351",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56499978",
+                                                                                        "name": "Almonds",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 2,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 25900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.6",
+                                                                                "ratingCount": "103 ratings",
+                                                                                "ratingCountV2": "103"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "45643843",
+                                                                        "name": "Mango Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | India's favourite summer drink, served Keventers style. Mango pulp blended with vanilla ice cream, served with love. Size - 286/460 for Reg/Large & 403/645 Kcal respectively. Allergen: Contains milk, and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "rgrlukww0pc0ovocmv4g",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6144103",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 349,
+                                                                                            "id": "20025005",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 259,
+                                                                                            "default": 1,
+                                                                                            "id": "20025007",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6144103",
+                                                                                            "variationId": "20025005"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 34900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807389",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807389",
+                                                                                            "addonId": "56499980"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6144103",
+                                                                                            "variationId": "20025007"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807391",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807389",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807389",
+                                                                                            "addonId": "56499980"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807391",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807389",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56499980",
+                                                                                        "name": "Alphonso Mango",
+                                                                                        "price": 3500,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 2,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 25900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "3.9",
+                                                                                "ratingCount": "168 ratings",
+                                                                                "ratingCountV2": "168"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "13007630",
+                                                                        "name": "Rasmalai Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | The heady flavour of cardamom and saffron, swirled together in the most delectable milkshake. Size - 286/460 for Reg/Large & 479/759 Kcal respectively. Allergen: Contains milk and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "javazmnq9brtv3wfgqxv",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6146959",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 339,
+                                                                                            "id": "20030717",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 259,
+                                                                                            "default": 1,
+                                                                                            "id": "20030718",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6146959",
+                                                                                            "variationId": "20030717"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 33900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807499",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6146959",
+                                                                                            "variationId": "20030718"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807500",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807499",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807500",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807499",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 1,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 25900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.2",
+                                                                                "ratingCount": "93 ratings",
+                                                                                "ratingCountV2": "93"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "title": "Classic Shakes",
+                                                        "itemCards": [
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "49429610",
+                                                                        "name": "Classic Strawberry Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | When we say strawberry, you say yum! Have a swig to know what we mean. Size - 306 for Reg & 474 Kcal respectively. Allergen: Contains milk, and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "lrt2jjfqdavozr5ojqaf",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6146953",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 269,
+                                                                                            "id": "20030705",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 199,
+                                                                                            "default": 1,
+                                                                                            "id": "20030706",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6146953",
+                                                                                            "variationId": "20030705"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807491",
+                                                                                            "addonId": "56499979"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807491",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6146953",
+                                                                                            "variationId": "20030706"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 19900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807494",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807491",
+                                                                                            "addonId": "56499979"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70807491",
+                                                                                            "addonId": "56371245"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "70807494",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70807491",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56499979",
+                                                                                        "name": "Exotic Strawberry",
+                                                                                        "price": 3500,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 2,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 19900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.5",
+                                                                                "ratingCount": "480 ratings",
+                                                                                "ratingCountV2": "480"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "123651295",
+                                                                        "name": "Pineapple Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Bursting with a refreshing pineapple flavour, this milkshake is a tropical paradise in a bottle! Serving size - 280/470 for Reg/Large & 335/562 Kcal. Allergen: Contains Milk & Soy. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "d7c3ab6ffd0b354a258e81987f9a9513",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "34614544",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 189,
+                                                                                            "default": 1,
+                                                                                            "id": "107002267",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 259,
+                                                                                            "id": "107002268",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "34614544",
+                                                                                            "variationId": "107002267"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 18900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875966",
+                                                                                            "addonId": "106730856"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "34614544",
+                                                                                            "variationId": "107002268"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875967",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875966",
+                                                                                            "addonId": "106730856"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "123875966",
+                                                                                "groupName": "Add On",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "106730856",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 1,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "123875967",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG"
+                                                                        },
+                                                                        "defaultPrice": 18900,
+                                                                        "ribbon": {
+
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "123697105",
+                                                                        "name": "Vanilla Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Smooth, rich, and irresistibly delicious - a true crowd-pleaser. Indulge in the timeless and satisfying Vanilla flavour! Serving size -280/450 for Reg/Large & 317/510 Kcal respectively. Allergen: Contains Milk & Soy. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "847256c4d3215096ba770f1b2032daca",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "34614543",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 189,
+                                                                                            "default": 1,
+                                                                                            "id": "107002265",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 259,
+                                                                                            "id": "107002266",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "34614543",
+                                                                                            "variationId": "107002265"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 18900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875964",
+                                                                                            "addonId": "106730856"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "34614543",
+                                                                                            "variationId": "107002266"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 25900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875965",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "123875964",
+                                                                                            "addonId": "106730856"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "123875964",
+                                                                                "groupName": "Add On",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "106730856",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 1,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "123875965",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG"
+                                                                        },
+                                                                        "defaultPrice": 18900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.3",
+                                                                                "ratingCount": "344 ratings",
+                                                                                "ratingCountV2": "344"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            },
+                                                            {
+                                                                "card": {
+                                                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                                    "info": {
+                                                                        "id": "49429624",
+                                                                        "name": "Butterscotch Milkshake",
+                                                                        "category": "Milkshakes",
+                                                                        "description": "Serves 1 | Toffee swirls and caramel bits blended with ice cream. A hit from the time when it was launched in 1925. Size - 286/460 for Reg/Large & 400/640 Kcal respectively. Allergen: Contains milk, and wheat. An average active adult requires 2000 kcal energy per day.",
+                                                                        "imageId": "rzien2et0gvxm83t0ov6",
+                                                                        "isVeg": 1,
+                                                                        "variants": {
+
+                                                                        },
+                                                                        "variantsV2": {
+                                                                            "variantGroups": [
+                                                                                {
+                                                                                    "groupId": "6146971",
+                                                                                    "name": "Size",
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "name": "Large",
+                                                                                            "price": 269,
+                                                                                            "id": "20030741",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "Regular",
+                                                                                            "price": 199,
+                                                                                            "default": 1,
+                                                                                            "id": "20030742",
+                                                                                            "inStock": 1,
+                                                                                            "isVeg": 1,
+                                                                                            "isEnabled": 1
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "pricingModels": [
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6146971",
+                                                                                            "variationId": "20030741"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 26900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718670",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718670",
+                                                                                            "addonId": "56371517"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "variations": [
+                                                                                        {
+                                                                                            "groupId": "6146971",
+                                                                                            "variationId": "20030742"
+                                                                                        }
+                                                                                    ],
+                                                                                    "price": 19900,
+                                                                                    "addonCombinations": [
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783267"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783268"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783269"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "113493610",
+                                                                                            "addonId": "97783270"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718670",
+                                                                                            "addonId": "56371245"
+                                                                                        },
+                                                                                        {
+                                                                                            "groupId": "70718670",
+                                                                                            "addonId": "56371517"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "addons": [
+                                                                            {
+                                                                                "groupId": "113493610",
+                                                                                "groupName": "Add a Snack",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "97783268",
+                                                                                        "name": "4700BC Himalayan Salt Caramel Popcorn",
+                                                                                        "price": 4375,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783269",
+                                                                                        "name": "4700BC Crunchy Corn, Himalayan Salt",
+                                                                                        "price": 4464,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783267",
+                                                                                        "name": "4700BC French Butter & Pink Salt Popcorn",
+                                                                                        "price": 4152,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "97783270",
+                                                                                        "name": "4700BC Cheese & Herbs Corn Chips",
+                                                                                        "price": 4237,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 4,
+                                                                                "maxFreeAddons": -1
+                                                                            },
+                                                                            {
+                                                                                "groupId": "70718670",
+                                                                                "groupName": "Add-Ons",
+                                                                                "choices": [
+                                                                                    {
+                                                                                        "id": "56371245",
+                                                                                        "name": "Vanilla Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "inStock": 1,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "56371517",
+                                                                                        "name": "Butterscotch Crunch Ice Cream",
+                                                                                        "price": 3500,
+                                                                                        "isVeg": 1,
+                                                                                        "isEnabled": 1
+                                                                                    }
+                                                                                ],
+                                                                                "maxAddons": 2,
+                                                                                "maxFreeAddons": -1
+                                                                            }
+                                                                        ],
+                                                                        "itemAttribute": {
+                                                                            "vegClassifier": "VEG",
+                                                                            "portionSize": "Serves 1"
+                                                                        },
+                                                                        "defaultPrice": 19900,
+                                                                        "ribbon": {
+                                                                            "text": "Bestseller",
+                                                                            "textColor": "#ffffff",
+                                                                            "topBackgroundColor": "#d53d4c",
+                                                                            "bottomBackgroundColor": "#b02331"
+                                                                        },
+                                                                        "type": "ITEM",
+                                                                        "itemBadge": {
+
+                                                                        },
+                                                                        "badgesV2": {
+
+                                                                        },
+                                                                        "isBestseller": true,
+                                                                        "ratings": {
+                                                                            "aggregatedRating": {
+                                                                                "rating": "4.1",
+                                                                                "ratingCount": "337 ratings",
+                                                                                "ratingCountV2": "337"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "analytics": {
+
+                                                                    },
+                                                                    "hideRestaurantDetails": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "firstOffsetRequest": true,
+            "isQCLink": false
+        },
+    },
+    {
+        "data": {
+            "statusMessage": "done successfully",
+            "cards": [
+                {
+                    "card": {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                            "info": {
+                                "id": "240339",
+                                "name": "CakeZone Patisserie",
+                                "city": "Chennai",
+                                "slugs": {
+                                    "restaurant": "cakezone-omr-perungudi-omr-perungudi",
+                                    "city": "chennai"
+                                },
+                                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                                "cloudinaryImageId": "ddceb5f9328a03e337d1f36b3dfd16ff",
+                                "locality": "State Bank Colony",
+                                "areaName": "Omr Perungudi, State Bank Colony",
+                                "costForTwo": "20000",
+                                "costForTwoMessage": "₹200 for two",
+                                "cuisines": [
+                                    "Bakery",
+                                    "Desserts"
+                                ],
+                                "avgRating": 4.2,
+                                "feeDetails": {
+                                    "restaurantId": "240339",
+                                    "fees": [
+                                        {
+                                            "name": "distance",
+                                            "fee": 4400
+                                        },
+                                        {
+                                            "name": "time"
+                                        },
+                                        {
+                                            "name": "special"
+                                        }
+                                    ],
+                                    "totalFee": 4400,
+                                    "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                                    "message": "2.7 kms | ₹44 Delivery fee will apply"
+                                },
+                                "parentId": "7003",
+                                "avgRatingString": "4.2",
+                                "totalRatingsString": "5K+ ratings",
+                                "sla": {
+                                    "restaurantId": "240339",
+                                    "deliveryTime": 35,
+                                    "minDeliveryTime": 35,
+                                    "maxDeliveryTime": 35,
+                                    "lastMileTravel": 2.8,
+                                    "serviceability": "SERVICEABLE",
+                                    "stressFactor": 1,
+                                    "rainMode": "RAIN_MODE_NONE",
+                                    "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                    "zoneId": 180,
+                                    "slaString": "35 MINS",
+                                    "lastMileTravelString": "2.7 km",
+                                    "iconType": "ICON_TYPE_EMPTY"
+                                },
+                                "availability": {
+                                    "nextOpenTimeMessage": "Opens next at 8 am, today",
+                                    "nextOpenTime": "2024-03-12 08:00:00",
+                                    "visibility": true,
+                                    "restaurantClosedMeta": {
+
+                                    }
+                                },
+                                "aggregatedDiscountInfo": {
+                                    "header": "60% off",
+                                    "shortDescriptionList": [
+                                        {
+                                            "meta": "60% off | Use TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "50% off | Use SWIGGY50",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "descriptionList": [
+                                        {
+                                            "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "50% off up to ₹100 | Use code SWIGGY50",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "visible": true
+                                },
+                                "badges": {
+
+                                },
+                                "slugString": "cakezone-omr-perungudi-omr-perungudi",
+                                "labels": [
+                                    {
+                                        "title": "Timings",
+                                        "message": "null"
+                                    },
+                                    {
+                                        "title": "Address",
+                                        "message": "NO. 9, MUTHIMAIL NAGAR, 4TH CROSS  STREET, OMR, RAJIV GANDHI SALAI,  KARAPAKKAM, CHENNAI, ST.Thomas Mount  block Ward-197, Kancheepuram, Tamil  Nadu-600097"
+                                    },
+                                    {
+                                        "title": "Cuisines",
+                                        "message": "Bakery,Desserts"
+                                    }
+                                ],
+                                "logo": "v1675409413/Brand logo/CakeZone",
+                                "totalRatings": 5000,
+                                "aggregatedDiscountInfoV2": {
+                                    "header": "60% off",
+                                    "shortDescriptionList": [
+                                        {
+                                            "meta": "60% off | Use TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "50% off | Use SWIGGY50",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "descriptionList": [
+                                        {
+                                            "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        },
+                                        {
+                                            "meta": "50% off up to ₹100 | Use code SWIGGY50",
+                                            "discountType": "Percentage",
+                                            "operationType": "RESTAURANT"
+                                        }
+                                    ],
+                                    "couponDetailsCta": "View coupon details"
+                                },
+                                "type": "F",
+                                "nudgeBanners": [
+                                    {
+                                        "minValue": 209,
+                                        "maxValue": 299,
+                                        "priority": 3,
+                                        "couponCode": "FLAT125",
+                                        "discountInfo": {
+                                            "discountType": "Flat",
+                                            "value": 125
+                                        },
+                                        "lockedMessage": "Add items worth ₹<amount> to save ₹125 | Code FLAT125",
+                                        "unlockedMessage": "FLAT125 Coupon Unlocked! Use it to save ₹125",
+                                        "logoCtx": {
+
+                                        }
+                                    },
+                                    {
+                                        "minValue": 560,
+                                        "maxValue": 800,
+                                        "priority": 4,
+                                        "couponCode": "PARTY",
+                                        "discountInfo": {
+                                            "discountType": "Percentage",
+                                            "value": 20
+                                        },
+                                        "lockedMessage": "Add items worth ₹<amount> to unlock flat 20% off | Code PARTY",
+                                        "unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 20% off",
+                                        "logoCtx": {
+
+                                        }
+                                    },
+                                    {
+                                        "minValue": 349,
+                                        "maxValue": 499,
+                                        "priority": 5,
+                                        "couponCode": "FLAT150",
+                                        "discountInfo": {
+                                            "discountType": "Flat",
+                                            "value": 150
+                                        },
+                                        "lockedMessage": "Add items worth ₹<amount> to save ₹150 | Code FLAT150",
+                                        "unlockedMessage": "FLAT150 Coupon Unlocked! Use it to save ₹150",
+                                        "logoCtx": {
+
+                                        }
+                                    }
+                                ],
+                                "headerBanner": {
+                                    "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/240339"
+                                },
+                                "generalPurposeInfoListV2": [
+                                    {
+                                        "cta": {
+                                            "info": {
+                                                "recordings": {
+
+                                                }
+                                            },
+                                            "linkCta": {
+
+                                            }
+                                        }
+                                    }
+                                ],
+                                "ratingSlab": "RATING_SLAB_5",
+                                "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 8 am, today",
+                                "orderabilityCommunication": {
+                                    "title": {
+                                        "text": "Currently"
+                                    },
+                                    "subTitle": {
+                                        "text": "CLOSED"
+                                    },
+                                    "message": {
+                                        "text": "Uh-oh! Outlet is not accepting orders at the moment. They should be back by 8:00 AM",
+                                        "textColour": "primary"
+                                    },
+                                    "customIcon": {
+                                        "bgGradientColorStart": "#EB8322",
+                                        "bgGradientColorEnd": "#EE5803"
+                                    }
+                                },
+                                "hasBestsellerItems": true,
+                                "cartOrderabilityNudgeBanner": {
+                                    "parameters": {
+
+                                    },
+                                    "presentation": {
+
+                                    }
+                                },
+                                "latLong": "12.91597617,80.2292485",
+                                "backgroundImageOverlayInfo": {
+
+                                }
+                            },
+                            "analytics": {
+
+                            }
+                        },
+                        "relevance": {
+                            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                            "sectionId": "POP_UP_CROUTON_MENU"
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                            "layout": {
+                                "rows": 1,
+                                "columns": 5,
+                                "horizontalScrollEnabled": true,
+                                "itemSpacing": 12,
+                                "lineSpacing": 10,
+                                "widgetPadding": {
+
+                                },
+                                "containerStyle": {
+                                    "containerPadding": {
+                                        "left": 10,
+                                        "right": 10,
+                                        "bottom": 16
+                                    }
+                                },
+                                "scrollBar": {
+
+                                }
+                            },
+                            "id": "offerCollectionWidget_UX4",
+                            "gridElements": {
+                                "infoWithStyle": {
+                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                    "offers": [
+                                        {
+                                            "info": {
+                                                "header": "60% OFF UPTO ₹120",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "cc908117-c3f2-4dd2-8639-db3ca82210d5"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE TRYNEW",
+                                                "description": "ABOVE ₹179",
+                                                "offerType": "offers",
+                                                "restId": "240339",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "50% OFF UPTO ₹100",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "65f68ca2-b5f6-45ef-9c95-af491661bcc4"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE SWIGGY50",
+                                                "description": "ABOVE ₹149",
+                                                "offerType": "offers",
+                                                "restId": "240339",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "FLAT ₹125 OFF",
+                                                "offerTag": "FLAT DEAL",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "849db8f0-aea9-419d-bde3-8ef291c93450"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE FLAT125",
+                                                "description": "ABOVE ₹299",
+                                                "offerType": "offers",
+                                                "restId": "240339",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "FLAT 20% OFF",
+                                                "offerTag": "FLAT DEAL",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "9bcfedea-95a7-4d55-91f7-cab0bf42b87f"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE PARTY",
+                                                "description": "ABOVE ₹800",
+                                                "offerType": "offers",
+                                                "restId": "240339",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        },
+                                        {
+                                            "info": {
+                                                "header": "FLAT ₹150 OFF",
+                                                "offerTag": "FLAT DEAL",
+                                                "offerTagColor": "#E46D47",
+                                                "offerIds": [
+                                                    "18f19335-fc6d-4e7e-a1af-783b83856134"
+                                                ],
+                                                "expiryTime": "1970-01-01T00:00:00Z",
+                                                "couponCode": "USE FLAT150",
+                                                "description": "ABOVE ₹499",
+                                                "offerType": "offers",
+                                                "restId": "240339",
+                                                "offerLogo": "offers/generic",
+                                                "descriptionTextColor": "#7302060C"
+                                            },
+                                            "cta": {
+                                                "type": "OFFER_HALF_CARD"
+                                            }
+                                        }
+                                    ],
+                                    "habitMilestoneInfo": {
+                                        "callout": {
+
+                                        }
+                                    },
+                                    "loyaltyDiscoverPresentationInfo": {
+                                        "logoCtx": {
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "groupedCard": {
+                        "cardGroupMap": {
+                            "REGULAR": {
+                                "cards": [
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                                "badges": {
+
+                                                },
+                                                "vegOnlyDetails": {
+                                                    "imageId": "AutoVegOnly_qkjowj",
+                                                    "title": "Showing only vegetarian options.",
+                                                    "description": "Tap on the VEG ONLY button to turn off the setting"
+                                                },
+                                                "topRatedFilter": {
+
+                                                },
+                                                "kidsCategoryFilter": {
+                                                    "attributes": {
+                                                        "displayText": "Kids Favourites",
+                                                        "tooltip": {
+                                                            "enabled": true,
+                                                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                        }
+                                                    }
+                                                },
+                                                "vegFilter": {
+                                                    "attributes": {
+                                                        "displayText": "VEG"
+                                                    }
+                                                },
+                                                "nonvegFilter": {
+                                                    "attributes": {
+                                                        "displayText": "NONVEG"
+                                                    }
+                                                }
+                                            },
+                                            "relevance": {
+                                                "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                                "sectionId": "MENU_FILTER_TOGGLE"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                                "title": "Recommended",
+                                                "itemCards": [
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "121553734",
+                                                                "name": "Choco Mocha Cake - 500 Grams",
+                                                                "category": "Celebration Cakes",
+                                                                "description": "A mesmerizing fusion of Cocoa-Coffee, irresistible delight for coffee lovers featuring layers of Irish coffee-infused sponge and whipped coffee cream coated in dark chocolate ganache.",
+                                                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/6/62cda99c-ac05-46b7-9d6e-6828e807a1e5_1bd5d03f-b12f-4e7f-93a7-13326b6d3990_compressed",
+                                                                "isVeg": 1,
+                                                                "price": 71900,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+
+                                                                },
+                                                                "addons": [
+                                                                    {
+                                                                        "groupId": "109470862",
+                                                                        "groupName": "Add On - Candles",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "102290212",
+                                                                                "name": "Knife and Candle",
+                                                                                "price": 100,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063691",
+                                                                                "name": "Happy Birthday Candle",
+                                                                                "price": 17900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063692",
+                                                                                "name": "Sparkle Candle",
+                                                                                "price": 3500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063693",
+                                                                                "name": "Magic Candle",
+                                                                                "price": 6500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063694",
+                                                                                "name": "Flower Candle",
+                                                                                "price": 11900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 5,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "109470863",
+                                                                        "groupName": "Add On - Greeting Cards",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "99063695",
+                                                                                "name": "Happy Birthday Greeting Card",
+                                                                                "price": 4900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063696",
+                                                                                "name": "To My Better Half Greeting Card",
+                                                                                "price": 4900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 2,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "127943404",
+                                                                        "groupName": "Add On - Beverages & Nachos",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "109287231",
+                                                                                "name": "Sugarcane (200ml)",
+                                                                                "price": 7000,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "109287232",
+                                                                                "name": "Ice Tea (200ml)",
+                                                                                "price": 7900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "107703137",
+                                                                                "name": "Coke (750ml)",
+                                                                                "price": 7900,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "108317071",
+                                                                                "name": "Peri Peri Nacho Chips",
+                                                                                "price": 8000,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 4,
+                                                                        "maxFreeAddons": -1
+                                                                    }
+                                                                ],
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG"
+                                                                },
+                                                                "ribbon": {
+
+                                                                },
+                                                                "showImage": true,
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+                                                                        "rating": "4.4",
+                                                                        "ratingCount": "6 ratings",
+                                                                        "ratingCountV2": "6"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "48304595",
+                                                                "name": "Chocolate Truffle Eggless Cake",
+                                                                "category": "Celebration Cakes",
+                                                                "description": "Serves 4 | [Eggless/Veg] This chocolate cake gives the richness of chocolate truffle layers. It has a silky texture and a rich, melt-in-your-mouth consistency that is simply irresistible. (6 Serving, 388 calories each, protein-5g each, carbs - 53g each)",
+                                                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/6/96ac60fc-97d7-4c65-a8a0-d5f4b2d3532f_5348924f-649c-49b1-a669-be2a16f2236f_compressed",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "20774199",
+                                                                            "name": "Select Weight",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "500 gms (Serves 4-6)",
+                                                                                    "price": 519,
+                                                                                    "default": 1,
+                                                                                    "id": "68578785",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 879,
+                                                                                    "id": "68578786",
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "20774199",
+                                                                                    "variationId": "68578785"
+                                                                                }
+                                                                            ],
+                                                                            "price": 51900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "109470667",
+                                                                                    "addonId": "99063695"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470667",
+                                                                                    "addonId": "99063696"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "107703137"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "109287231"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "108317071"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "109287232"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "20774199",
+                                                                                    "variationId": "68578786"
+                                                                                }
+                                                                            ],
+                                                                            "price": 87900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "109470667",
+                                                                                    "addonId": "99063695"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470667",
+                                                                                    "addonId": "99063696"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "107703137"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "109287231"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "108317071"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271191",
+                                                                                    "addonId": "109287232"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "109470666",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "addons": [
+                                                                    {
+                                                                        "groupId": "109470666",
+                                                                        "groupName": "Add On - Candles",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "102290212",
+                                                                                "name": "Knife and Candle",
+                                                                                "price": 100,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063691",
+                                                                                "name": "Happy Birthday Candle",
+                                                                                "price": 17900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063692",
+                                                                                "name": "Sparkle Candle",
+                                                                                "price": 3500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063693",
+                                                                                "name": "Magic Candle",
+                                                                                "price": 6500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063694",
+                                                                                "name": "Flower Candle",
+                                                                                "price": 11900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 5,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "109470667",
+                                                                        "groupName": "Add On - Greeting Cards",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "99063695",
+                                                                                "name": "Happy Birthday Greeting Card",
+                                                                                "price": 4900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063696",
+                                                                                "name": "To My Better Half Greeting Card",
+                                                                                "price": 4900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 2,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "125271191",
+                                                                        "groupName": "Add On - Beverages & Nachos",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "109287231",
+                                                                                "name": "Sugarcane (200ml)",
+                                                                                "price": 7000,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "109287232",
+                                                                                "name": "Ice Tea (200ml)",
+                                                                                "price": 7900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "107703137",
+                                                                                "name": "Coke (750ml)",
+                                                                                "price": 7900,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "108317071",
+                                                                                "name": "Peri Peri Nacho Chips",
+                                                                                "price": 8000,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 4,
+                                                                        "maxFreeAddons": -1
+                                                                    }
+                                                                ],
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG",
+                                                                    "portionSize": "Serves 4"
+                                                                },
+                                                                "defaultPrice": 51900,
+                                                                "ribbon": {
+                                                                    "text": "Bestseller",
+                                                                    "textColor": "#ffffff",
+                                                                    "topBackgroundColor": "#d53d4c",
+                                                                    "bottomBackgroundColor": "#b02331"
+                                                                },
+                                                                "showImage": true,
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "isBestseller": true,
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+                                                                        "rating": "4.0",
+                                                                        "ratingCount": "162 ratings",
+                                                                        "ratingCountV2": "162"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "48312633",
+                                                                "name": "Death by Chocolate Eggless Cake",
+                                                                "category": "Celebration Cakes",
+                                                                "description": "[Eggless/Veg] This sinfully rich and moist cake is a celebration of chocolate in all its glory, promising an indulgent experience that will leave you craving more. It's a symphony of Choco chips with chocolate layers that takes the cake to new heights. (6 Serving, 243 calories each, protein-4g each, carbs-39g each)",
+                                                                "imageId": "a299fb8d30628cf729af6fb6e9781bce",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "33431766",
+                                                                            "name": "Select Weight",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "500 gms (Serves 4-6)",
+                                                                                    "price": 699,
+                                                                                    "default": 1,
+                                                                                    "id": "103285895",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 1099,
+                                                                                    "id": "103285896",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "33431766",
+                                                                                    "variationId": "103285895"
+                                                                                }
+                                                                            ],
+                                                                            "price": 69900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "117339911",
+                                                                                    "addonId": "99063695"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339911",
+                                                                                    "addonId": "99063696"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "107703137"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "109287231"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "108317071"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "109287232"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "33431766",
+                                                                                    "variationId": "103285896"
+                                                                                }
+                                                                            ],
+                                                                            "price": 109900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "117339911",
+                                                                                    "addonId": "99063695"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339911",
+                                                                                    "addonId": "99063696"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "107703137"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "109287231"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "108317071"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "125271193",
+                                                                                    "addonId": "109287232"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "117339910",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "addons": [
+                                                                    {
+                                                                        "groupId": "117339910",
+                                                                        "groupName": "Add On - Candles",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "102290212",
+                                                                                "name": "Knife and Candle",
+                                                                                "price": 100,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063691",
+                                                                                "name": "Happy Birthday Candle",
+                                                                                "price": 17900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063692",
+                                                                                "name": "Sparkle Candle",
+                                                                                "price": 3500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063693",
+                                                                                "name": "Magic Candle",
+                                                                                "price": 6500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063694",
+                                                                                "name": "Flower Candle",
+                                                                                "price": 11900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 5,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "117339911",
+                                                                        "groupName": "Add On - Greeting Cards",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "99063695",
+                                                                                "name": "Happy Birthday Greeting Card",
+                                                                                "price": 4900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063696",
+                                                                                "name": "To My Better Half Greeting Card",
+                                                                                "price": 4900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 2,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "125271193",
+                                                                        "groupName": "Add On - Beverages & Nachos",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "109287231",
+                                                                                "name": "Sugarcane (200ml)",
+                                                                                "price": 7000,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "109287232",
+                                                                                "name": "Ice Tea (200ml)",
+                                                                                "price": 7900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "107703137",
+                                                                                "name": "Coke (750ml)",
+                                                                                "price": 7900,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "108317071",
+                                                                                "name": "Peri Peri Nacho Chips",
+                                                                                "price": 8000,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 4,
+                                                                        "maxFreeAddons": -1
+                                                                    }
+                                                                ],
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG"
+                                                                },
+                                                                "defaultPrice": 69900,
+                                                                "ribbon": {
+
+                                                                },
+                                                                "showImage": true,
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+                                                                        "rating": "3.8",
+                                                                        "ratingCount": "25 ratings",
+                                                                        "ratingCountV2": "25"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "95047815",
+                                                                "name": "Chocolate Truffle Lunch Box Cake",
+                                                                "category": "Korean Bento & Mini Cakes",
+                                                                "description": "Serves 1 | [Eggless]Lunch box Bento Cakes are always the best for sweeter celebrations, try our special bento cake and mark the memories.(one bento cake, 1416 calories, 15gms Proteins, 185gms carbs)",
+                                                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/6/d58a6e18-dbd3-4c0a-bca6-74dc714fab91_62c0351c-f3e3-4192-a161-f5ae82075c05_compressed",
+                                                                "isVeg": 1,
+                                                                "price": 29900,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+
+                                                                },
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG",
+                                                                    "portionSize": "Serves 1"
+                                                                },
+                                                                "ribbon": {
+                                                                    "text": "Bestseller",
+                                                                    "textColor": "#ffffff",
+                                                                    "topBackgroundColor": "#d53d4c",
+                                                                    "bottomBackgroundColor": "#b02331"
+                                                                },
+                                                                "showImage": true,
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "isBestseller": true,
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+                                                                        "rating": "3.9",
+                                                                        "ratingCount": "34 ratings",
+                                                                        "ratingCountV2": "34"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "48304567",
+                                                                "name": "Chocolate Jar Cake",
+                                                                "category": "Jar Cake & Cupcakes",
+                                                                "description": "Our chocolate cake in the form of our jar cake is something you and your adorable ones will absolutely like. This cute little chocolate jar cake will fill any celebration with sweet smiles, and the jar makes the cake even more appealing. (1 Serving, 423 calories, 4gms Protein, 44gms Carbs).",
+                                                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/6/13d2de4b-1651-4b38-99a5-43e12cdfc5f4_11ea8a70-6c35-42a5-abc2-9c00071d6949_compressed",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "30640067",
+                                                                            "name": "Select Jar",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "Large Jar (375 ml)",
+                                                                                    "price": 219,
+                                                                                    "id": "95301481",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "Mini Jar (200 ml)",
+                                                                                    "price": 139,
+                                                                                    "default": 1,
+                                                                                    "id": "95301480",
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "30640067",
+                                                                                    "variationId": "95301480"
+                                                                                }
+                                                                            ],
+                                                                            "price": 13900
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "30640067",
+                                                                                    "variationId": "95301481"
+                                                                                }
+                                                                            ],
+                                                                            "price": 21900
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG"
+                                                                },
+                                                                "defaultPrice": 13900,
+                                                                "ribbon": {
+                                                                    "text": "Bestseller",
+                                                                    "textColor": "#ffffff",
+                                                                    "topBackgroundColor": "#d53d4c",
+                                                                    "bottomBackgroundColor": "#b02331"
+                                                                },
+                                                                "showImage": true,
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "isBestseller": true,
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+                                                                        "rating": "4.4",
+                                                                        "ratingCount": "662 ratings",
+                                                                        "ratingCountV2": "662"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "59560372",
+                                                                "name": "Gulab Jamun Red Velvet  Jar Cake",
+                                                                "category": "Jar Cake & Cupcakes",
+                                                                "description": "Serves 1 | [Eggless]. CakeZone's signature fusion cake, a blend of traditional Gulab Jamun and Western Dessert freshly made after you place your order. We stand by our promise, sweeter celebrations with CakeZone.(1 Serving, 520 calories, 6gms Protein, 68gms Carbs).",
+                                                                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/6/465f6798-6d8b-44cf-be38-5b9a9c7dd639_3076a7ba-17d7-44a4-ad7d-2a3f3ee4dd48_compressed",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "7888958",
+                                                                            "name": "Select Jar",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "Mini Jar (200 ml)",
+                                                                                    "price": 179,
+                                                                                    "default": 1,
+                                                                                    "id": "48147095",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "Large Jar (375 ml)",
+                                                                                    "price": 249,
+                                                                                    "id": "48147096",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "7888958",
+                                                                                    "variationId": "48147095"
+                                                                                }
+                                                                            ],
+                                                                            "price": 17900
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "7888958",
+                                                                                    "variationId": "48147096"
+                                                                                }
+                                                                            ],
+                                                                            "price": 24900
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG",
+                                                                    "portionSize": "Serves 1"
+                                                                },
+                                                                "defaultPrice": 17900,
+                                                                "ribbon": {
+
+                                                                },
+                                                                "showImage": true,
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+                                                                        "rating": "3.9",
+                                                                        "ratingCount": "170 ratings",
+                                                                        "ratingCountV2": "170"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    }
+                                                ],
+                                                "type": "CATEGORY_TYPE_RECOMMENDED"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                                "title": "Women's Day Special",
+                                                "itemCards": [
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "112104703",
+                                                                "name": "Happy Women's Day Chocolate Truffle Cake",
+                                                                "category": "Women's Day Special",
+                                                                "description": "Indulge in the sweetness of our chocolate truffle cake, each bite is a journey into the rich chocolate goodness.",
+                                                                "imageId": "9db8d4c8e3f80b44797e2db85ee3c070",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "39521121",
+                                                                            "name": "Select Weight",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 519,
+                                                                                    "default": 1,
+                                                                                    "id": "125920179",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 879,
+                                                                                    "id": "125920180",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521121",
+                                                                                    "variationId": "125920179"
+                                                                                }
+                                                                            ],
+                                                                            "price": 51900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281810",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521121",
+                                                                                    "variationId": "125920180"
+                                                                                }
+                                                                            ],
+                                                                            "price": 87900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281810",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281809",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "addons": [
+                                                                    {
+                                                                        "groupId": "141281809",
+                                                                        "groupName": "Add On - Candles",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "102290212",
+                                                                                "name": "Knife and Candle",
+                                                                                "price": 100,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063691",
+                                                                                "name": "Happy Birthday Candle",
+                                                                                "price": 17900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063692",
+                                                                                "name": "Sparkle Candle",
+                                                                                "price": 3500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063693",
+                                                                                "name": "Magic Candle",
+                                                                                "price": 6500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063694",
+                                                                                "name": "Flower Candle",
+                                                                                "price": 11900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 5,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "141281810",
+                                                                        "groupName": "Add On - Greeting Card",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "115040597",
+                                                                                "name": "Happy Women's Day Greeting Card",
+                                                                                "price": 3900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 1,
+                                                                        "maxFreeAddons": -1
+                                                                    }
+                                                                ],
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG"
+                                                                },
+                                                                "defaultPrice": 51900,
+                                                                "ribbon": {
+
+                                                                },
+                                                                "type": "ITEM",
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "135750436",
+                                                                "name": "Happy Women's Day Nutty Truffle Cake",
+                                                                "category": "Women's Day Special",
+                                                                "description": "Indulge in the sweetness of the Women's Day with the richness of our nutty truffle cake, each bite is a journey into the rich chocolate and crunchy nuts goodness.",
+                                                                "imageId": "5441f6b6ea80e6e929e4053e4353e28b",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "39521122",
+                                                                            "name": "Select Weight",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 579,
+                                                                                    "default": 1,
+                                                                                    "id": "125920181",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 909,
+                                                                                    "id": "125920182",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521122",
+                                                                                    "variationId": "125920181"
+                                                                                }
+                                                                            ],
+                                                                            "price": 57900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281812",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521122",
+                                                                                    "variationId": "125920182"
+                                                                                }
+                                                                            ],
+                                                                            "price": 90900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281812",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281811",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "addons": [
+                                                                    {
+                                                                        "groupId": "141281811",
+                                                                        "groupName": "Add On - Candles",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "102290212",
+                                                                                "name": "Knife and Candle",
+                                                                                "price": 100,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063691",
+                                                                                "name": "Happy Birthday Candle",
+                                                                                "price": 17900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063692",
+                                                                                "name": "Sparkle Candle",
+                                                                                "price": 3500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063693",
+                                                                                "name": "Magic Candle",
+                                                                                "price": 6500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063694",
+                                                                                "name": "Flower Candle",
+                                                                                "price": 11900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 5,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "141281812",
+                                                                        "groupName": "Add On - Greeting Card",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "115040597",
+                                                                                "name": "Happy Women's Day Greeting Card",
+                                                                                "price": 3900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 1,
+                                                                        "maxFreeAddons": -1
+                                                                    }
+                                                                ],
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG"
+                                                                },
+                                                                "defaultPrice": 57900,
+                                                                "ribbon": {
+
+                                                                },
+                                                                "type": "ITEM",
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "135750438",
+                                                                "name": "Happy Women's Day Coffee Cake",
+                                                                "category": "Women's Day Special",
+                                                                "description": "Savor the moments with our delectable Coffee Cake, where every bite is a celebration of rich, aromatic coffee and indulgent sweetness perfect blend of moist, tender chocolate layers, generously infused with the robust essence of premium coffee and belgium ganache.",
+                                                                "imageId": "8c667cf0bfdc1a2703afb20d04702399",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "39521123",
+                                                                            "name": "Select Weight",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 649,
+                                                                                    "default": 1,
+                                                                                    "id": "125920183",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 1129,
+                                                                                    "id": "125920184",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521123",
+                                                                                    "variationId": "125920183"
+                                                                                }
+                                                                            ],
+                                                                            "price": 64900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281816",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521123",
+                                                                                    "variationId": "125920184"
+                                                                                }
+                                                                            ],
+                                                                            "price": 112900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281816",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281815",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "addons": [
+                                                                    {
+                                                                        "groupId": "141281815",
+                                                                        "groupName": "Add On - Candles",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "102290212",
+                                                                                "name": "Knife and Candle",
+                                                                                "price": 100,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063691",
+                                                                                "name": "Happy Birthday Candle",
+                                                                                "price": 17900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063692",
+                                                                                "name": "Sparkle Candle",
+                                                                                "price": 3500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063693",
+                                                                                "name": "Magic Candle",
+                                                                                "price": 6500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063694",
+                                                                                "name": "Flower Candle",
+                                                                                "price": 11900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 5,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "141281816",
+                                                                        "groupName": "Add On - Greeting Card",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "115040597",
+                                                                                "name": "Happy Women's Day Greeting Card",
+                                                                                "price": 3900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 1,
+                                                                        "maxFreeAddons": -1
+                                                                    }
+                                                                ],
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG"
+                                                                },
+                                                                "defaultPrice": 64900,
+                                                                "ribbon": {
+
+                                                                },
+                                                                "type": "ITEM",
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "card": {
+                                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                            "info": {
+                                                                "id": "135750440",
+                                                                "name": "Super Women Photo Cake",
+                                                                "category": "Women's Day Special",
+                                                                "description": "Transform moments into memories with our exclusive Women's Day photo cake a delectable tribute to the strength, resilience of women, flavor is customizable for your special day.",
+                                                                "imageId": "b9d34e399c14048db3bb275b94c47ff6",
+                                                                "isVeg": 1,
+                                                                "variants": {
+
+                                                                },
+                                                                "variantsV2": {
+                                                                    "variantGroups": [
+                                                                        {
+                                                                            "groupId": "39521124",
+                                                                            "name": "Select Flavour",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "Vanilla",
+                                                                                    "default": 1,
+                                                                                    "id": "125920185",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1,
+                                                                                    "dependantVariation": {
+                                                                                        "groupId": "39521125",
+                                                                                        "variationId": "125920190"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "name": "Red Velvet",
+                                                                                    "id": "125920186",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1,
+                                                                                    "dependantVariation": {
+                                                                                        "groupId": "39521125",
+                                                                                        "variationId": "125920191"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "name": "Butterscotch",
+                                                                                    "id": "125920187",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1,
+                                                                                    "dependantVariation": {
+                                                                                        "groupId": "39521125",
+                                                                                        "variationId": "125920192"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "name": "Black Forest",
+                                                                                    "id": "125920188",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1,
+                                                                                    "dependantVariation": {
+                                                                                        "groupId": "39521125",
+                                                                                        "variationId": "125920193"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "name": "Chocolate Truffle",
+                                                                                    "id": "125920189",
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1,
+                                                                                    "dependantVariation": {
+                                                                                        "groupId": "39521125",
+                                                                                        "variationId": "125920194"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "groupId": "39521125",
+                                                                            "name": "Select Weight",
+                                                                            "variations": [
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 759,
+                                                                                    "default": 1,
+                                                                                    "id": "125920190",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 1059,
+                                                                                    "id": "125920191",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 769,
+                                                                                    "id": "125920192",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 759,
+                                                                                    "id": "125920193",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "500 Grams (Serves 4-6)",
+                                                                                    "price": 859,
+                                                                                    "id": "125920194",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 1059,
+                                                                                    "id": "125920195",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 1389,
+                                                                                    "id": "125920196",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 1099,
+                                                                                    "id": "125920197",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 1059,
+                                                                                    "id": "125920198",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                },
+                                                                                {
+                                                                                    "name": "1 Kg (Serves 9-10)",
+                                                                                    "price": 1169,
+                                                                                    "id": "125920199",
+                                                                                    "inStock": 1,
+                                                                                    "isVeg": 1,
+                                                                                    "isEnabled": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "pricingModels": [
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920185"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920190"
+                                                                                }
+                                                                            ],
+                                                                            "price": 75900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920185"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920195"
+                                                                                }
+                                                                            ],
+                                                                            "price": 105900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920186"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920191"
+                                                                                }
+                                                                            ],
+                                                                            "price": 105900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920186"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920196"
+                                                                                }
+                                                                            ],
+                                                                            "price": 138900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920187"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920192"
+                                                                                }
+                                                                            ],
+                                                                            "price": 76900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920187"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920197"
+                                                                                }
+                                                                            ],
+                                                                            "price": 109900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920188"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920193"
+                                                                                }
+                                                                            ],
+                                                                            "price": 75900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920188"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920198"
+                                                                                }
+                                                                            ],
+                                                                            "price": 105900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920189"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920194"
+                                                                                }
+                                                                            ],
+                                                                            "price": 85900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "variations": [
+                                                                                {
+                                                                                    "groupId": "39521124",
+                                                                                    "variationId": "125920189"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "39521125",
+                                                                                    "variationId": "125920199"
+                                                                                }
+                                                                            ],
+                                                                            "price": 116900,
+                                                                            "addonCombinations": [
+                                                                                {
+                                                                                    "groupId": "141281819",
+                                                                                    "addonId": "115040597"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "102290212"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063691"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063692"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063693"
+                                                                                },
+                                                                                {
+                                                                                    "groupId": "141281818",
+                                                                                    "addonId": "99063694"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "addons": [
+                                                                    {
+                                                                        "groupId": "141281818",
+                                                                        "groupName": "Add On - Candles",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "102290212",
+                                                                                "name": "Knife and Candle",
+                                                                                "price": 100,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063691",
+                                                                                "name": "Happy Birthday Candle",
+                                                                                "price": 17900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063692",
+                                                                                "name": "Sparkle Candle",
+                                                                                "price": 3500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063693",
+                                                                                "name": "Magic Candle",
+                                                                                "price": 6500,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "id": "99063694",
+                                                                                "name": "Flower Candle",
+                                                                                "price": 11900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 5,
+                                                                        "maxFreeAddons": -1
+                                                                    },
+                                                                    {
+                                                                        "groupId": "141281819",
+                                                                        "groupName": "Add On - Greeting Card",
+                                                                        "choices": [
+                                                                            {
+                                                                                "id": "115040597",
+                                                                                "name": "Happy Women's Day Greeting Card",
+                                                                                "price": 3900,
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ],
+                                                                        "maxAddons": 1,
+                                                                        "maxFreeAddons": -1
+                                                                    }
+                                                                ],
+                                                                "itemAttribute": {
+                                                                    "vegClassifier": "VEG"
+                                                                },
+                                                                "defaultPrice": 75900,
+                                                                "ribbon": {
+
+                                                                },
+                                                                "type": "ITEM",
+                                                                "itemBadge": {
+
+                                                                },
+                                                                "badgesV2": {
+
+                                                                },
+                                                                "ratings": {
+                                                                    "aggregatedRating": {
+
+                                                                    }
+                                                                }
+                                                            },
+                                                            "analytics": {
+
+                                                            },
+                                                            "hideRestaurantDetails": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                                "name": "CakeZone Patisserie",
+                                                "area": "Omr Perungudi, State Bank Colony",
+                                                "completeAddress": "NO. 9, MUTHIMAIL NAGAR, 4TH CROSS  STREET, OMR, RAJIV GANDHI SALAI,  KARAPAKKAM, CHENNAI, ST.Thomas Mount  block Ward-197, Kancheepuram, Tamil  Nadu-600097"
+                                            }
+                                        }
+                                    },
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "firstOffsetRequest": true,
+            "isQCLink": false
+        },
+    },
+    {
+        "data": {
+            "statusMessage": "done successfully",
+            "cards": [
+                {
+                    "card": {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                            "info": {
+                                "id": "8293",
+                                "name": "Ovenfresh Pizzas, Cakes & Desserts",
+                                "city": "Chennai",
+                                "slugs": {
+                                    "restaurant": "ovenfresh-taramani-link-road-velachery",
+                                    "city": "chennai"
+                                },
+                                "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                                "cloudinaryImageId": "9b980b360fc974ac5171051b03dabbbc",
+                                "locality": "Gopal Street",
+                                "areaName": "Taramani",
+                                "costForTwo": "40000",
+                                "costForTwoMessage": "₹400 for two",
+                                "cuisines": [
+                                    "Bakery",
+                                    "Pizzas"
+                                ],
+                                "avgRating": 4.1,
+                                "feeDetails": {
+                                    "restaurantId": "8293",
+                                    "fees": [
+                                        {
+                                            "name": "distance",
+                                            "fee": 13800
+                                        },
+                                        {
+                                            "name": "time"
+                                        },
+                                        {
+                                            "name": "special"
+                                        }
+                                    ],
+                                    "totalFee": 13800,
+                                    "icon": "v1648208530/surgecreatives/info",
+                                    "message": "Very Far (11.6 kms) | Additional delivery fee will apply"
+                                },
+                                "parentId": "304929",
+                                "avgRatingString": "4.1",
+                                "totalRatingsString": "5K+ ratings",
+                                "sla": {
+                                    "restaurantId": "8293",
+                                    "deliveryTime": 27,
+                                    "minDeliveryTime": 27,
+                                    "maxDeliveryTime": 27,
+                                    "lastMileTravel": 11.6,
+                                    "serviceability": "SERVICEABLE",
+                                    "stressFactor": 1,
+                                    "rainMode": "RAIN_MODE_NONE",
+                                    "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                                    "zoneId": 113,
+                                    "slaString": "27 MINS",
+                                    "lastMileTravelString": "11.6 km",
+                                    "iconType": "ICON_TYPE_EMPTY"
+                                },
+                                "availability": {
+                                    "nextOpenTimeMessage": "Opens next at 5:30 am, Thursday",
+                                    "nextOpenTime": "1970-01-01 05:30:00",
+                                    "visibility": true,
+                                    "restaurantClosedMeta": {
+
+                                    }
+                                },
+                                "aggregatedDiscountInfo": {
+                                    "visible": true
+                                },
+                                "badges": {
+
+                                },
+                                "slugString": "ovenfresh-taramani-link-road-velachery",
+                                "labels": [
+                                    {
+                                        "title": "Timings",
+                                        "message": "null"
+                                    },
+                                    {
+                                        "title": "Address",
+                                        "message": "No.1, Gopal Street, Velachery Taramani Link road, Velachery, Chennai - 600042"
+                                    },
+                                    {
+                                        "title": "Cuisines",
+                                        "message": "Bakery,Pizzas"
+                                    }
+                                ],
+                                "totalRatings": 5000,
+                                "aggregatedDiscountInfoV2": {
+                                    "visible": true
+                                },
+                                "type": "F",
+                                "headerBanner": {
+                                    "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/8293"
+                                },
+                                "ratingSlab": "RATING_SLAB_5",
+                                "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 5:30 am, Thursday",
+                                "orderabilityCommunication": {
+                                    "title": {
+                                        "text": "Currently"
+                                    },
+                                    "subTitle": {
+                                        "text": "CLOSED"
+                                    },
+                                    "message": {
+                                        "text": "Uh-oh! The outlet is not accepting orders at the moment. We're working to get them back online",
+                                        "textColour": "primary"
+                                    },
+                                    "customIcon": {
+                                        "bgGradientColorStart": "#EB8322",
+                                        "bgGradientColorEnd": "#EE5803"
+                                    }
+                                },
+                                "brandHeaderText": "Interested in dining out here?\nEnjoy flat 50% off with Swiggy Dineout",
+                                "cartOrderabilityNudgeBanner": {
+                                    "parameters": {
+
+                                    },
+                                    "presentation": {
+
+                                    }
+                                },
+                                "latLong": "12.979537,80.227467",
+                                "backgroundImageOverlayInfo": {
+
+                                }
+                            },
+                            "analytics": {
+
+                            }
+                        },
+                        "relevance": {
+                            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                            "sectionId": "POP_UP_CROUTON_MENU"
+                        }
+                    }
+                },
+                {
+                    "groupedCard": {
+                        "cardGroupMap": {
+                            "REGULAR": {
+                                "cards": [
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                                "badges": {
+
+                                                },
+                                                "vegOnlyDetails": {
+                                                    "imageId": "AutoVegOnly_qkjowj",
+                                                    "title": "Showing only vegetarian options.",
+                                                    "description": "Tap on the VEG ONLY button to turn off the setting"
+                                                },
+                                                "topRatedFilter": {
+
+                                                },
+                                                "kidsCategoryFilter": {
+                                                    "attributes": {
+                                                        "displayText": "Kids Favourites",
+                                                        "tooltip": {
+                                                            "enabled": true,
+                                                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                        }
+                                                    }
+                                                },
+                                                "vegFilter": {
+                                                    "attributes": {
+                                                        "displayText": "VEG"
+                                                    }
+                                                },
+                                                "nonvegFilter": {
+                                                    "attributes": {
+                                                        "displayText": "NONVEG"
+                                                    }
+                                                }
+                                            },
+                                            "relevance": {
+                                                "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                                "sectionId": "MENU_FILTER_TOGGLE"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                                "type": "FSSAI",
+                                                "imageId": "fssai_final_edss9i",
+                                                "text": [
+                                                    "License No. 12422002000843"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "card": {
+                                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                                "name": "Ovenfresh Pizzas, Cakes & Desserts",
+                                                "area": "Taramani",
+                                                "completeAddress": "No.1, Gopal Street, Velachery Taramani Link road, Velachery, Chennai - 600042"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "firstOffsetRequest": true,
+            "isQCLink": false
+        },
     }
 ]
