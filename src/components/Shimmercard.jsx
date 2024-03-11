@@ -3,63 +3,63 @@ export const Shimmercard = () => {
         <div className="mx-44 flex justify-center animate-pulse ">
             <div className="max-sm:hidden">
                 <div className="h-12 w-60 bg-slate-100"></div>
-                <div className="h-20 w-60 py-1 bg-slate-900">
+                <div className="h-20 w-60 py-1 bg-slate-200">
                     <div className="flex mx-4 my-4 items-center">
                         <p className="w-10 h-10 mr-4 rounded-full bg-slate-100"></p>
                         <p className="w-28 h-2  bg-slate-100"></p>
                     </div>
                     <div className="flex mx-4 my-8 items-center">
-                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-900"></p>
-                        <p className="w-28 h-2  bg-slate-900"></p>
+                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-200"></p>
+                        <p className="w-28 h-2  bg-slate-200"></p>
                     </div>
                     <div className="flex mx-4 my-8 items-center">
-                        <p className="w-10 h-10 mr-8 rounded-full bg-slate-900"></p>
-                        <p className="w-28 h-2  bg-slate-900"></p>
+                        <p className="w-10 h-10 mr-8 rounded-full bg-slate-200"></p>
+                        <p className="w-28 h-2  bg-slate-200"></p>
                     </div>
                     <div className="flex mx-4 my-8 items-center">
-                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-900"></p>
-                        <p className="w-28 h-2  bg-slate-900"></p>
+                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-200"></p>
+                        <p className="w-28 h-2  bg-slate-200"></p>
                     </div>
                     <div className="flex mx-4 my-8 items-center">
-                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-900"></p>
-                        <p className="w-28 h-2  bg-slate-900"></p>
+                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-200"></p>
+                        <p className="w-28 h-2  bg-slate-200"></p>
                     </div>
                     <div className="flex mx-4 my-8 items-center">
-                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-900"></p>
-                        <p className="w-28 h-2  bg-slate-900"></p>
+                        <p className="w-10 h-10 mr-4 rounded-full bg-slate-200"></p>
+                        <p className="w-28 h-2  bg-slate-200"></p>
                     </div>
                 </div>
             </div>
             <div className="flex flex-wrap justify-center items-center ml-10 max-sm:ml-0">
                 <div className="">
-                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-800"></div>
-                    <p className="w-40 h-2  mx-5 my-4 bg-slate-900"></p>
-                    <p className="w-32 h-2  mx-5 my-4 bg-slate-900"></p>
+                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-200"></div>
+                    <p className="w-40 h-2  mx-5 my-4 bg-slate-200"></p>
+                    <p className="w-32 h-2  mx-5 my-4 bg-slate-200"></p>
                 </div>
                 <div className="">
-                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-900"></div>
-                    <p className="w-40 h-2  mx-5 my-4 bg-slate-900"></p>
-                    <p className="w-32 h-2  mx-5 my-4 bg-slate-900"></p>
+                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-200"></div>
+                    <p className="w-40 h-2  mx-5 my-4 bg-slate-200"></p>
+                    <p className="w-32 h-2  mx-5 my-4 bg-slate-200"></p>
                 </div>
                 <div className="">
-                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-900"></div>
-                    <p className="w-40 h-2  mx-5 my-4 bg-slate-900"></p>
-                    <p className="w-32 h-2  mx-5 my-4 bg-slate-900"></p>
+                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-200"></div>
+                    <p className="w-40 h-2  mx-5 my-4 bg-slate-200"></p>
+                    <p className="w-32 h-2  mx-5 my-4 bg-slate-200"></p>
                 </div>
                 <div className="">
-                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-900"></div>
-                    <p className="w-40 h-2  mx-5 my-4 bg-slate-900"></p>
-                    <p className="w-32 h-2  mx-5 my-4 bg-slate-900"></p>
+                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-200"></div>
+                    <p className="w-40 h-2  mx-5 my-4 bg-slate-200"></p>
+                    <p className="w-32 h-2  mx-5 my-4 bg-slate-200"></p>
                 </div>
                 <div className="">
-                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-900"></div>
-                    <p className="w-40 h-2  mx-5 my-4 bg-slate-900"></p>
-                    <p className="w-32 h-2  mx-5 my-4 bg-slate-900"></p>
+                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-200"></div>
+                    <p className="w-40 h-2  mx-5 my-4 bg-slate-200"></p>
+                    <p className="w-32 h-2  mx-5 my-4 bg-slate-200"></p>
                 </div>
                 <div className="">
-                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-900"></div>
-                    <p className="w-40 h-2  mx-5 my-4 bg-slate-900"></p>
-                    <p className="w-32 h-2  mx-5 my-4 bg-slate-900"></p>
+                    <div className="flex mx-4 mt-16  w-56 h-44 bg-slate-200"></div>
+                    <p className="w-40 h-2  mx-5 my-4 bg-slate-200"></p>
+                    <p className="w-32 h-2  mx-5 my-4 bg-slate-200"></p>
                 </div>
             </div>
         </div>
