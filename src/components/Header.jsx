@@ -23,12 +23,12 @@ export const Header = () => {
 
                         <Home className='mx-1 max-sm:pb-1 mb-[0.1em]  text-gray-500 hover:text-[#fca729] w-[24px] max-sm:w-[18px] max-sm:mx-[2px]' />
                         Home</li></Link>
-                <Link className='flex items-center  ' to={'/contact'}>
+                {/* <Link className='flex items-center  ' to={'/contact'}>
                     <li
                         className=' flex justify-center items-center  mx-4 outline-none text-[1.4em] text-gray-500 font-semibold max-sm:text-md max-sm:text-[15px] max-sm:mx-[0.4em] hover:text-[#fca729]' >
 
                         <Contact className='mx-1 max-sm:pb-1 mb-[0.1em] text-gray-500 hover:text-[#fca729] w-[24px] max-sm:w-[18px] max-sm:mx-[2px]' />
-                        Contact us</li></Link>
+                        Contact us</li></Link> */}
                 <Link
                     to={'/offers'}>
                     <li

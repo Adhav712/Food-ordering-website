@@ -7,7 +7,7 @@ import { Instagram } from "lucide-react"
 export const Contact = () => {
 
     return (
-        <div className=" flex my-10  max-lg:flex max-lg:justify-center  ">
+        <div className=" flex my-10  max-lg:flex max-lg:justify-center ">
             <div className="flex justify-center w-full max-md:block max-lg:block max-lg:mx-80 ">
                 <div className="max-sm:rounded-xl max-sm:my-4 shadow-md w-[25em] max-sm:w-[20em] p-4 shadow-gray-400 rounded-s-2xl pl-8">
                     <h1 className="text-[#296dcddb] text-4xl font-semibold max-sm:text-3xl">Let's Get in Touch</h1>
@@ -17,12 +17,12 @@ export const Contact = () => {
                     <div className="">
                         <h1 className="text-[#296dcddb] font-semibold text-xl ">Contact with us:</h1>
                         <div className="flex  my-2 items-center mx-8 justify-evenly">
-                            <Github className="mx-4 my-4 text-white p-1 size-10 rounded-md bg-gray-900 hover:text-[#296dcddb] hover:bg-white hover:rounded-lg hover:shadow-sm hover:shadow-gray-600" />
-                            <Linkedin className="mx-4 my-4 text-white p-1 size-10 rounded-md bg-[#296dcddb] hover:text-[#296dcddb] hover:bg-white hover:rounded-lg hover:shadow-sm hover:shadow-gray-600" />
-                            <Instagram className="mx-4 my-4 text-white p-1 size-10 rounded-md bg-pink-600 hover:text-[#296dcddb] hover:bg-white hover:rounded-lg hover:shadow-sm hover:shadow-gray-600" />
-                        </div>
+                            <a href="https://github.com/Vaigarai14" target="_blank"><Github className="mx-4 my-4 text-white p-1 size-10 rounded-md bg-gray-900 hover:text-[#296dcddb] hover:bg-white hover:rounded-lg hover:shadow-sm hover:shadow-gray-600" /></a>
+                            <a href="https://www.linkedin.com/in/vaikarai-14-28-l/" target="_blank"><Linkedin className="mx-4 my-4 text-white p-1 size-10 rounded-md bg-[#296dcddb] hover:text-[#296dcddb] hover:bg-white hover:rounded-lg hover:shadow-sm hover:shadow-gray-600" /></a>
+                            <a href="https://www.instagram.com/vaigarai14/" target="_blank"><Instagram className="mx-4 my-4 text-white p-1 size-10 rounded-md bg-pink-600 hover:text-[#296dcddb] hover:bg-white hover:rounded-lg hover:shadow-sm hover:shadow-gray-600" />                            </a>                       </div>
                     </div>
                 </div>
+
                 <div className="max-sm:my-4 max-sm:rounded-xl bg-[#296dcddb] shadow-md w-[25em] max-sm:w-[20em] shadow-gray-400 p-4 rounded-e-2xl ">
                     <h1 className="text-4xl mb-5 font-semibold text-white max-sm:text-3xl">Contact Us</h1>
                     <form action="" className="block">
@@ -60,6 +60,7 @@ export const Contact = () => {
                         ></textarea>
                         <div className="flex justify-center ">
                             <button
+                                // onClick={}
                                 className="w-36 text-white text-lg font-semibold rounded-lg
                                  py-2 px-2 m-2 border-2 border-white hover:bg-white hover:text-[#296dcddb]"
                                 type="submit">Submit</button>
