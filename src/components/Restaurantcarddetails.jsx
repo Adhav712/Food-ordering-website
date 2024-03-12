@@ -6,24 +6,21 @@ import { userestaurantdetails } from "../Hooks/userestaurantdetails"
 import { Restauranttitlecard } from "./Restauranttitlecard"
 import { Shimmeraccordian } from './Shimmeraccordian'
 import { Accordiandata } from '../Mock/Accordiandata'
+import { Accordiandatas } from '../Mock/Accordiandatas'
 import { useParams } from "react-router-dom"
 export const Restaurantcarddetails = () => {
 
     const { resId } = useParams()
 
     const Accordiancard = Accordiandata.find(item => item.data.cards[0].card.card.info.id === resId)
+    const Accordiancard2 = Accordiandatas.find(item => item.data.cards[0].card.card.info.id === resId)
 
-    console.log(Accordiancard?.data?.cards[0]?.card?.card?.info);
+    const headerdata = Accordiancard?.data?.cards[0]?.card?.card?.info || Accordiancard2?.data?.cards[0]?.card?.card?.info
+    const item = Accordiancard?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle || Accordiancard2?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+    const groupedCard = Accordiancard?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR || Accordiancard2?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
 
-    const { data } = userestaurantdetails()
-    const headerdata = Accordiancard?.data?.cards[0]?.card?.card?.info
-    const item = Accordiancard?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-    const groupedCard = Accordiancard?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
-    const datalen = Accordiancard?.data?.cards?.length
-
-    return datalen === undefined ? <Shimmeraccordian /> : (
+    return (
         < div className="mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-20 max-sm:mt-10 overflow-hidden " >
-            {console.log(datalen)}
             <div className=" border border-gray-300 px-8 max-sm:px-4 rounded-xl">
                 <h1 className="text-gray-900 text-4xl font-bold mt-10 max-sm:text-2xl">{headerdata?.name}</h1>
                 <div className="flex justify-between items-center max-sm:mt-4">

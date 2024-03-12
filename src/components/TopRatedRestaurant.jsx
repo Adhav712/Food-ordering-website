@@ -17,7 +17,7 @@ export const TopRatedRestaurant = () => {
     const mapdata = data[1]?.card?.card?.gridElements?.infoWithStyle
 
     const [slidesToShow, setSlidesToShow] = useState(4)
-    const [scroll, setscroll] = useState(3)
+    const [scroll, setscroll] = useState(4)
 
 
     const sliderRef = useRef()
@@ -35,7 +35,7 @@ export const TopRatedRestaurant = () => {
                 setSlidesToShow(2);
                 setscroll(2)
             }
-            else if (window.innerWidth <= 1300) {
+            else if (window.innerWidth <= 1400) {
                 setSlidesToShow(3);
                 setscroll(3)
             }
