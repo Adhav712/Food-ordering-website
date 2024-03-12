@@ -9,7 +9,7 @@ export const Restaurantgroupcard = ({ data }) => {
   const handlecheck = (item, e) => {
     dispatch(additems(item));
     //console.log(e.type === 'click');
-    e.type === "click" && <Buttonpage />;
+    // e.type === "click" && <Buttonpage />;
   };
 
   return (
