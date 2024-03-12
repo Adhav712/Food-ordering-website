@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 import { withofferlabel } from './Restaurantmainmenucart'
 
 
-// Restaurants with online food delivery in Chennai
+//^ Restaurants with online food delivery in Chennai  [ SEARCH ]
 
 export const Restaurantcard = () => {
 
@@ -96,7 +96,7 @@ export const Restaurantcard = () => {
                     className="text-gray-600 max-sm:text-sm max-sm:mx-0  max-sm:my-4 py-2 px-4 border border-gray-300 mx-2 rounded-3xl">Reset</button>
 
             </div>
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap justify-center ">
                 {
                     data.length > 0 && filterarray.map((item) => {
                         return <Link key={item.info.id} to={'/home/topratedrestaurant/' + item.info.id}>

@@ -22,16 +22,16 @@ export const Restaurantcarddetails = () => {
     const datalen = Accordiancard?.data?.cards?.length
 
     return datalen === undefined ? <Shimmeraccordian /> : (
-        < div className="mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-20 overflow-hidden" >
+        < div className="mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-20 max-sm:mt-10 overflow-hidden " >
             {console.log(datalen)}
-            <div className=" border border-gray-300 px-8 rounded-xl">
+            <div className=" border border-gray-300 px-8 max-sm:px-4 rounded-xl">
                 <h1 className="text-gray-900 text-4xl font-bold mt-10 max-sm:text-2xl">{headerdata?.name}</h1>
                 <div className="flex justify-between items-center max-sm:mt-4">
                     <div>
                         <h1 className="text-gray-500 mt-4">{headerdata?.cuisines.join(' ')}</h1>
                         <h1 className="text-gray-500 m1-1 max-sm:text-sm">{headerdata?.areaName} {headerdata?.sla?.lastMileTravelString}</h1>
                     </div>
-                    <div className="border-2 border-slate-300 p-2 mx-2 max-sm:border-1">
+                    <div className="border-2 border-slate-300 p-2 mx-2 max-sm:border-1 ">
                         <div className="flex justify-center items-center border-b-2 border-slate-300 max-sm:border-1">
                             {
                                 < Star className="p-1 size-8 font-bold text-green-600 max-sm:size-6" />}
@@ -41,7 +41,7 @@ export const Restaurantcarddetails = () => {
                     </div>
                 </div>
                 <div className="border-b-[0.2em]  border-dashed items-center pt-4 pb-2 border-slate-300 flex ">
-                    {headerdata?.feeDetails?.message && <Info className="bg-orange-500 mb-4 size-6 text-white rounded-full mx-2" />}
+                    {headerdata?.feeDetails?.message && <Info className="bg-orange-500 mb-4 max-sm:w-7 size-6 text-white rounded-full mx-2" />}
                     <p className="text-slate-500 pb-4 max-sm:text-sm">{headerdata?.feeDetails?.message}</p>
                 </div>
 

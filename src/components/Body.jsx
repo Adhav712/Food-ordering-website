@@ -10,6 +10,7 @@ import { Shimmerui } from './Shimmerui';
 import { Shimmercards } from './Shimmercards';
 import { Accordiandata } from '../Mock/Accordiandata';
 
+//* What's on your mind?
 
 export const Body = () => {
 

@@ -16,7 +16,7 @@ function App() {
 
     // className='bg-gray-400'
     <Provider store={appstore}>
-      <div className='w-full'>
+      <div className='w-auto'>
         <Header />
         <Outlet />
       </div>

@@ -1,11 +1,14 @@
 import { Star } from "lucide-react"
 
+//^ Restaurants with online food delivery in Chennai  [ CARDS ]
+
+
 export const Restaurantmainmenucart = ({ data }) => {
     const { name, avgRatingString, cuisines, sla, cloudinaryImageId, costForTwo } = data?.info
 
     return data !== undefined && (
         <div className="">
-            <div className=' my-4 transition ease-out   hover:shadow-lg hover:scale-95 hover:shadow-slate-500  delay-75  duration-100
+            <div className=' my-4 transition ease-out   hover:shadow-lg  hover:shadow-slate-500  delay-75  duration-100
                              max-sm:w-64 w-[18em]  shadow-md shadow-slate-300  rounded-xl p-4 m-3 min-h-48 h-[26em] max-h-[30em]'>
                 <div className='flex justify-center items-center'>
                     <img

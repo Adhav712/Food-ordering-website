@@ -13,7 +13,7 @@ const Offers = () => {
     return (
         <div className='mx-10'>
             <div className='text-center'>
-                <h1 className=' font-bold text-gray-800 text-6xl my-8'>Offer Carts</h1>
+                <h1 className=' font-bold text-gray-800 text-6xl my-8 max-sm:text-4xl'>Offer Carts</h1>
             </div>
             <div className=' inline-flex justify-center flex-wrap'>
                 {mapdata === undefined ? <Shimmercards /> : mapdata.map((item) => {
