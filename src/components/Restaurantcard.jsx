@@ -68,9 +68,9 @@ export const Restaurantcard = () => {
     return originallist === undefined ? <Shimmercards /> : (
         <div>
             <div >
-                <h1 className="max-sm:text-xl max-sm:mt-4 text-gray-900 text-2xl font-bold mt-10 ">{headingdata?.title}</h1>
+                <h1 className="max-sm:text-xl max-sm:mt-8 text-gray-900 text-2xl font-bold mt-10 ">{headingdata?.title}</h1>
             </div>
-            <div className="my-5 mt-10">
+            <div className="my-5 mt-10 max-sm:text-center">
                 {/* //& input */}
                 <input className="max-sm:w-48 max-sm:mx-1 outline-none border-2 rounded-lg p-2 mx-2 px-4 border-[#fca729]" type="search" name="search" id="search"
                     onChange={(e) => {

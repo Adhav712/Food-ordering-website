@@ -72,11 +72,11 @@ export const Body = () => {
     }
 
     return data.length < 1 ? <Shimmerui /> : (
-        <div className='max-md:mx-10 mx-36 my-10 pb-5'>
+        <div className='max-md:mx-10 mx-36 my-10 pb-5 max-sm:mx-4 max-sm:my-8'>
             <div className=" border-b-2 border-slate-200 pb-4" >
                 <div className='flex justify-between'>
                     <div>
-                        <h1 className="text-2xl font-bold max-sm:text-sm">{getdata?.header?.title}</h1>
+                        <h1 className="text-2xl font-bold max-sm:text-lg">{getdata?.header?.title}</h1>
                     </div>
                     <div className='inline-flex mx-4'>
                         <ArrowLeft className='size-7 mx-2 rounded-full p-1 bg-slate-300' onClick={previous} />

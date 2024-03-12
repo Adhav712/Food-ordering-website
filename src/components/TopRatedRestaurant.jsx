@@ -8,7 +8,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { Restaurantcard } from "./Restaurantcard"
 import { Shimmercard } from "./Shimmercard"
 import { Topratedcart } from "./Topratedcart"
-import { Link } from "react-router-dom"
 
 
 export const TopRatedRestaurant = () => {
@@ -18,7 +17,7 @@ export const TopRatedRestaurant = () => {
     const mapdata = data[1]?.card?.card?.gridElements?.infoWithStyle
 
     const [slidesToShow, setSlidesToShow] = useState(4)
-    const [scroll, setscroll] = useState(1)
+    const [scroll, setscroll] = useState(3)
 
 
     const sliderRef = useRef()
@@ -28,7 +27,11 @@ export const TopRatedRestaurant = () => {
             if (window.innerWidth <= 475) {
                 setSlidesToShow(1);
                 setscroll(1)
-            } else if (window.innerWidth <= 1000) {
+            } else if (window.innerWidth <= 1030) {
+                setSlidesToShow(2);
+                setscroll(2)
+            }
+            else if (window.innerWidth <= 700) {
                 setSlidesToShow(2);
                 setscroll(2)
             }
