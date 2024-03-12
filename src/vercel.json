@@ -1,0 +1,30 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/",
+            "children": [
+                {
+                    "src": "/",
+                    "dest": "Body /"
+                },
+                {
+                    "src": "/home",
+                    "dest": "/"
+                },
+                {
+                    "src": "/contact",
+                    "dest": "/"
+                },
+                {
+                    "src": "/offers",
+                    "dest": "/"
+                },
+                {
+                    "src": "/carts",
+                    "dest": "/"
+                }
+            ]
+        }
+    ]
+}
