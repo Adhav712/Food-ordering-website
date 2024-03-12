@@ -10,8 +10,8 @@ export const Topratedcart = ({ data }) => {
         <div className='flex justify-center'>
             <Link to={'/home/restaurantdetails/' + id}>
 
-                <div key={id} className='transition ease-in delay-75  hover:scale-95  duration-100  
-w-[24em] max-xl:w-[14em] max-sm:w-[14em] max-sm:h-[24em]  max-sm:pb-5 max-sm:mt-8 max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[24em] max-h-[33em] '>
+                <div key={id} className='transition ease-in delay-75  hover:scale-95 hover:shadow-lg hover:shadow-slate-400  duration-100  
+w-[24em] max-xl:w-[14em] max-sm:w-[14em] max-sm:h-[24em]  max-sm:pb-5 max-sm:mt-8 max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[26em] max-h-[35em] '>
                     <div className='flex justify-center items-center'>
                         <img
                             className='max-sm:w-56 max-sm:10 max-sm:h-36 rounded-lg w-60 h-44 object-cover shadow-md shadow-slate-400'
