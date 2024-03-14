@@ -23,21 +23,21 @@ export const Restaurantgroupcard = ({ data }) => {
             className="mt-5  mb-12 max-sm:mb-1  border-b-2 pb-8 border-gray-200"
           >
             <h1 className="text-xl mb-2 font-semibold max-sm:text-lg text-gray-800">
-              {" "}
-              {name}{" "}
+
+              {name}
             </h1>
             <div className="flex justify-between items-center">
               <div className="max-sm:w-15 max-lg:w-[10em]">
                 <h1 className="text-md my-2 font-semibold text-gray-800">
-                  {" "}
-                  ₹ {defaultPrice / 100 || price / 100}{" "}
+
+                  ₹ {defaultPrice / 100 || price / 100}
                 </h1>
                 <h1
                   className="text-sm my-2 text-gray-400 w-[35em] max-sm:w-[10em] max-lg:w-[25em] max-2xl:text-red-900 
                         max-xl:w-[20em] max-md:text-purple-700 max-sm:text-cyan-700 max-lg:text-yellow-500 max-xl:text-green-900 "
                 >
-                  {" "}
-                  {description}{" "}
+
+                  {description}
                 </h1>
               </div>
               <div className="relative">

@@ -22,7 +22,10 @@
                   "areaName": "Nehru Nagar",
                   "costForTwo": "40000",
                   "costForTwoMessage": "₹400 for two",
-                  "cuisines": ["Burgers", "Beverages"],
+                  "cuisines": [
+                    "Burgers",
+                    "Beverages"
+                  ],
                   "avgRating": 4.3,
                   "feeDetails": {
                     "restaurantId": "234986",
@@ -207,7 +210,9 @@
                         "info": {
                           "header": "40% OFF UPTO ₹80",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["100fb38b-2cf6-4ccf-a8c1-03849ba9f323"],
+                          "offerIds": [
+                            "100fb38b-2cf6-4ccf-a8c1-03849ba9f323"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SWIGGYIT",
                           "description": "ON SELECT ITEMS",
@@ -225,7 +230,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -243,7 +250,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -261,7 +270,9 @@
                           "header": "FLAT ₹30 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/7a464ef1-4018-4e4b-84b0-752e720c6604_SimplMenuLogo.png",
-                          "offerIds": ["0293bf7c-7c05-4161-8b5e-4816e0c5b90f"],
+                          "offerIds": [
+                            "0293bf7c-7c05-4161-8b5e-4816e0c5b90f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SIMPL30",
                           "description": "ABOVE ₹300",
@@ -8418,7 +8429,10 @@
                   "areaName": "Old Mahabalipuram Road OMR",
                   "costForTwo": "25000",
                   "costForTwoMessage": "₹250 for two",
-                  "cuisines": ["Chinese", "Asian"],
+                  "cuisines": [
+                    "Chinese",
+                    "Asian"
+                  ],
                   "avgRating": 3.9,
                   "feeDetails": {
                     "restaurantId": "485445",
@@ -8571,7 +8585,9 @@
                           "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
                           "type": "FSSAI",
                           "imageId": "fssai_final_edss9i",
-                          "text": ["License No. 12422008000380"]
+                          "text": [
+                            "License No. 12422008000380"
+                          ]
                         }
                       }
                     },
@@ -8617,7 +8633,10 @@
                   "areaName": "Parameswaran Nagar",
                   "costForTwo": "25000",
                   "costForTwoMessage": "₹250 for two",
-                  "cuisines": ["Biryani", "Thalis"],
+                  "cuisines": [
+                    "Biryani",
+                    "Thalis"
+                  ],
                   "feeDetails": {
                     "icon": "v1648635511/Delivery_fee_new_cjxumu"
                   },
@@ -8785,7 +8804,9 @@
                           "header": "EVERY ITEM @ ₹179",
                           "offerTag": "DEAL OF DAY",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["8e2f1045-bcc1-44c8-8371-6af814fc6ee6"],
+                          "offerIds": [
+                            "8e2f1045-bcc1-44c8-8371-6af814fc6ee6"
+                          ],
                           "expiryTime": "1970-01-01T01:43:19Z",
                           "offerType": "offers",
                           "restId": "800999",
@@ -8962,7 +8983,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9079,7 +9102,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9195,7 +9220,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9312,7 +9339,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9429,7 +9458,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9546,7 +9577,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9663,7 +9696,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9780,7 +9815,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -9897,7 +9934,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10014,7 +10053,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10131,7 +10172,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10248,7 +10291,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10365,7 +10410,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10482,7 +10529,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10598,7 +10647,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10714,7 +10765,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10830,7 +10883,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -10946,7 +11001,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11062,7 +11119,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11126,7 +11185,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11180,7 +11241,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11234,7 +11297,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11288,7 +11353,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11342,7 +11409,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11396,7 +11465,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11450,7 +11521,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11504,7 +11577,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11558,7 +11633,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11612,7 +11689,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11666,7 +11745,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11720,7 +11801,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11774,7 +11857,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11828,7 +11913,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11881,7 +11968,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11934,7 +12023,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -11987,7 +12078,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12040,7 +12133,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12093,7 +12188,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12146,7 +12243,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12199,7 +12298,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12239,7 +12340,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12268,7 +12371,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12297,7 +12402,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12326,7 +12433,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12355,7 +12464,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12385,7 +12496,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12415,7 +12528,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12445,7 +12560,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12475,7 +12592,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12505,7 +12624,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12535,7 +12656,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12565,7 +12688,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12594,7 +12719,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12623,7 +12750,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12652,7 +12781,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12723,7 +12854,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12784,7 +12917,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12845,7 +12980,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12906,7 +13043,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -12967,7 +13106,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13028,7 +13169,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13089,7 +13232,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13150,7 +13295,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13211,7 +13358,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13272,7 +13421,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13333,7 +13484,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13394,7 +13547,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13454,7 +13609,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13514,7 +13671,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13574,7 +13733,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13634,7 +13795,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13694,7 +13857,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13754,7 +13919,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13814,7 +13981,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13853,7 +14022,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13882,7 +14053,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13911,7 +14084,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13940,7 +14115,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -13970,7 +14147,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14000,7 +14179,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14030,7 +14211,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14060,7 +14243,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14090,7 +14275,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14120,7 +14307,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14149,7 +14338,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14178,7 +14369,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14207,7 +14400,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14236,7 +14431,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14265,7 +14462,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14294,7 +14493,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14334,7 +14535,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14364,7 +14567,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14394,7 +14599,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14423,7 +14630,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14452,7 +14661,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14481,7 +14692,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14510,7 +14723,9 @@
                                   },
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "ratings": {
@@ -14557,7 +14772,9 @@
                   "areaName": "Karapakkam",
                   "costForTwo": "40000",
                   "costForTwoMessage": "₹400 for two",
-                  "cuisines": ["Chinese"],
+                  "cuisines": [
+                    "Chinese"
+                  ],
                   "avgRating": 3.9,
                   "feeDetails": {
                     "restaurantId": "65303",
@@ -14753,7 +14970,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "LATE NIGHT",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["9208ad6f-9888-4fe3-a155-a4e007d43bbe"],
+                          "offerIds": [
+                            "9208ad6f-9888-4fe3-a155-a4e007d43bbe"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE LNBINGE",
                           "description": "ABOVE ₹199",
@@ -14770,7 +14989,9 @@
                         "info": {
                           "header": "40% OFF UPTO ₹80",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["13d4bf73-39c4-40fb-886c-ea9c9d454a44"],
+                          "offerIds": [
+                            "13d4bf73-39c4-40fb-886c-ea9c9d454a44"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹179",
@@ -14788,7 +15009,9 @@
                           "header": "FLAT ₹100 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["9393b79d-4ce1-4fcb-bb3d-8536a65c834f"],
+                          "offerIds": [
+                            "9393b79d-4ce1-4fcb-bb3d-8536a65c834f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLATDEAL",
                           "description": "ABOVE ₹499",
@@ -14806,7 +15029,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -14824,7 +15049,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -16317,7 +16544,10 @@
                   "areaName": "OMR Navalur",
                   "costForTwo": "25000",
                   "costForTwoMessage": "₹250 for two",
-                  "cuisines": ["South Indian", "Sweets"],
+                  "cuisines": [
+                    "South Indian",
+                    "Sweets"
+                  ],
                   "avgRating": 4.5,
                   "veg": true,
                   "feeDetails": {
@@ -16502,7 +16732,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTag": "LATE NIGHT",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["f774464b-74fd-4895-bbd3-9e8487f2accd"],
+                          "offerIds": [
+                            "f774464b-74fd-4895-bbd3-9e8487f2accd"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE LNBINGE",
                           "description": "ABOVE ₹199",
@@ -16520,7 +16752,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -16538,7 +16772,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -16556,7 +16792,9 @@
                           "header": "FLAT ₹30 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/7a464ef1-4018-4e4b-84b0-752e720c6604_SimplMenuLogo.png",
-                          "offerIds": ["0293bf7c-7c05-4161-8b5e-4816e0c5b90f"],
+                          "offerIds": [
+                            "0293bf7c-7c05-4161-8b5e-4816e0c5b90f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SIMPL30",
                           "description": "ABOVE ₹300",
@@ -16608,7 +16846,10 @@
                   "areaName": "Kancheepuram",
                   "costForTwo": "35000",
                   "costForTwoMessage": "₹350 for two",
-                  "cuisines": ["Burgers", "American"],
+                  "cuisines": [
+                    "Burgers",
+                    "American"
+                  ],
                   "avgRating": 4.3,
                   "feeDetails": {
                     "restaurantId": "748065",
@@ -16818,7 +17059,9 @@
                           "header": "ITEMS AT ₹129",
                           "offerTag": "DEAL OF DAY",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["e8f48231-c77e-4c4c-9a4a-cd2f43b59231"],
+                          "offerIds": [
+                            "e8f48231-c77e-4c4c-9a4a-cd2f43b59231"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "description": "ON SELECT ITEMS |",
                           "offerType": "offers",
@@ -16834,7 +17077,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["c2a353de-8aa0-4da2-b2de-893ae13689b3"],
+                          "offerIds": [
+                            "c2a353de-8aa0-4da2-b2de-893ae13689b3"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SWIGGY50",
                           "description": "ABOVE ₹149",
@@ -16852,7 +17097,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -16870,7 +17117,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -16888,7 +17137,9 @@
                           "header": "FLAT ₹30 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/7a464ef1-4018-4e4b-84b0-752e720c6604_SimplMenuLogo.png",
-                          "offerIds": ["0293bf7c-7c05-4161-8b5e-4816e0c5b90f"],
+                          "offerIds": [
+                            "0293bf7c-7c05-4161-8b5e-4816e0c5b90f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SIMPL30",
                           "description": "ABOVE ₹300",
@@ -18727,7 +18978,9 @@
                                   "defaultPrice": 23000,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -18763,7 +19016,9 @@
                                   "defaultPrice": 22900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -18800,7 +19055,9 @@
                                   "defaultPrice": 22400,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -18837,7 +19094,9 @@
                                   "defaultPrice": 21900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -18877,7 +19136,9 @@
                                     "bottomBackgroundColor": "#b02331"
                                   },
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -18915,7 +19176,9 @@
                                   "defaultPrice": 21400,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -18951,7 +19214,9 @@
                                   "defaultPrice": 20900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -18987,7 +19252,9 @@
                                   "defaultPrice": 20500,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19027,7 +19294,9 @@
                                     "bottomBackgroundColor": "#b02331"
                                   },
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19064,7 +19333,9 @@
                                   "defaultPrice": 19900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19101,7 +19372,9 @@
                                   "defaultPrice": 19900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19138,7 +19411,9 @@
                                   "defaultPrice": 19800,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19173,7 +19448,9 @@
                                   "defaultPrice": 19400,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19210,7 +19487,9 @@
                                   "defaultPrice": 19000,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19246,7 +19525,9 @@
                                   "defaultPrice": 18900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19278,7 +19559,9 @@
                                   "defaultPrice": 18900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19315,7 +19598,9 @@
                                   "defaultPrice": 18900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19352,7 +19637,9 @@
                                   "defaultPrice": 18900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19388,7 +19675,9 @@
                                   "defaultPrice": 18500,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19428,7 +19717,9 @@
                                     "bottomBackgroundColor": "#b02331"
                                   },
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19464,7 +19755,9 @@
                                   "defaultPrice": 18500,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19505,7 +19798,9 @@
                                     "bottomBackgroundColor": "#b02331"
                                   },
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19541,7 +19836,9 @@
                                   "defaultPrice": 18000,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19577,7 +19874,9 @@
                                   "defaultPrice": 17900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19614,7 +19913,9 @@
                                   "defaultPrice": 17900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19650,7 +19951,9 @@
                                   "defaultPrice": 17400,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19686,7 +19989,9 @@
                                   "defaultPrice": 16500,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19722,7 +20027,9 @@
                                   "defaultPrice": 16400,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19758,7 +20065,9 @@
                                   "defaultPrice": 16000,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19794,7 +20103,9 @@
                                   "defaultPrice": 16000,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19827,7 +20138,9 @@
                                   "defaultPrice": 15900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19864,7 +20177,9 @@
                                   "defaultPrice": 15800,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19897,7 +20212,9 @@
                                   "defaultPrice": 15400,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19930,7 +20247,9 @@
                                   "defaultPrice": 15400,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -19965,7 +20284,9 @@
                                   "defaultPrice": 14900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -20001,7 +20322,9 @@
                                   "defaultPrice": 14900,
                                   "ribbon": {},
                                   "type": "ITEM",
-                                  "offerTags": [{}],
+                                  "offerTags": [
+                                    {}
+                                  ],
                                   "itemBadge": {},
                                   "badgesV2": {},
                                   "itemNudgeType": "FinalPrice",
@@ -20053,7 +20376,10 @@
                   "areaName": "Sholinganallur",
                   "costForTwo": "40000",
                   "costForTwoMessage": "₹400 for two",
-                  "cuisines": ["Burgers", "Biryani"],
+                  "cuisines": [
+                    "Burgers",
+                    "Biryani"
+                  ],
                   "avgRating": 4.2,
                   "feeDetails": {
                     "restaurantId": "564242",
@@ -20235,7 +20561,9 @@
                         "info": {
                           "header": "30% OFF UPTO ₹75",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["e6db3556-b303-4c36-81c8-f0ad2efd524a"],
+                          "offerIds": [
+                            "e6db3556-b303-4c36-81c8-f0ad2efd524a"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SWIGGYIT",
                           "description": "ON SELECT ITEMS",
@@ -20253,7 +20581,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -20271,7 +20601,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -20289,7 +20621,9 @@
                           "header": "FLAT ₹30 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/7a464ef1-4018-4e4b-84b0-752e720c6604_SimplMenuLogo.png",
-                          "offerIds": ["0293bf7c-7c05-4161-8b5e-4816e0c5b90f"],
+                          "offerIds": [
+                            "0293bf7c-7c05-4161-8b5e-4816e0c5b90f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SIMPL30",
                           "description": "ABOVE ₹300",
@@ -27927,7 +28261,9 @@
                           "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
                           "type": "FSSAI",
                           "imageId": "fssai_final_edss9i",
-                          "text": ["License No. 12422008002624"]
+                          "text": [
+                            "License No. 12422008002624"
+                          ]
                         }
                       }
                     },
@@ -27972,7 +28308,10 @@
                   "areaName": "Egatoor",
                   "costForTwo": "50000",
                   "costForTwoMessage": "₹500 for two",
-                  "cuisines": ["Biryani", "Arabian"],
+                  "cuisines": [
+                    "Biryani",
+                    "Arabian"
+                  ],
                   "avgRating": 4.3,
                   "feeDetails": {
                     "restaurantId": "104023",
@@ -28183,7 +28522,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "LATE NIGHT",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["93e07df1-58d9-4986-ae2d-4460ed924679"],
+                          "offerIds": [
+                            "93e07df1-58d9-4986-ae2d-4460ed924679"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE LNBINGE",
                           "description": "ABOVE ₹249",
@@ -28200,7 +28541,9 @@
                         "info": {
                           "header": "40% OFF UPTO ₹80",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["45faecb8-4fe9-4d44-a1c8-15faa17629b9"],
+                          "offerIds": [
+                            "45faecb8-4fe9-4d44-a1c8-15faa17629b9"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹179",
@@ -28218,7 +28561,9 @@
                           "header": "FLAT 10% OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["9aba5ee5-6f46-4ce1-8fde-34f11b7b8d9f"],
+                          "offerIds": [
+                            "9aba5ee5-6f46-4ce1-8fde-34f11b7b8d9f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE PARTY",
                           "description": "ABOVE ₹1000",
@@ -28236,7 +28581,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -28254,7 +28601,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -31757,7 +32106,10 @@
                   "areaName": "Velachery",
                   "costForTwo": "20000",
                   "costForTwoMessage": "₹200 for two",
-                  "cuisines": ["Beverages", "Ice Cream"],
+                  "cuisines": [
+                    "Beverages",
+                    "Ice Cream"
+                  ],
                   "avgRating": 4.3,
                   "veg": true,
                   "feeDetails": {
@@ -31994,7 +32346,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["7ecdb303-415e-4c05-a280-3a29a81c413b"],
+                          "offerIds": [
+                            "7ecdb303-415e-4c05-a280-3a29a81c413b"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹179",
@@ -32012,7 +32366,9 @@
                           "header": "FLAT 30% OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["b9915a6b-42ce-4dc3-9dad-0f8837624517"],
+                          "offerIds": [
+                            "b9915a6b-42ce-4dc3-9dad-0f8837624517"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE PARTY",
                           "description": "ABOVE ₹1000",
@@ -32030,7 +32386,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["cc01dc69-e640-4cfa-80f5-b75c1267f62e"],
+                          "offerIds": [
+                            "cc01dc69-e640-4cfa-80f5-b75c1267f62e"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLAT125",
                           "description": "ABOVE ₹599",
@@ -32048,7 +32406,9 @@
                           "header": "20% OFF UPTO ₹120",
                           "offerTag": "SAVE BIG",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["fe9ea29d-d2c4-4f7e-b7c1-358a45ec941e"],
+                          "offerIds": [
+                            "fe9ea29d-d2c4-4f7e-b7c1-358a45ec941e"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE JUMBO",
                           "description": "ABOVE ₹500",
@@ -32066,7 +32426,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",

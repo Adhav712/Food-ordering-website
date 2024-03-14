@@ -5,6 +5,7 @@ import { IndianRupee } from "lucide-react";
 // import { useRestaurantDetails } from "../Hooks/useRestaurantDetails";
 import { Restauranttitlecard } from "./Restauranttitlecard";
 import { Shimmeraccordian } from "./Shimmeraccordian";
+import Scrolldishdata from '../Mock/Scrolldishdata.json'
 import Accordiandata from "../Mock/Accordiandata.json";
 import Accordiandatas from "../Mock/Accordiandatas.json";
 import { useParams } from "react-router-dom";
@@ -18,15 +19,25 @@ export const Restaurantcarddetails = () => {
     (item) => item.data.cards[0].card.card.info.id === resId
   );
 
+  const Scrolldishdatas = Scrolldishdata.data.find(item => item.data.cards[0].card.card.info.id === resId)
+
+  console.log(Scrolldishdatas);
+
   const headerdata =
+    Scrolldishdatas?.data?.cards[0]?.card?.card?.info ||
     Accordiancard?.data?.cards[0]?.card?.card?.info ||
-    Accordiancard2?.data?.cards[0]?.card?.card?.info;
+    Accordiancard2?.data?.cards[0]?.card?.card?.info
+
+
   const item =
-    Accordiancard?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle ||
-    Accordiancard2?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle;
+    Scrolldishdatas?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+  Accordiancard?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle ||
+    Accordiancard2?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+
   const groupedCard =
+    Scrolldishdatas?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR ||
     Accordiancard?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR ||
-    Accordiancard2?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR;
+    Accordiancard2?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
 
   return (
     <div className="mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-20 max-sm:mt-10 overflow-hidden ">

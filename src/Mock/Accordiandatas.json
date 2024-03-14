@@ -22,7 +22,10 @@
                   "areaName": "Omr Perungudi, State Bank Colony",
                   "costForTwo": "20000",
                   "costForTwoMessage": "₹200 for two",
-                  "cuisines": ["Bakery", "Desserts"],
+                  "cuisines": [
+                    "Bakery",
+                    "Desserts"
+                  ],
                   "avgRating": 4.2,
                   "feeDetails": {
                     "restaurantId": "240339",
@@ -258,7 +261,9 @@
                         "info": {
                           "header": "60% OFF UPTO ₹120",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["cc908117-c3f2-4dd2-8639-db3ca82210d5"],
+                          "offerIds": [
+                            "cc908117-c3f2-4dd2-8639-db3ca82210d5"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹179",
@@ -275,7 +280,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["65f68ca2-b5f6-45ef-9c95-af491661bcc4"],
+                          "offerIds": [
+                            "65f68ca2-b5f6-45ef-9c95-af491661bcc4"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SWIGGY50",
                           "description": "ABOVE ₹149",
@@ -293,7 +300,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["849db8f0-aea9-419d-bde3-8ef291c93450"],
+                          "offerIds": [
+                            "849db8f0-aea9-419d-bde3-8ef291c93450"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLAT125",
                           "description": "ABOVE ₹299",
@@ -311,7 +320,9 @@
                           "header": "FLAT 20% OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["9bcfedea-95a7-4d55-91f7-cab0bf42b87f"],
+                          "offerIds": [
+                            "9bcfedea-95a7-4d55-91f7-cab0bf42b87f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE PARTY",
                           "description": "ABOVE ₹800",
@@ -329,7 +340,9 @@
                           "header": "FLAT ₹150 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["18f19335-fc6d-4e7e-a1af-783b83856134"],
+                          "offerIds": [
+                            "18f19335-fc6d-4e7e-a1af-783b83856134"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLAT150",
                           "description": "ABOVE ₹499",
@@ -2587,7 +2600,10 @@
                   "areaName": "Taramani",
                   "costForTwo": "40000",
                   "costForTwoMessage": "₹400 for two",
-                  "cuisines": ["Bakery", "Pizzas"],
+                  "cuisines": [
+                    "Bakery",
+                    "Pizzas"
+                  ],
                   "avgRating": 4.1,
                   "feeDetails": {
                     "restaurantId": "8293",
@@ -2740,7 +2756,9 @@
                           "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
                           "type": "FSSAI",
                           "imageId": "fssai_final_edss9i",
-                          "text": ["License No. 12422002000843"]
+                          "text": [
+                            "License No. 12422002000843"
+                          ]
                         }
                       }
                     },
@@ -2786,7 +2804,9 @@
                   "areaName": "Old Mahabalipuram Road OMR",
                   "costForTwo": "40000",
                   "costForTwoMessage": "₹400 for two",
-                  "cuisines": ["Pizzas"],
+                  "cuisines": [
+                    "Pizzas"
+                  ],
                   "avgRating": 4,
                   "feeDetails": {
                     "restaurantId": "69527",
@@ -3021,7 +3041,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["dfbf7896-3ff8-4277-b7ac-d7333f53965d"],
+                          "offerIds": [
+                            "dfbf7896-3ff8-4277-b7ac-d7333f53965d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLAT50",
                           "description": "ON SELECT ITEMS",
@@ -3038,7 +3060,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["5108680d-ce1e-46b4-8960-85a4fb4f5f8e"],
+                          "offerIds": [
+                            "5108680d-ce1e-46b4-8960-85a4fb4f5f8e"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SWIGGY50",
                           "description": "ABOVE ₹149",
@@ -3055,7 +3079,9 @@
                         "info": {
                           "header": "Free Margherita Pizza",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["3f6dffd6-20ea-40c1-a69a-b66326b2be24"],
+                          "offerIds": [
+                            "3f6dffd6-20ea-40c1-a69a-b66326b2be24"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹199",
@@ -3073,7 +3099,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -3091,7 +3119,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -15098,7 +15128,10 @@
                   "areaName": "Sholinganallur",
                   "costForTwo": "35000",
                   "costForTwoMessage": "₹350 for two",
-                  "cuisines": ["Salads", "Snacks"],
+                  "cuisines": [
+                    "Salads",
+                    "Snacks"
+                  ],
                   "avgRating": 4.3,
                   "feeDetails": {
                     "restaurantId": "25881",
@@ -15296,7 +15329,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -15314,7 +15349,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -15332,7 +15369,9 @@
                           "header": "FLAT ₹30 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/7a464ef1-4018-4e4b-84b0-752e720c6604_SimplMenuLogo.png",
-                          "offerIds": ["0293bf7c-7c05-4161-8b5e-4816e0c5b90f"],
+                          "offerIds": [
+                            "0293bf7c-7c05-4161-8b5e-4816e0c5b90f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SIMPL30",
                           "description": "ABOVE ₹300",
@@ -22633,7 +22672,10 @@
                   "areaName": "Kandanchavadi",
                   "costForTwo": "25000",
                   "costForTwoMessage": "₹250 for two",
-                  "cuisines": ["Desserts", "Ice Cream"],
+                  "cuisines": [
+                    "Desserts",
+                    "Ice Cream"
+                  ],
                   "avgRating": 4.1,
                   "veg": true,
                   "feeDetails": {
@@ -22841,7 +22883,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["fd314489-a311-4132-af05-262c53a5df8f"],
+                          "offerIds": [
+                            "fd314489-a311-4132-af05-262c53a5df8f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SWIGGY50",
                           "description": "ABOVE ₹149",
@@ -22859,7 +22903,9 @@
                           "header": "FLAT 10% OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["1661f833-dcfb-4bcc-b85c-50be299719d6"],
+                          "offerIds": [
+                            "1661f833-dcfb-4bcc-b85c-50be299719d6"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE PARTY",
                           "description": "ABOVE ₹1000",
@@ -22877,7 +22923,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -22895,7 +22943,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -22912,7 +22962,9 @@
                         "info": {
                           "header": "30% OFF UPTO ₹75",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["109f9196-3c20-4311-b837-1f5e3803b65e"],
+                          "offerIds": [
+                            "109f9196-3c20-4311-b837-1f5e3803b65e"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹179",
@@ -30429,7 +30481,10 @@
                   "areaName": "Medavakkam",
                   "costForTwo": "50000",
                   "costForTwoMessage": "₹500 for two",
-                  "cuisines": ["Biryani", "Kebabs"],
+                  "cuisines": [
+                    "Biryani",
+                    "Kebabs"
+                  ],
                   "avgRating": 4.2,
                   "feeDetails": {
                     "restaurantId": "42949",
@@ -30673,7 +30728,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["9b086642-5ea4-4aa4-bf55-aad14ff24017"],
+                          "offerIds": [
+                            "9b086642-5ea4-4aa4-bf55-aad14ff24017"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE 125FORYOU",
                           "description": "ABOVE ₹199",
@@ -30690,7 +30747,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["166c55ec-0e86-42b1-8fbe-bb8839c0f4f3"],
+                          "offerIds": [
+                            "166c55ec-0e86-42b1-8fbe-bb8839c0f4f3"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹199",
@@ -30708,7 +30767,9 @@
                           "header": "FLAT 10% OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["2fb22fa0-2a3b-42c3-a0b7-d29fad5c0a64"],
+                          "offerIds": [
+                            "2fb22fa0-2a3b-42c3-a0b7-d29fad5c0a64"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE PARTY",
                           "description": "ABOVE ₹1200",
@@ -30726,7 +30787,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["8851b596-c702-4f7c-958d-75b8ba7040c1"],
+                          "offerIds": [
+                            "8851b596-c702-4f7c-958d-75b8ba7040c1"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLAT125",
                           "description": "ABOVE ₹499",
@@ -30744,7 +30807,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -32688,7 +32753,10 @@
                   "areaName": "Medavakkam",
                   "costForTwo": "20000",
                   "costForTwoMessage": "₹200 for two",
-                  "cuisines": ["Kebabs", "Fast Food"],
+                  "cuisines": [
+                    "Kebabs",
+                    "Fast Food"
+                  ],
                   "avgRating": 4.3,
                   "feeDetails": {
                     "restaurantId": "42955",
@@ -32920,7 +32988,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["ae5fcc62-5776-42a4-a62d-ed95ebe86c8f"],
+                          "offerIds": [
+                            "ae5fcc62-5776-42a4-a62d-ed95ebe86c8f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE 125FORYOU",
                           "description": "ABOVE ₹199",
@@ -32937,7 +33007,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["c3b303c1-aa6b-499a-8a18-5a99dce9d358"],
+                          "offerIds": [
+                            "c3b303c1-aa6b-499a-8a18-5a99dce9d358"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹199",
@@ -32955,7 +33027,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["33838799-cca0-4837-8c0b-8579d9c15ba8"],
+                          "offerIds": [
+                            "33838799-cca0-4837-8c0b-8579d9c15ba8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLATDEAL",
                           "description": "ABOVE ₹349",
@@ -32973,7 +33047,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",
@@ -32991,7 +33067,9 @@
                           "header": "20% OFF UPTO ₹125",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/3/4/02549f20-37ad-4802-a31f-8a79f64dd4fa_Kotak.png",
-                          "offerIds": ["de51956d-431f-49f2-a70d-9a187cdd9dc8"],
+                          "offerIds": [
+                            "de51956d-431f-49f2-a70d-9a187cdd9dc8"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE KOTAK125",
                           "description": "ABOVE ₹500",
@@ -37612,7 +37690,10 @@
                   "areaName": "Medavakkam",
                   "costForTwo": "20000",
                   "costForTwoMessage": "₹200 for two",
-                  "cuisines": ["Biryani", "North Indian"],
+                  "cuisines": [
+                    "Biryani",
+                    "North Indian"
+                  ],
                   "avgRating": 4.4,
                   "feeDetails": {
                     "restaurantId": "62987",
@@ -37834,7 +37915,9 @@
                           "header": "ITEMS AT ₹149",
                           "offerTag": "DEAL OF DAY",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["cce902f4-bf5e-4ee6-b4c0-98b3c2dc2ebe"],
+                          "offerIds": [
+                            "cce902f4-bf5e-4ee6-b4c0-98b3c2dc2ebe"
+                          ],
                           "expiryTime": "1970-01-01T07:33:58Z",
                           "description": "ON SELECT ITEMS |",
                           "offerType": "offers",
@@ -37852,7 +37935,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["c44b72d0-ab05-4090-a587-8d9807087f3f"],
+                          "offerIds": [
+                            "c44b72d0-ab05-4090-a587-8d9807087f3f"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE 125FORYOU",
                           "description": "ABOVE ₹199",
@@ -37869,7 +37954,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["530d351c-0045-4590-b22d-b2b1ed851a0d"],
+                          "offerIds": [
+                            "530d351c-0045-4590-b22d-b2b1ed851a0d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ABOVE ₹199",
@@ -37887,7 +37974,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["2801f7ee-ce5c-4ec4-8aa8-7076af9b0b7b"],
+                          "offerIds": [
+                            "2801f7ee-ce5c-4ec4-8aa8-7076af9b0b7b"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLAT125",
                           "description": "ABOVE ₹399",
@@ -37905,7 +37994,9 @@
                           "header": "FLAT 20% OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["89470340-7ac4-43ff-8096-71b8cbf1fe20"],
+                          "offerIds": [
+                            "89470340-7ac4-43ff-8096-71b8cbf1fe20"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE PARTY",
                           "description": "ABOVE ₹1000",
@@ -37955,7 +38046,10 @@
                   "areaName": "Medavakkam",
                   "costForTwo": "40000",
                   "costForTwoMessage": "₹400 for two",
-                  "cuisines": ["Pizzas", "Pastas"],
+                  "cuisines": [
+                    "Pizzas",
+                    "Pastas"
+                  ],
                   "avgRating": 4.1,
                   "feeDetails": {
                     "icon": "v1648635511/Delivery_fee_new_cjxumu"
@@ -38168,7 +38262,9 @@
                           "header": "FLAT ₹125 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["ec2f86e0-706f-433b-a121-9f27a044155c"],
+                          "offerIds": [
+                            "ec2f86e0-706f-433b-a121-9f27a044155c"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE 125FORYOU",
                           "description": "ABOVE ₹199",
@@ -38185,7 +38281,9 @@
                         "info": {
                           "header": "60% OFF UPTO ₹110",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["3930cd93-dfea-4c02-aa98-c42d61b85cd1"],
+                          "offerIds": [
+                            "3930cd93-dfea-4c02-aa98-c42d61b85cd1"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE TRYNEW",
                           "description": "ON SELECT ITEMS",
@@ -38202,7 +38300,9 @@
                         "info": {
                           "header": "50% OFF UPTO ₹100",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["471e5ef7-8d58-476c-9e13-33cf982ce28c"],
+                          "offerIds": [
+                            "471e5ef7-8d58-476c-9e13-33cf982ce28c"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE SWIGGY50",
                           "description": "ABOVE ₹149",
@@ -38220,7 +38320,9 @@
                           "header": "FLAT ₹150 OFF",
                           "offerTag": "FLAT DEAL",
                           "offerTagColor": "#E46D47",
-                          "offerIds": ["14913248-9c22-4769-b6df-9df88ba10390"],
+                          "offerIds": [
+                            "14913248-9c22-4769-b6df-9df88ba10390"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "USE FLAT150",
                           "description": "ABOVE ₹699",
@@ -38238,7 +38340,9 @@
                           "header": "FLAT ₹50 OFF",
                           "offerTagColor": "#E46D47",
                           "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/2/29/483c8215-9e33-408d-9820-d404f89a9c45_ICICI.png",
-                          "offerIds": ["d4cc877b-7a20-4977-be10-b3a2af00573d"],
+                          "offerIds": [
+                            "d4cc877b-7a20-4977-be10-b3a2af00573d"
+                          ],
                           "expiryTime": "1970-01-01T00:00:00Z",
                           "couponCode": "NO CODE REQUIRED",
                           "description": "ABOVE ₹500",

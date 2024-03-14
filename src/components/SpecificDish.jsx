@@ -2,16 +2,16 @@ import useScrollRestaurant from "../Hooks/useScrollRestaurant";
 import { Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Shimmercards } from "./Shimmercards";
-import Specificdishdata from "../Mock/Specificidishdata.json";
+import Specificidishdata from "../Mock/Specificidishdata.json";
 import { useParams } from "react-router-dom";
 
 export const SpecificDish = () => {
   const { resId } = useParams();
 
-  const restaurant = Specificdishdata.data.find(
+  const restaurant = Specificidishdata.data.find(
     (restaurant) => restaurant.data.cards[0].card.card.collectionId === resId
   );
-  //console.log(restaurant);
+  console.log(Specificidishdata);
 
   const { title, description } = restaurant.data.cards[0].card.card;
   const { text } =
@@ -55,9 +55,8 @@ export const SpecificDish = () => {
               } = item?.card?.card?.info;
               //console.log(id);
               return (
-                <Link to={"/reataurantitem/" + id}>
+                <Link key={id} to={"/reataurantitem/" + id}>
                   <div
-                    key={id}
                     className="w-72 shadow-md h-96 shadow-gray-300  rounded-xl p-4 m-2 min-h-32"
                   >
                     <div className="flex justify-center items-center">

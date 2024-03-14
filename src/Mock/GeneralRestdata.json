@@ -120,22 +120,6 @@
                   "frequencyCapping": {}
                 },
                 {
-                  "id": "750580",
-                  "imageId": "v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83644?collection_id=83644&search_context=pizza&tags=layout_CCS_Pizza&type=rcv2",
-                    "text": "pizzas",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for pizza",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83644&tags=layout_CCS_Pizza&search_context=pizza",
-                  "frequencyCapping": {}
-                },
-                {
                   "id": "750582",
                   "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
                   "action": {
@@ -342,38 +326,6 @@
                   },
                   "entityId": "80452",
                   "frequencyCapping": {}
-                },
-                {
-                  "id": "750597",
-                  "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
-                    "text": "Ice Cream",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for icecream",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
-                  "frequencyCapping": {}
-                },
-                {
-                  "id": "750226",
-                  "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
-                    "text": "Salad",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for salad",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
-                  "frequencyCapping": {}
                 }
               ],
               "style": {
@@ -456,22 +408,6 @@
                       "altTextCta": "open"
                     },
                     "entityId": "swiggy://collectionV2?collection_id=80403&tags=layout_Shawarma_Contextual",
-                    "frequencyCapping": {}
-                  },
-                  {
-                    "id": "750580",
-                    "imageId": "v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83644?collection_id=83644&search_context=pizza&tags=layout_CCS_Pizza&type=rcv2",
-                      "text": "pizzas",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for pizza",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83644&tags=layout_CCS_Pizza&search_context=pizza",
                     "frequencyCapping": {}
                   },
                   {
@@ -681,38 +617,6 @@
                     },
                     "entityId": "80452",
                     "frequencyCapping": {}
-                  },
-                  {
-                    "id": "750597",
-                    "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
-                      "text": "Ice Cream",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for icecream",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
-                    "frequencyCapping": {}
-                  },
-                  {
-                    "id": "750226",
-                    "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
-                      "text": "Salad",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for salad",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
-                    "frequencyCapping": {}
                   }
                 ],
                 "style": {
@@ -796,7 +700,9 @@
                       "locality": "Karapakkam",
                       "areaName": "Karapakkam",
                       "costForTwo": "₹400 for two",
-                      "cuisines": ["Chinese"],
+                      "cuisines": [
+                        "Chinese"
+                      ],
                       "avgRating": 3.9,
                       "parentId": "1636",
                       "avgRatingString": "3.9",
@@ -854,7 +760,12 @@
                       "locality": "Gire Thoraipakkam",
                       "areaName": "Nehru Nagar",
                       "costForTwo": "₹400 for two",
-                      "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+                      "cuisines": [
+                        "Burgers",
+                        "Beverages",
+                        "Cafe",
+                        "Desserts"
+                      ],
                       "avgRating": 4.3,
                       "parentId": "630",
                       "avgRatingString": "4.3",
@@ -1013,7 +924,9 @@
                       "locality": "Thirumalai Nagar",
                       "areaName": "Old Mahabalipuram Road OMR",
                       "costForTwo": "₹400 for two",
-                      "cuisines": ["Pizzas"],
+                      "cuisines": [
+                        "Pizzas"
+                      ],
                       "avgRating": 4,
                       "parentId": "721",
                       "avgRatingString": "4.0",
@@ -1133,7 +1046,12 @@
                       "locality": "Shollinganalur",
                       "areaName": "Sholinganallur",
                       "costForTwo": "₹350 for two",
-                      "cuisines": ["Salads", "Snacks", "Desserts", "Beverages"],
+                      "cuisines": [
+                        "Salads",
+                        "Snacks",
+                        "Desserts",
+                        "Beverages"
+                      ],
                       "avgRating": 4.3,
                       "parentId": "2",
                       "avgRatingString": "4.3",
@@ -1206,7 +1124,10 @@
                       "locality": "Perungudi Fc",
                       "areaName": "Kandanchavadi",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["Desserts", "Ice Cream"],
+                      "cuisines": [
+                        "Desserts",
+                        "Ice Cream"
+                      ],
                       "avgRating": 4.3,
                       "veg": true,
                       "parentId": "5588",
@@ -1530,7 +1451,12 @@
                       "locality": "Old Mahabalipuram Road OMR",
                       "areaName": "Old Mahabalipuram Road OMR",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["Chinese", "Asian", "Tibetan", "Desserts"],
+                      "cuisines": [
+                        "Chinese",
+                        "Asian",
+                        "Tibetan",
+                        "Desserts"
+                      ],
                       "avgRating": 3.9,
                       "parentId": "61955",
                       "avgRatingString": "3.9",
@@ -1597,7 +1523,11 @@
                       "locality": "Sholinganallur",
                       "areaName": "Parameswaran Nagar",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["Biryani", "Thalis", "Home Food"],
+                      "cuisines": [
+                        "Biryani",
+                        "Thalis",
+                        "Home Food"
+                      ],
                       "parentId": "10655",
                       "avgRatingString": "NEW",
                       "sla": {
@@ -1663,7 +1593,10 @@
                       "locality": "OMR Semmanchey",
                       "areaName": "Kancheepuram",
                       "costForTwo": "₹350 for two",
-                      "cuisines": ["Burgers", "American"],
+                      "cuisines": [
+                        "Burgers",
+                        "American"
+                      ],
                       "avgRating": 4.3,
                       "parentId": "166",
                       "avgRatingString": "4.3",
@@ -1876,7 +1809,12 @@
                       "locality": "State Bank Colony",
                       "areaName": "Omr Perungudi, State Bank Colony",
                       "costForTwo": "₹200 for two",
-                      "cuisines": ["Bakery", "Desserts", "Sweets", "Ice Cream"],
+                      "cuisines": [
+                        "Bakery",
+                        "Desserts",
+                        "Sweets",
+                        "Ice Cream"
+                      ],
                       "avgRating": 4.2,
                       "parentId": "7003",
                       "avgRatingString": "4.2",
@@ -2638,7 +2576,12 @@
                       "locality": "Old Mahabalipuram Road OMR",
                       "areaName": "Old Mahabalipuram Road OMR",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["Chinese", "Asian", "Tibetan", "Desserts"],
+                      "cuisines": [
+                        "Chinese",
+                        "Asian",
+                        "Tibetan",
+                        "Desserts"
+                      ],
                       "avgRating": 3.9,
                       "parentId": "61955",
                       "avgRatingString": "3.9",
@@ -2705,7 +2648,11 @@
                       "locality": "Sholinganallur",
                       "areaName": "Parameswaran Nagar",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["Biryani", "Thalis", "Home Food"],
+                      "cuisines": [
+                        "Biryani",
+                        "Thalis",
+                        "Home Food"
+                      ],
                       "parentId": "10655",
                       "avgRatingString": "NEW",
                       "sla": {
@@ -2771,7 +2718,9 @@
                       "locality": "Karapakkam",
                       "areaName": "Karapakkam",
                       "costForTwo": "₹400 for two",
-                      "cuisines": ["Chinese"],
+                      "cuisines": [
+                        "Chinese"
+                      ],
                       "avgRating": 3.9,
                       "parentId": "1636",
                       "avgRatingString": "3.9",
@@ -2839,7 +2788,10 @@
                       "locality": "Rajiv Gandhi Salai Navalur",
                       "areaName": "OMR Navalur",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["South Indian", "Sweets"],
+                      "cuisines": [
+                        "South Indian",
+                        "Sweets"
+                      ],
                       "avgRating": 4.5,
                       "veg": true,
                       "parentId": "335557",
@@ -2924,7 +2876,10 @@
                       "locality": "OMR Semmanchey",
                       "areaName": "Kancheepuram",
                       "costForTwo": "₹350 for two",
-                      "cuisines": ["Burgers", "American"],
+                      "cuisines": [
+                        "Burgers",
+                        "American"
+                      ],
                       "avgRating": 4.3,
                       "parentId": "166",
                       "avgRatingString": "4.3",
@@ -3064,7 +3019,12 @@
                       "locality": "Gire Thoraipakkam",
                       "areaName": "Nehru Nagar",
                       "costForTwo": "₹400 for two",
-                      "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+                      "cuisines": [
+                        "Burgers",
+                        "Beverages",
+                        "Cafe",
+                        "Desserts"
+                      ],
                       "avgRating": 4.3,
                       "parentId": "630",
                       "avgRatingString": "4.3",
@@ -3411,7 +3371,12 @@
                       "locality": "Shollinganalur",
                       "areaName": "Sholinganallur",
                       "costForTwo": "₹350 for two",
-                      "cuisines": ["Salads", "Snacks", "Desserts", "Beverages"],
+                      "cuisines": [
+                        "Salads",
+                        "Snacks",
+                        "Desserts",
+                        "Beverages"
+                      ],
                       "avgRating": 4.3,
                       "parentId": "2",
                       "avgRatingString": "4.3",
@@ -3484,7 +3449,10 @@
                       "locality": "Perungudi Fc",
                       "areaName": "Kandanchavadi",
                       "costForTwo": "₹250 for two",
-                      "cuisines": ["Desserts", "Ice Cream"],
+                      "cuisines": [
+                        "Desserts",
+                        "Ice Cream"
+                      ],
                       "avgRating": 4.3,
                       "veg": true,
                       "parentId": "5588",
