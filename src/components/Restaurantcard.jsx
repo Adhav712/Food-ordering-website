@@ -4,13 +4,12 @@ import { useEffect, useState } from "react";
 import { Restaurantmainmenucart } from "./Restaurantmainmenucart";
 import { Link } from "react-router-dom";
 import { withofferlabel } from "./Restaurantmainmenucart";
+import { Search } from "lucide-react";
 
 //^ Restaurants with online food delivery in Chennai  [ SEARCH ]
 
 export const Restaurantcard = () => {
   const { data } = useScrollRestaurant();
-
-  //console.log(data);
 
   const [originallist, setoriginallist] = useState([]);
   const [inputsearch, setinputsearch] = useState();
@@ -24,20 +23,6 @@ export const Restaurantcard = () => {
     setfilterarray(mapdata);
   }, [mapdata]);
 
-  const sendinput = (e) => {
-    //console.log();
-    if (inputsearch !== undefined) {
-      if ((e.type === "keydown" && e.key === "Enter") || e.type === "click") {
-        const filteritem = originallist.filter((item) =>
-          item?.info?.name
-            .toLocaleLowerCase()
-            .includes(inputsearch.toLocaleLowerCase())
-        );
-        setfilterarray(filteritem);
-      }
-    }
-  };
-
   const featuresbutton = (e) => {
     e.target.className =
       "text-gray-600  py-2 px-4 border  border-gray-300 mx-2 rounded-3xl";
@@ -49,21 +34,37 @@ export const Restaurantcard = () => {
         element.classList.remove("bg-gray-200");
       }
     });
+    console.log(e.target.innerText);
+    switch (e.target.innerText) {
+      case "Rating 4+": {
+        const ratings = originallist.filter((item) => {
+          return item.info.avgRating >= 4.3;
+        });
+        setfilterarray(ratings);
+        break;
+      }
+      case "Fast Delivery": {
+        const delivery = originallist.filter((item) => {
+          return item.info.sla.deliveryTime < 19;
+        });
+        setfilterarray(delivery);
+        break;
+      }
+      case "Rs.250-Rs.300": {
+        const pricerange = originallist.filter((item) => {
+          console.log(item.info.costForTwo.includes("250"));
+          return item.info.costForTwo.includes("250");
+        });
+        setfilterarray(pricerange);
+        break;
+      }
+      default: {
+        setfilterarray(originallist)
+      }
 
-    //console.log(originallist);
-    if (e.target.innerText === "Rating 4+") {
-      const ratings = originallist.filter((item) => {
-        return item.info.avgRating >= 4.3;
-      });
-      setfilterarray(ratings);
-    } else if (e.target.innerText === "Fast Delivery") {
-      const delivery = originallist.filter((item) => {
-        return item.info.sla.deliveryTime < 30;
-      });
-      setfilterarray(delivery);
-    } else {
-      setfilterarray(originallist);
     }
+
+
   };
 
   const Restaurantoffercart = withofferlabel(Restaurantmainmenucart);
@@ -77,25 +78,25 @@ export const Restaurantcard = () => {
           {headingdata?.title}
         </h1>
       </div>
-      <div className="my-5 mt-10 max-sm:text-center">
-        {/* //& input */}
-        <input
-          className="max-sm:w-48 max-sm:mx-1 outline-none border-2 rounded-lg p-2 mx-2 px-4 border-[#fca729]"
-          type="search"
-          name="search"
-          id="search"
-          onChange={(e) => {
-            setinputsearch(e.target.value);
-          }}
-          onKeyDown={sendinput}
-        />
-        {/* //& search btn */}
-        <button
-          onClick={sendinput}
-          className="text-white max-sm:mx-1 max-sm:px-4 bg-[#fca729] rounded-lg px-8 text-lg py-[0.3em] ml-3 hover:text-[#fca729] hover:bg-white hover:border-[#fca729] hover:border-2"
-        >
-          Search
-        </button>
+      <div className="my-5 mx-5 mt-10 max-sm:text-center ">
+        <div className="inline-flex items-center relative">
+          {/* //& input */}
+          <input
+            className="max-sm:w-48 w-64 max-sm:mx-1 outline-none border-2 rounded-lg p-2 mx-2 pl-10 border-[#fca729]"
+            type="search"
+            name="search"
+            id="search"
+            onChange={(e) => {
+              const filteritem = originallist.filter((item) =>
+                item?.info?.name
+                  .toLocaleLowerCase()
+                  .includes(e.target.value.toLocaleLowerCase())
+              );
+              setfilterarray(filteritem);
+            }}
+          />
+          <Search className=" absolute left-4 size-5 text-[#fca729] mx-1" />
+        </div>
 
         {/* //& ratings */}
         <button
@@ -109,6 +110,12 @@ export const Restaurantcard = () => {
           className="text-gray-600 max-sm:text-sm max-sm:mx-1  max-sm:my-4 py-2 px-4 border border-gray-300 mx-2 rounded-3xl"
         >
           Fast Delivery
+        </button>
+        <button
+          onClick={featuresbutton}
+          className="text-gray-600 max-sm:text-sm max-sm:mx-1  max-sm:my-4 py-2 px-4 border border-gray-300 mx-2 rounded-3xl"
+        >
+          Rs.250-Rs.300
         </button>
         <button
           onClick={featuresbutton}
