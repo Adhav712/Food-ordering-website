@@ -18,16 +18,22 @@ export const Cartslice = createSlice({
         //console.log("same");
       }
     },
-    decreaseitems: (state, action) => {
-      //console.log(current(state));
-    },
-    increaseitems: (state, action) => {},
-    clearitems: (state, action) => {
-      state.items.push(action.payload);
-    },
+    // decreaseitems: (state, action) => {
+    //   console.log(current(state));
+
+    // },
+    // increaseitems: (state, action) => {
+    //   state.items.push(action.payload);
+    //   state.map(item => item.card.info.id === action.payload ? { ...state, quantity: state.items.quantity + 1 } : item)
+
+    // },
+    quantity: (state, action) => {
+      state.items.quantity
+      console.log(state.quantity);
+    }
   },
 });
 
-export const { additems, clearitems } = Cartslice.actions;
+export const { additems, quantity, clearitems } = Cartslice.actions;
 
 export default Cartslice.reducer;

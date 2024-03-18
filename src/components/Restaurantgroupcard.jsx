@@ -1,22 +1,52 @@
 import { useDispatch, useSelector } from "react-redux";
 import { additems } from "../utils/Cartslice";
+import { useState } from "react";
+import { quantity } from "../utils/Cartslice";
+
 
 //*  COMMON CARD DETAILS - { ACCORDIAN DETAILS }!!
 
 export const Restaurantgroupcard = ({ data }) => {
+
+  const [buttonchange, setbuttonchange] = useState([])
   const dispatch = useDispatch();
 
-  const handlecheck = (item, e) => {
+  const handlecheck = (item) => {
+    const newsitems = {
+      id: item.card.info.id,
+      buttonchange: true,
+      quantity: 1
+    }
+    setbuttonchange((prevstates) => [...prevstates, newsitems])
     dispatch(additems(item));
-    //console.log(e.type === 'click');
-    // e.type === "click" && <Buttonpage />;
+    dispatch(quantity(newsitems.quantity))
   };
+
+  const handlePlus = (itemid) => {
+    setbuttonchange((prevstates) => {
+      return prevstates.map(itemstate => itemstate.id === itemid ? { ...itemstate, quantity: itemstate.quantity + 1 } : prevstates)
+    })
+    dispatch(quantity(buttonchange))
+  };
+
+  const handleMinus = (id) => {
+    setbuttonchange((prestates) => {
+      return prestates.map(itemstate => itemstate.id === id && itemstate.quantity > 0 ?
+        { ...itemstate, quantity: itemstate.quantity - 1 } : itemstate)
+    })
+    dispatch(quantity(buttonchange))
+  };
+
+
 
   return (
     <div>
       {data.map((item) => {
         const { name, description, defaultPrice, imageId, id, price } =
           item?.card?.info;
+
+        const finditem = buttonchange.find(item => item.id === id)
+
         return (
           <div
             key={id + 1}
@@ -41,6 +71,7 @@ export const Restaurantgroupcard = ({ data }) => {
                 </h1>
               </div>
               <div className="relative">
+
                 {imageId && (
                   <img
                     className="object-cover size-28 rounded-xl shadow-md shadow-gray-400"
@@ -51,34 +82,51 @@ export const Restaurantgroupcard = ({ data }) => {
                     alt=""
                   />
                 )}
-                {imageId ? (
-                  <button
-                    onClick={(e) => {
-                      handlecheck(item, e);
-                    }}
-                    className="hover:text-green-500 text-white bg-green-500 border border-green-400 
-                                        rounded-md shadow-md w-20 py-1 absolute right-4 hover:bg-white top-24"
-                    type="button"
-                  >
-                    Add
-                  </button>
-                ) : (
-                  <button
-                    onClick={() => {
-                      handlecheck(item);
-                    }}
-                    className="hover:text-green-500 text-white bg-green-500 border border-green-400 
-                                                        rounded-md shadow-md w-20 py-1 absolute top-4 right-4 hover:bg-white "
-                    type="button"
-                  >
-                    Add
-                  </button>
-                )}
+                {
+                  finditem && finditem.buttonchange ? (
+                    <div className=" absolute top-[5.5em] w-20 bg-red-200 flex justify-between px-2 items-center m-1 mx-4 rounded-sm py-[7px]" >
+                      <button
+                        onClick={() => { handleMinus(id) }}
+                        className="px-[6px] rounded-sm cursor-pointer">-</button>
+
+                      <span
+                        className=" text-neutral-600 cursor-default text-sm ">{finditem.quantity}</span>
+
+                      < button className="cursor-pointer px-1 rounded-sm"
+                        onClick={() => { handlePlus(id) }}
+                      >
+                        +</button></div>
+                  ) :
+                    (
+                      <button
+                        onClick={() => {
+                          handlecheck(item);
+                        }}
+                        className="hover:text-green-500 text-white bg-green-500 border border-green-400
+                                        rounded-md shadow-md w-20 py-1 absolute top-24 right-4 hover:bg-white "
+                        type="button"
+                      >
+                        Add
+                      </button>
+                    )
+                }
               </div>
             </div>
-          </div>
+          </div >
         );
       })}
-    </div>
+    </div >
   );
 };
+
+// ) : (
+//   <button
+//     onClick={() => {
+//       handlecheck(item);
+//     }}
+//     className="hover:text-green-500 text-white bg-green-500 border border-green-400
+//                                         rounded-md shadow-md w-20 py-1 absolute top-4 right-4 hover:bg-white "
+//     type="button"
+//   >
+//     Add
+//   </button>
