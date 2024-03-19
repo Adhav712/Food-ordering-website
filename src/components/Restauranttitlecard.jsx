@@ -45,7 +45,7 @@ export const Restauranttitlecard = (props) => {
                 <div>
                   <Restaurantgroupcard
                     key={item?.card?.info?.id}
-                    data={item?.card?.card?.itemCards}
+                    accordianData={item?.card?.card?.itemCards}
                   />
                 </div>
               )}
