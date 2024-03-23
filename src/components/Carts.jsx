@@ -6,9 +6,32 @@ import { EmptyCart } from './EmptyCart'
 const Carts = () => {
 
     const selector = useSelector((store) => store.cart.cartItems)
-    const selectors = useSelector((store) => store.cart.cartCount)
-    console.log(selector.length);
-    console.log(selectors);
+    const cart = useSelector((store) => store.cart)
+
+    // const totalCalc = () => {
+    //     let value = selector.map((acc) => {
+    //         console.log(acc);
+    //         let price = 0
+    //         price = acc.card.info.price / 100 * acc.quantity 
+    //         console.log(price);
+    //         // console.log(first);
+    //         // item.card.info.price / 100 * item.quantity
+    //     })
+    //     console.log(value);
+    // }
+    // console.log(totalCalc());
+    console.log(cart);
+    console.log(selector);
+
+    const getTotal = () => {
+        let totalQuantity = 0
+        let totalPrice = 0
+
+        selector.forEach(item => {
+            totalPrice += item.card.info.price / 100 * item.quantity
+        })
+        return { totalPrice, totalQuantity }
+    }
 
     let [showexit, setshowexit] = useState(true)
 
@@ -23,7 +46,9 @@ const Carts = () => {
 
                         <div className=" ">
                             <h1 className="w-[32em] py-2 px-8 font-semibold text-2xl
-                 bg-[#f3c77b] text-gray-900 fixed  bottom-0">Total - ₹ 1,500</h1>
+                 bg-[#f3c77b] text-gray-900 fixed  bottom-0">  total ({getTotal().totalQuantity} items) </h1>
+                            <h1 className="w-[32em] py-2 px-8 font-semibold text-2xl
+                 bg-[#f3c77b] text-gray-900 fixed  bottom-0"> ₹ {getTotal().totalPrice}</h1>
                         </div>
 
                     </div>
