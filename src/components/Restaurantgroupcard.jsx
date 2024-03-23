@@ -1,37 +1,47 @@
+
 import { useDispatch, useSelector } from "react-redux";
-import { additems } from "../utils/Cartslice";
+import { additems, incrementQuantity, decrementQuantity, deleteItems } from "../utils/Cartslice";
 import { useState, useEffect } from "react";
+import { X } from "lucide-react";
 
 //*  COMMON CARD DETAILS - { ACCORDIAN DETAILS }!!
 
-export const Restaurantgroupcard = ({ data }) => {
+export const Restaurantgroupcard = ({ data, exit }) => {
 
   const selector = useSelector((state => state.cart.cartItems))
-  const [showButtons, setShowButtons] = useState(false);
+  const cart = useSelector(state => state.cart)
+
+  console.log(cart);
+  console.log(data);
+  console.log(exit);
+
+
+  let dispatch = useDispatch()
+
+  const [buttonVisibility, setButtonVisibility] = useState({});
 
   useEffect(() => {
-    // console.log(selector[0].card.info.id, data);
-    selector.map(selectitem => {
-      data.map((item) => {
-        if (selectitem.card.info.id === item.card.info.id) {
-          setShowButtons(selectitem.selected)
-        } else {
-          setShowButtons(false)
+    const visibilityState = {};
+    selector.forEach((selectItem) => {
+      console.log(selectItem);
+      data.forEach((item) => {
+        if (selectItem.card.info.id === item.card.info.id) {
+          visibilityState[item.card.info.id] = selectItem.quantity
         }
-      })
-    })
+      });
+    });
+    setButtonVisibility(visibilityState);
+  }, [selector]);
 
-  }, [selector])
 
-  console.log(data);
-
-  const dispatch = useDispatch();
+  console.log(buttonVisibility);
 
   return (
     <div>
       {data.map((item, index) => {
-        const { name, description, defaultPrice, imageId, id, price, quantity = 0 } =
+        const { name, description, defaultPrice, imageId, id, price } =
           item?.card?.info;
+
 
         return (
           <div
@@ -41,7 +51,7 @@ export const Restaurantgroupcard = ({ data }) => {
             <h1 className="text-xl mb-2 font-semibold max-sm:text-lg text-gray-800">
               {name}
             </h1>
-            <div className="flex justify-between items-center">
+            <div className="flex items-center justify-evenly">
               <div className="max-sm:w-15 max-lg:w-[10em]">
                 <h1 className="text-md my-2 font-semibold text-gray-800">
                   ₹ {defaultPrice / 100 || price / 100}
@@ -66,7 +76,7 @@ export const Restaurantgroupcard = ({ data }) => {
                     alt=""
                   />
                 )}
-                {showButtons ? (
+                {buttonVisibility[id] >= 1 ? (
                   <div className=" absolute top-[5.5em] w-20 bg-red-200 flex justify-between px-2 items-center m-1 mx-4 rounded-sm py-[7px]">
                     <button
                       onClick={() => {
@@ -78,12 +88,16 @@ export const Restaurantgroupcard = ({ data }) => {
                     </button>
 
                     <span className=" text-neutral-600 cursor-default text-sm ">
-                      {quantity}
+                      {cart.cartItems.map(itemId => {
+                        if (itemId.card.info.id === id) {
+                          return itemId.quantity
+                        }
+                      })}
                     </span>
 
                     <button
                       className="cursor-pointer px-1 rounded-sm"
-                      onClick={() => {
+                      onClick={(e) => {
                         dispatch(incrementQuantity(item))
                       }}
                     >
@@ -92,7 +106,7 @@ export const Restaurantgroupcard = ({ data }) => {
                   </div>
                 ) : (
                   <button
-                    onClick={() => {
+                    onClick={(e) => {
                       dispatch(additems(item))
                     }}
                     className="hover:text-green-500 text-white bg-green-500 border border-green-400
@@ -103,6 +117,15 @@ export const Restaurantgroupcard = ({ data }) => {
                   </button>
                 )}
               </div>
+              {exit &&
+                <div className="hover:bg-slate-200 rounded-full p-1 cursor-pointer">
+                  <X
+                    onClick={() => {
+                      dispatch(deleteItems(item))
+                    }}
+                  />
+                </div>
+              }
             </div>
           </div>
         );
@@ -112,37 +135,3 @@ export const Restaurantgroupcard = ({ data }) => {
 };
 
 
-
-// let alteredData = [...dishItems];
-// console.log(alteredData);
-// let updateData = {
-//   ...alteredData[index],
-//   dishQuantity: alteredData[index].dishQuantity + 1
-// }
-// alteredData[index] = updateData
-// setDishItems(alteredData);
-// dispatch(additems(updateData));
-// // dispatch(additems(alteredData));    // shouldn't directly change the redux store
-// console.log(updateData);
-
-// let alteredData = [...dishItems];
-// let updateData = {
-//   ...alteredData[index],
-//   dishQuantity: alteredData[index].dishQuantity - 1
-// }
-// alteredData[index] = updateData
-// setDishItems(alteredData);
-// dispatch(additems(updateData));
-// console.log(updateData);
-
-// if (accordianData) {
-//   const finalDishItems = accordianData.map((dishItem) => ({
-//     ...dishItem.card,
-//     dishQuantity: 0,
-
-//   }));
-//   setDishItems([...finalDishItems]);
-// }
-// else {
-//   setDishItems(data.flat())
-// }
