@@ -6,7 +6,7 @@ export const EmptyCart = () => {
     return (
         <div>
             <div className='flex justify-center'>
-                <img className='w-[26em]' src={preview} alt="imnage" />
+                <img className='w-[35em] h-80' src={preview} alt="imnage" />
             </div>
             <div className='text-center'>
                 <h1 className='py-4 text-4xl font-semibold font-mono'>Your Cart is empty</h1>

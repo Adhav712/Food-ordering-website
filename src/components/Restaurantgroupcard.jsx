@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { additems, incrementQuantity, decrementQuantity, deleteItems } from "../utils/Cartslice";
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
+import { EmptyCart } from "./EmptyCart";
 
 //*  COMMON CARD DETAILS - { ACCORDIAN DETAILS }!!
 
@@ -10,6 +11,8 @@ export const Restaurantgroupcard = ({ data, exit }) => {
 
   const selector = useSelector((state => state.cart.cartItems))
   const cart = useSelector(state => state.cart)
+
+  console.log(selector.length);
 
   console.log(cart);
   console.log(data);
@@ -35,7 +38,7 @@ export const Restaurantgroupcard = ({ data, exit }) => {
 
 
   console.log(buttonVisibility);
-
+  console.log([data].map(item => item));
   return (
     <div>
       {data.map((item, index) => {
@@ -51,7 +54,7 @@ export const Restaurantgroupcard = ({ data, exit }) => {
             <h1 className="text-xl mb-2 font-semibold max-sm:text-lg text-gray-800">
               {name}
             </h1>
-            <div className="flex items-center justify-evenly">
+            <div className="flex items-center justify-between">
               <div className="max-sm:w-15 max-lg:w-[10em]">
                 <h1 className="text-md my-2 font-semibold text-gray-800">
                   ₹ {defaultPrice / 100 || price / 100}
@@ -121,7 +124,7 @@ export const Restaurantgroupcard = ({ data, exit }) => {
                 <div className="hover:bg-slate-200 rounded-full p-1 cursor-pointer">
                   <X
                     onClick={() => {
-                      dispatch(deleteItems(item))
+                      dispatch(deleteItems(id))
                     }}
                   />
                 </div>

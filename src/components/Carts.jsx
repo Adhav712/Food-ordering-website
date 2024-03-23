@@ -7,7 +7,7 @@ const Carts = () => {
 
     const selector = useSelector((store) => store.cart.cartItems)
     const selectors = useSelector((store) => store.cart.cartCount)
-    console.log(selector);
+    console.log(selector.length);
     console.log(selectors);
 
     let [showexit, setshowexit] = useState(true)
@@ -15,7 +15,7 @@ const Carts = () => {
     return (<div>
         <div className=" mt-48 mx-56 max-sm:mx-10 max-md:mx-12 max-lg:mx-28 max-xl:mx-52 max-2xl:mx-64 items-center ">
             <div className=" px-8">
-                {selectors !== null ?
+                {selector.length > 0 ?
                     <div>
                         <h1 className="text-center text-6xl font-semibold my-10">Cart</h1>
                         < Restaurantgroupcard data={selector} exit={showexit} />
