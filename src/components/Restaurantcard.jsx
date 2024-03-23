@@ -34,7 +34,7 @@ export const Restaurantcard = () => {
         element.classList.remove("bg-gray-200");
       }
     });
-    console.log(e.target.innerText);
+    //(e.target.innerText);
     switch (e.target.innerText) {
       case "Rating 4+": {
         const ratings = originallist.filter((item) => {
@@ -52,7 +52,7 @@ export const Restaurantcard = () => {
       }
       case "Rs.250-Rs.300": {
         const pricerange = originallist.filter((item) => {
-          console.log(item.info.costForTwo.includes("250"));
+          //(item.info.costForTwo.includes("250"));
           return item.info.costForTwo.includes("250");
         });
         setfilterarray(pricerange);

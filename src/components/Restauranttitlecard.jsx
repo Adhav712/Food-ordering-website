@@ -13,7 +13,7 @@ export const Restauranttitlecard = (props) => {
     setshowndata(index === showdata ? null : index);
   };
 
-  //console.log(data?.cards.length);
+  ////(data?.cards.length);
 
   return (
     <div className="my-5 mx-2 ">

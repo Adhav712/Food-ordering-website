@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 export const Header = () => {
 
   const cartCount = useSelector((store) => store.cart.cartItems);
-  console.log(cartCount);
 
   const totalCount = () => {
     let total = 0
@@ -16,7 +15,6 @@ export const Header = () => {
     return total
   }
 
-  console.log(totalCount());
 
   return (
     <div

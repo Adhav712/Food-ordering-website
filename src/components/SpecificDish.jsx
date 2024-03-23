@@ -11,7 +11,7 @@ export const SpecificDish = () => {
   const restaurant = Specificidishdata.data.find(
     (restaurant) => restaurant.data.cards[0].card.card.collectionId === resId
   );
-  console.log(Specificidishdata);
+  //(Specificidishdata);
 
   const { title, description } = restaurant.data.cards[0].card.card;
   const { text } =
@@ -53,7 +53,7 @@ export const SpecificDish = () => {
                 cuisines,
                 name,
               } = item?.card?.card?.info;
-              //console.log(id);
+              ////(id);
               return (
                 <Link key={id} to={"/reataurantitem/" + id}>
                   <div

@@ -12,11 +12,11 @@ export const Restaurantgroupcard = ({ data, exit }) => {
   const selector = useSelector((state => state.cart.cartItems))
   const cart = useSelector(state => state.cart)
 
-  console.log(selector.length);
+  //(selector.length);
 
-  console.log(cart);
-  console.log(data);
-  console.log(exit);
+  //(cart);
+  //(data);
+  //(exit);
 
 
   let dispatch = useDispatch()
@@ -26,7 +26,7 @@ export const Restaurantgroupcard = ({ data, exit }) => {
   useEffect(() => {
     const visibilityState = {};
     selector.forEach((selectItem) => {
-      console.log(selectItem);
+      //(selectItem);
       data.forEach((item) => {
         if (selectItem.card.info.id === item.card.info.id) {
           visibilityState[item.card.info.id] = selectItem.quantity
@@ -37,8 +37,8 @@ export const Restaurantgroupcard = ({ data, exit }) => {
   }, [selector]);
 
 
-  console.log(buttonVisibility);
-  console.log([data].map(item => item));
+  //(buttonVisibility);
+  //([data].map(item => item));
   return (
     <div>
       {data.map((item, index) => {

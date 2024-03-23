@@ -10,7 +10,7 @@ export const useRestaurantDetails = () => {
 
   const { resId } = useParams();
 
-  //console.log(resId);
+  ////(resId);
 
   const fetchdata = async () => {
     const data = await fetch(
@@ -20,7 +20,7 @@ export const useRestaurantDetails = () => {
     );
     const jsondata = await data.json();
     setdata(jsondata);
-    //console.log(jsondata?.data?.cards.length);
+    ////(jsondata?.data?.cards.length);
   };
 
   return data;

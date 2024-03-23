@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
 
 export const Topratedcart = ({ data }) => {
-  //console.log(data);
+  ////(data);
   const {
     id,
     name,

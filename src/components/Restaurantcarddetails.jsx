@@ -21,7 +21,7 @@ export const Restaurantcarddetails = () => {
 
   const Scrolldishdatas = Scrolldishdata.data.find(item => item.data.cards[0].card.card.info.id === resId)
 
-  console.log(Scrolldishdatas);
+  //(Scrolldishdatas);
 
   const headerdata =
     Scrolldishdatas?.data?.cards[0]?.card?.card?.info ||
