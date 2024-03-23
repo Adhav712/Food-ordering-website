@@ -28,7 +28,7 @@ export const SpecificDish = () => {
     <h1>Loading..........</h1>
   ) : (
     <div>
-      <div className="mx-44 max-md:mx-20 max-lg:mx-28 max-sm:mx-10">
+      <div className="my-52 mx-44 max-md:mx-20 max-lg:mx-28 max-sm:mx-10">
         <div className="mt-20">
           <h1 className="text-gray-800 text-4xl font-semibold my-5">{title}</h1>
           <p className="mx-4 my-2 text-md text-slate-600 font-semibold">

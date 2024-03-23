@@ -31,7 +31,7 @@ w-[24em] max-xl:w-[14em] max-sm:w-[14em] max-sm:h-[24em]  max-sm:pb-5 max-sm:mt-
               alt=""
             />
           </div>
-          <div className="mx-2 text-left">
+          <div className="mx-2 text-left ">
             <h1 className="text-xl font-semibold my-4 text-gray-800">{name}</h1>
             <p className=" font-semibold my-3"> {costForTwo}</p>
             <div className=" flex  items-center">

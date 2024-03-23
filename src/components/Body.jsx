@@ -65,7 +65,7 @@ export const Body = () => {
   return data.length < 1 ? (
     <Shimmerui />
   ) : (
-    <div className="max-md:mx-10 mx-48 my-10 pb-5 max-sm:mx-4 max-sm:my-8 max-lg:mx-20 max-xl:mx-28">
+    <div className=" max-md:mx-10 mx-48 my-36 max-lg:my-56 max-sm:my-48 pb-5 max-sm:mx-4 max-lg:mx-20 max-xl:mx-28">
       <div className=" border-b-2 border-slate-200 pb-4">
         <div className="flex justify-between">
           <div>

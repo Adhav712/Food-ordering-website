@@ -40,7 +40,7 @@ export const Restaurantcarddetails = () => {
     Accordiancard2?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
 
   return (
-    <div className="mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-20 max-sm:mt-10 overflow-hidden ">
+    <div className="overflow-hidden max-sm:mt-48  mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-44  ">
       <div className=" border border-gray-300 px-8 max-sm:px-4 rounded-xl">
         <h1 className="text-gray-900 text-4xl font-bold mt-10 max-sm:text-2xl">
           {headerdata?.name}
@@ -95,7 +95,7 @@ export const Restaurantcarddetails = () => {
       </div>
 
       {/* flat offers */}
-      <div className="inline-flex min-w-72 mx-2 mt-10 justify-center">
+      <div className="inline-flex min-w-72 mx-2 mt-10 justify-center overflow-hidden">
         {item?.offers.map((item) => {
           const { header, couponCode, description, offerLogo } = item?.info;
           return (
@@ -104,7 +104,7 @@ export const Restaurantcarddetails = () => {
                 key={item.info.offerIds}
                 className="w-52 mx-2 border-2 border-gray-400  p-2 rounded-md "
               >
-                <div className="flex">
+                <div className="flex ">
                   <img
                     src={
                       "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_28,h_28/" +

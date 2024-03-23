@@ -5,11 +5,22 @@ import { useSelector } from "react-redux";
 
 export const Header = () => {
 
-  const cartCount = useSelector((store) => store.cart.cartCount);
+  const cartCount = useSelector((store) => store.cart.cartItems);
+
+  const totalCount = () => {
+    let total = 0
+    cartCount.forEach(element => {
+      total += element.quantity
+    });
+    return total
+  }
+
+  console.log(totalCount());
 
   return (
     <div
-      className="overflow-hidden flex justify-between items-center
+      className="z-10 bg-white w-full
+       fixed top-0 flex justify-between items-center
           max-sm:block max-md:px-1  max-lg:block  
       shadow-lg shadow-gray-300 px-32"
     >
@@ -19,7 +30,7 @@ export const Header = () => {
           <img
             src={images}
             alt="logo"
-            className="w-56  mx-5 max-sm:w-56 py-5  overflow-hidden"
+            className=" w-56  mx-5 max-sm:w-56 py-5  overflow-hidden"
           />
         </Link>
       </div>
@@ -51,7 +62,7 @@ export const Header = () => {
             <ShoppingCart className="mx-2 text-gray-500 hover:text-[#fca729] w-[24px] max-sm:w-[18px] max-sm:mx-[2px]" />
 
             <span className="text-[#fca729] mx-1   ">
-              {cartCount}
+              {totalCount() || 0}
             </span>
           </li>
         </Link>

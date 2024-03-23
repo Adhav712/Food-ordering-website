@@ -4,62 +4,34 @@ import { useState, useEffect } from "react";
 
 //*  COMMON CARD DETAILS - { ACCORDIAN DETAILS }!!
 
-export const Restaurantgroupcard = ({ accordianData, data }) => {
-  const [dishItems, setDishItems] = useState([]);
+export const Restaurantgroupcard = ({ data }) => {
 
-  console.log(accordianData);
+  const selector = useSelector((state => state.cart.cartItems))
+  const [showButtons, setShowButtons] = useState(false);
+
+  useEffect(() => {
+    // console.log(selector[0].card.info.id, data);
+    selector.map(selectitem => {
+      data.map((item) => {
+        if (selectitem.card.info.id === item.card.info.id) {
+          setShowButtons(selectitem.selected)
+        } else {
+          setShowButtons(false)
+        }
+      })
+    })
+
+  }, [selector])
+
   console.log(data);
 
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    if (accordianData) {
-      const finalDishItems = accordianData.map((dishItem) => ({
-        ...dishItem.card,
-        dishQuantity: 0,
-      }));
-      setDishItems([...finalDishItems]);
-    }
-    else {
-      setDishItems(data.flat())
-    }
-  }, [accordianData]);
-
-  const handlePlus = (index) => {
-    let alteredData = [...dishItems];
-    console.log(alteredData);
-    let updateData = {
-      ...alteredData[index],
-      dishQuantity: alteredData[index].dishQuantity + 1
-    }
-    alteredData[index] = updateData
-    setDishItems(alteredData);
-    dispatch(additems(updateData));
-    // dispatch(additems(alteredData));    // shouldn't directly change the redux store
-    console.log(updateData);
-  }
-
-
-  const handleMinus = (index) => {
-    let alteredData = [...dishItems];
-    let updateData = {
-      ...alteredData[index],
-      dishQuantity: alteredData[index].dishQuantity - 1
-    }
-    alteredData[index] = updateData
-    setDishItems(alteredData);
-    dispatch(additems(updateData));
-    console.log(updateData);
-  };
-
-  console.log(accordianData);
-  console.log(dishItems);
-
   return (
     <div>
-      {dishItems.map((item, index) => {
-        const { name, description, defaultPrice, imageId, id, price } =
-          item?.info;
+      {data.map((item, index) => {
+        const { name, description, defaultPrice, imageId, id, price, quantity = 0 } =
+          item?.card?.info;
 
         return (
           <div
@@ -94,11 +66,11 @@ export const Restaurantgroupcard = ({ accordianData, data }) => {
                     alt=""
                   />
                 )}
-                {item.dishQuantity > 0 ? (
+                {showButtons ? (
                   <div className=" absolute top-[5.5em] w-20 bg-red-200 flex justify-between px-2 items-center m-1 mx-4 rounded-sm py-[7px]">
                     <button
                       onClick={() => {
-                        handleMinus(index);
+                        dispatch(decrementQuantity(item))
                       }}
                       className="px-[6px] rounded-sm cursor-pointer"
                     >
@@ -106,13 +78,13 @@ export const Restaurantgroupcard = ({ accordianData, data }) => {
                     </button>
 
                     <span className=" text-neutral-600 cursor-default text-sm ">
-                      {item.dishQuantity}
+                      {quantity}
                     </span>
 
                     <button
                       className="cursor-pointer px-1 rounded-sm"
                       onClick={() => {
-                        handlePlus(index);
+                        dispatch(incrementQuantity(item))
                       }}
                     >
                       +
@@ -121,7 +93,7 @@ export const Restaurantgroupcard = ({ accordianData, data }) => {
                 ) : (
                   <button
                     onClick={() => {
-                      handlePlus(index);
+                      dispatch(additems(item))
                     }}
                     className="hover:text-green-500 text-white bg-green-500 border border-green-400
                                         rounded-md shadow-md w-20 py-1 absolute top-24 right-4 hover:bg-white "
@@ -139,3 +111,38 @@ export const Restaurantgroupcard = ({ accordianData, data }) => {
   );
 };
 
+
+
+// let alteredData = [...dishItems];
+// console.log(alteredData);
+// let updateData = {
+//   ...alteredData[index],
+//   dishQuantity: alteredData[index].dishQuantity + 1
+// }
+// alteredData[index] = updateData
+// setDishItems(alteredData);
+// dispatch(additems(updateData));
+// // dispatch(additems(alteredData));    // shouldn't directly change the redux store
+// console.log(updateData);
+
+// let alteredData = [...dishItems];
+// let updateData = {
+//   ...alteredData[index],
+//   dishQuantity: alteredData[index].dishQuantity - 1
+// }
+// alteredData[index] = updateData
+// setDishItems(alteredData);
+// dispatch(additems(updateData));
+// console.log(updateData);
+
+// if (accordianData) {
+//   const finalDishItems = accordianData.map((dishItem) => ({
+//     ...dishItem.card,
+//     dishQuantity: 0,
+
+//   }));
+//   setDishItems([...finalDishItems]);
+// }
+// else {
+//   setDishItems(data.flat())
+// }

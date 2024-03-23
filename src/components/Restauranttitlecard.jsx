@@ -16,7 +16,7 @@ export const Restauranttitlecard = (props) => {
   //console.log(data?.cards.length);
 
   return (
-    <div className="my-10 mx-2 ">
+    <div className="my-5 mx-2 ">
       {data?.cards
         .filter(
           (item) =>
@@ -45,7 +45,7 @@ export const Restauranttitlecard = (props) => {
                 <div>
                   <Restaurantgroupcard
                     key={item?.card?.info?.id}
-                    accordianData={item?.card?.card?.itemCards}
+                    data={item?.card?.card?.itemCards}
                   />
                 </div>
               )}

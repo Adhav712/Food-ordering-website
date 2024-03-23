@@ -27,7 +27,7 @@ export const Shimmerui = () => {
         return <CurrentIcon className="size-11 max-sm:size-5 text-gray-300" />;
     };
     return (
-        <div className="">
+        <div className="my-32">
             <div className="w-full h-80 max-sm:h-56 border-2 border-black bg-gray-900  
             ">
                 <div className=" h-72  my-24 max-sm:5 mx-36 max-sm:-mx-2 max-sm:my-16 ">
