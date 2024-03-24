@@ -5,29 +5,17 @@ import { EmptyCart } from './EmptyCart'
 
 const Carts = () => {
 
+
     let [showexit, setshowexit] = useState(true)
     const selector = useSelector((store) => store.cart.cartItems)
     const cart = useSelector((store) => store.cart)
     const count = useSelector((store) => store.cart.cartCount)
 
-    // const totalCalc = () => {
-    //     let value = selector.map((acc) => {
-    //         //(acc);
-    //         let price = 0
-    //         price = acc.card.info.price / 100 * acc.quantity 
-    //         //(price);
-    //         // console.log(first);
-    //         // item.card.info.price / 100 * item.quantity
-    //     })
-    //     console.log(value);
-    // }
-    // console.log(totalCalc());
-
-
     const getTotal = () => {
         let totalPrice = 0
         selector.forEach(item => {
-            totalPrice += item.card.info.price / 100 * item.quantity
+            console.log(item.card.info);
+            totalPrice += item.card.info.price / 100 * item.quantity || item.card.info.defaultPrice / 100 * item.quantity
         })
         return { totalPrice }
     }
@@ -43,7 +31,7 @@ const Carts = () => {
 
                         <div className=" ">
                             <h1 className="w-[32em] py-2 px-8 
-                 bg-[#f3c77b]  fixed  bottom-0 font-semibold text-2xl text-gray-900" >Total : ₹ {Math.floor(getTotal().totalPrice)}</h1>
+                bg-transparent  backdrop-blur-3xl  fixed  bottom-0 font-semibold text-2xl text-gray-900" >Total : ₹ {Math.floor(getTotal().totalPrice)}</h1>
                         </div>
 
                     </div>

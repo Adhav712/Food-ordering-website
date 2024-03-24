@@ -12,12 +12,6 @@ export const Restaurantgroupcard = ({ data, exit }) => {
   const selector = useSelector((state => state.cart.cartItems))
   const cart = useSelector(state => state.cart)
 
-  //(selector.length);
-
-  //(cart);
-  //(data);
-  //(exit);
-
 
   let dispatch = useDispatch()
 
@@ -80,46 +74,86 @@ export const Restaurantgroupcard = ({ data, exit }) => {
                   />
                 )}
                 {buttonVisibility[id] >= 1 ? (
-                  <div className=" absolute top-[5.5em] w-20 bg-red-200 flex justify-between px-2 items-center m-1 mx-4 rounded-sm py-[7px]">
-                    <button
-                      onClick={() => {
-                        dispatch(decrementQuantity(item))
-                      }}
-                      className="px-[6px] rounded-sm cursor-pointer"
-                    >
-                      -
-                    </button>
+                  imageId ?
+                    (< div className=" absolute top-[5.5em] w-20 bg-red-200 flex justify-between px-2 items-center m-1 mx-4 rounded-sm py-[7px]">
+                      <button
+                        onClick={() => {
+                          dispatch(decrementQuantity(item))
+                        }}
+                        className="px-[6px] rounded-sm cursor-pointer"
+                      >
+                        -
+                      </button>
 
-                    <span className=" text-neutral-600 cursor-default text-sm ">
-                      {cart.cartItems.map(itemId => {
-                        if (itemId.card.info.id === id) {
-                          return itemId.quantity
-                        }
-                      })}
-                    </span>
+                      <span className=" text-neutral-600 cursor-default text-sm ">
+                        {cart.cartItems.map(itemId => {
+                          if (itemId.card.info.id === id) {
+                            return itemId.quantity
+                          }
+                        })}
+                      </span>
 
-                    <button
-                      className="cursor-pointer px-1 rounded-sm"
-                      onClick={(e) => {
-                        dispatch(incrementQuantity(item))
-                      }}
-                    >
-                      +
-                    </button>
-                  </div>
+                      <button
+                        className="cursor-pointer px-1 rounded-sm"
+                        onClick={(e) => {
+                          dispatch(incrementQuantity(item))
+                        }}
+                      >
+                        +
+                      </button>
+                    </div>) :
+                    (< div className="absolute right-0 bottom-0 w-20 bg-red-200 flex justify-between px-2 items-center mx-4 rounded-sm py-[7px]">
+                      <button
+                        onClick={() => {
+                          dispatch(decrementQuantity(item))
+                        }}
+                        className="px-[6px] rounded-sm cursor-pointer"
+                      >
+                        -
+                      </button>
+
+                      <span className=" text-neutral-600 cursor-default text-sm ">
+                        {cart.cartItems.map(itemId => {
+                          if (itemId.card.info.id === id) {
+                            return itemId.quantity
+                          }
+                        })}
+                      </span>
+
+                      <button
+                        className="cursor-pointer px-1 rounded-sm"
+                        onClick={(e) => {
+                          dispatch(incrementQuantity(item))
+                        }}
+                      >
+                        +
+                      </button>
+                    </div>)
                 ) : (
-                  <button
-                    onClick={(e) => {
-                      dispatch(additems(item))
-                    }}
-                    className="hover:text-green-500 text-white bg-green-500 border border-green-400
+                  imageId ?
+                    (<button
+                      onClick={(e) => {
+                        dispatch(additems(item))
+                      }}
+                      className="hover:text-green-500 text-white bg-green-500 border border-green-400
                                         rounded-md shadow-md w-20 py-1 absolute top-24 right-4 hover:bg-white "
-                    type="button"
-                  >
-                    Add
-                  </button>
+                      type="button"
+                    >
+                      Add
+                    </button>) :
+                    (<button
+                      onClick={(e) => {
+                        dispatch(additems(item))
+                      }}
+                      className="hover:text-green-500 text-white bg-green-500 border border-green-400
+                                        rounded-md shadow-md w-20 py-1 absolute bottom-2 right-6 hover:bg-white "
+                      type="button"
+                    >
+                      Add
+                    </button>)
                 )}
               </div>
+
               {exit &&
                 <div className="hover:bg-slate-200 rounded-full p-1 cursor-pointer">
                   <X
@@ -133,7 +167,7 @@ export const Restaurantgroupcard = ({ data, exit }) => {
           </div>
         );
       })}
-    </div>
+    </div >
   );
 };
 

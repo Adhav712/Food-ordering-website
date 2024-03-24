@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { TopRatedRestaurant } from "./TopRatedRestaurant";
 import { Shimmerui } from "./Shimmerui";
 import { Shimmercards } from "./Shimmercards";
+import { Footer } from "./Footer";
 
 //* What's on your mind?
 
@@ -65,56 +66,61 @@ export const Body = () => {
   return data.length < 1 ? (
     <Shimmerui />
   ) : (
-    <div className=" max-md:mx-10 mx-48 my-36 max-lg:my-56 max-sm:my-48 pb-5 max-sm:mx-4 max-lg:mx-20 max-xl:mx-28">
-      <div className=" border-b-2 border-slate-200 pb-4">
-        <div className="flex justify-between">
-          <div>
-            <h1 className="text-2xl font-bold max-sm:text-lg">
-              {getdata?.header?.title}
-            </h1>
+    <div>
+      <div className=" max-md:mx-10 mx-48 my-36 max-lg:my-56 max-sm:my-48 pb-5 max-sm:mx-4 max-lg:mx-20 max-xl:mx-28">
+        <div className=" border-b-2 border-slate-200 pb-4">
+          <div className="flex justify-between">
+            <div>
+              <h1 className="text-2xl font-bold max-sm:text-lg">
+                {getdata?.header?.title}
+              </h1>
+            </div>
+            <div className="inline-flex mx-4">
+              <ArrowLeft
+                className="size-7 mx-2 rounded-full p-1 bg-slate-300"
+                onClick={previous}
+              />
+              <ArrowRight
+                className="size-7 rounded-full p-1 bg-slate-300"
+                onClick={next}
+              />
+            </div>
           </div>
-          <div className="inline-flex mx-4">
-            <ArrowLeft
-              className="size-7 mx-2 rounded-full p-1 bg-slate-300"
-              onClick={previous}
-            />
-            <ArrowRight
-              className="size-7 rounded-full p-1 bg-slate-300"
-              onClick={next}
-            />
-          </div>
-        </div>
 
-        <Slider className="flex cursor-pointer" ref={sliderRef} {...settings}>
-          {mapdata?.info.map((imgitem) => {
-            if (imgitem.entityId > 5 === false) {
-              const numbersString = imgitem.entityId.replace(/\D/g, "");
-              let splitnum = numbersString.split("");
-              splitnum.shift();
-              let id = splitnum.join("");
+          <Slider className="flex cursor-pointer" ref={sliderRef} {...settings}>
+            {mapdata?.info.map((imgitem) => {
+              if (imgitem.entityId > 5 === false) {
+                const numbersString = imgitem.entityId.replace(/\D/g, "");
+                let splitnum = numbersString.split("");
+                splitnum.shift();
+                let id = splitnum.join("");
 
-              return (
-                <Link
-                  key={imgitem.id}
-                  to={"/restaurant/" + id || imgitem.entityId}
-                >
-                  <img
+                return (
+                  <Link
                     key={imgitem.id}
-                    className=""
-                    width={"120em"}
-                    src={
-                      "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/" +
-                      imgitem?.imageId
-                    }
-                    alt="img-not-found"
-                  />
-                </Link>
-              );
-            }
-          })}
-        </Slider>
+                    to={"/restaurant/" + id || imgitem.entityId}
+                  >
+                    <img
+                      key={imgitem.id}
+                      className=""
+                      width={"120em"}
+                      src={
+                        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/" +
+                        imgitem?.imageId
+                      }
+                      alt="img-not-found"
+                    />
+                  </Link>
+                );
+              }
+            })}
+          </Slider>
+        </div>
+        {mapdata?.info?.length < 10 ? <Shimmercards /> : <TopRatedRestaurant />}
       </div>
-      {mapdata?.info?.length < 10 ? <Shimmercards /> : <TopRatedRestaurant />}
+      {/* <div className="">
+        <Footer />
+      </div> */}
     </div>
   );
 };

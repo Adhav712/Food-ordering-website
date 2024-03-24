@@ -8,6 +8,7 @@ import { SpecificDish } from './SpecificDish'
 import { Restaurantcarddetails } from './Restaurantcarddetails'
 import appstore from '../utils/appstore'
 import { Provider } from 'react-redux'
+import { Footer } from './Footer'
 
 
 function App() {

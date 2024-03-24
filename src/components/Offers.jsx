@@ -3,6 +3,7 @@ import useScrollRestaurant from "../Hooks/useScrollRestaurant";
 import { withofferlabel } from "./Restaurantmainmenucart";
 import { Restaurantmainmenucart } from "./Restaurantmainmenucart";
 import { Shimmercards } from "./Shimmercards";
+import { Footer } from "./Footer";
 
 const Offers = () => {
   const Restaurantoffercart = withofferlabel(Restaurantmainmenucart);

@@ -1,6 +1,7 @@
 import { ChevronDown } from "lucide-react";
 import { Restaurantgroupcard } from "./Restaurantgroupcard";
 import { useState } from "react";
+import { EmptyCart } from "./EmptyCart";
 
 //*  COMMON CARD DETAILS - { TITLE , OFFER DETAILS }!!
 
@@ -13,17 +14,17 @@ export const Restauranttitlecard = (props) => {
     setshowndata(index === showdata ? null : index);
   };
 
-  ////(data?.cards.length);
+  const filtereditems = data?.cards.filter((item) => item?.card?.card?.["@type"] ===
+    "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+  )
+
+  // console.log(filtereditems);
+  // console.log(data);
 
   return (
     <div className="my-5 mx-2 ">
-      {data?.cards
-        .filter(
-          (item) =>
-            item?.card?.card?.["@type"] ===
-            "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
-        )
-        .map((item, index) => {
+      {filtereditems === undefined || filtereditems.length === 0 ? <h1 className="text-center text-xl">Sorry, there are no dishes available at the moment. Please check back later!!!!</h1> :
+        filtereditems.map((item, index) => {
           return (
             <div
               key={item?.card?.card?.title}

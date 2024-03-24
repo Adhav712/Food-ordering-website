@@ -39,6 +39,8 @@ export const Restaurantcarddetails = () => {
     Accordiancard?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR ||
     Accordiancard2?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR
 
+  console.log(groupedCard);
+
   return (
     <div className="overflow-hidden max-sm:mt-48  mx-[17em] max-sm:mx-[1em] max-lg:mx-[2em] mt-44  ">
       <div className=" border border-gray-300 px-8 max-sm:px-4 rounded-xl">

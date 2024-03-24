@@ -5,6 +5,7 @@ import { Restaurantmainmenucart } from "./Restaurantmainmenucart";
 import { Link } from "react-router-dom";
 import { withofferlabel } from "./Restaurantmainmenucart";
 import { Search } from "lucide-react";
+import { Footer } from "./Footer";
 
 //^ Restaurants with online food delivery in Chennai  [ SEARCH ]
 
