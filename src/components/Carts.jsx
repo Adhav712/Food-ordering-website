@@ -5,6 +5,7 @@ import { EmptyCart } from './EmptyCart'
 
 const Carts = () => {
 
+    // local storage
 
     let [showexit, setshowexit] = useState(true)
     const selector = useSelector((store) => store.cart.cartItems)
