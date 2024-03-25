@@ -142,6 +142,7 @@ export const Restaurantcard = () => {
             );
           })}
       </div>
+
     </div>
   );
 };

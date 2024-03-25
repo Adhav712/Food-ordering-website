@@ -21,6 +21,7 @@ function App() {
         <Header />
         <Outlet />
       </div>
+
     </Provider>
   )
 }
@@ -47,10 +48,6 @@ const router = createBrowserRouter(
           element: <Offers />
         },
         {
-          path: '/carts',
-          element: <Carts />
-        },
-        {
           path: `/restaurant/:resId`,
           element: <SpecificDish />
         },
@@ -69,14 +66,14 @@ const router = createBrowserRouter(
         {
           path: '/offers/:resId',
           element: <Restaurantcarddetails />
-        }
+        },
+        {
+          path: '/carts',
+          element: <Carts />
+        },
 
       ],
-
-      // errorElement
-
     },
-
   ])
 
 export default router

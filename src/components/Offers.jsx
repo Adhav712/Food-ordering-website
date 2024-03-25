@@ -34,6 +34,7 @@ const Offers = () => {
           })
         )}
       </div>
+
     </div>
   );
 };

@@ -9,6 +9,7 @@ import Scrolldishdata from '../Mock/Scrolldishdata.json'
 import Accordiandata from "../Mock/Accordiandata.json";
 import Accordiandatas from "../Mock/Accordiandatas.json";
 import { useParams } from "react-router-dom";
+import { Footer } from "./Footer";
 export const Restaurantcarddetails = () => {
   const { resId } = useParams();
 
@@ -127,6 +128,7 @@ export const Restaurantcarddetails = () => {
         })}
       </div>
       <Restauranttitlecard data={groupedCard} />
+
     </div>
   );
 };
