@@ -25,7 +25,6 @@ export const Header = () => {
     >
       <div className="flex justify-center items-center pb-4">
         <Link to={"/home"}>
-          {" "}
           <img
             src={images}
             alt="logo"
