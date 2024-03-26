@@ -11,7 +11,7 @@ const Offers = () => {
   const { data } = useScrollRestaurant();
   const mapdata = data[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
   return (
-    <div className="mx-10 my-48">
+    <div className="mx-1 my-40">
       <div className="text-center">
         <h1 className=" font-bold text-gray-800 text-6xl my-8 max-sm:text-4xl">
           Offer Carts

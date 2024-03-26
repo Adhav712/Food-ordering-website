@@ -18,8 +18,9 @@ export const Topratedcart = ({ data }) => {
       <Link to={"/home/restaurantdetails/" + id}>
         <div
           key={id}
-          className="transition ease-in delay-75  hover:scale-95 hover:shadow-lg hover:shadow-slate-400  duration-100  
-w-[24em] max-xl:w-[14em] max-sm:w-[14em] max-sm:h-[24em]  max-sm:pb-5 max-sm:mt-8 max-w-64 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[26em] max-h-[35em] "
+          className="transition ease-in delay-75 
+           hover:scale-95 hover:shadow-lg hover:shadow-slate-400  duration-100  
+w-[24em] max-xl:w-[14em] max-sm:w-[14em] max-sm:h-[24em]  max-sm:pb-5 max-sm:mt-8 max-w-60 shadow-md shadow-slate-300  rounded-xl p-4 m-2 min-h-48 h-[26em] max-h-[35em] "
         >
           <div className="flex justify-center items-center">
             <img

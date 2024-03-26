@@ -29,7 +29,7 @@ export const Header = () => {
           <img
             src={images}
             alt="logo"
-            className=" w-56  mx-5 max-sm:w-56 py-5  overflow-hidden"
+            className=" w-56  mx-5 max-sm:w-56 py-3  overflow-hidden"
           />
         </Link>
       </div>
