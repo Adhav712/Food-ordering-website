@@ -1,4 +1,4 @@
-import images from "../images/goodfoodlogo.png";
+import goodfoodlogo1 from '../images/goodfoodlogo.png'
 import { Link } from "react-router-dom";
 import { BadgePercent, Home, ShoppingCart } from "lucide-react";
 import { useSelector } from "react-redux";
@@ -18,7 +18,7 @@ export const Header = () => {
 
   return (
     <div
-      className="z-10 bg-white w-full
+      className="z-10 backdrop-blur-md w-full
        fixed top-0 flex justify-between items-center
           max-sm:block max-md:px-1  max-lg:block  
       shadow-lg shadow-gray-300 px-32"
@@ -26,7 +26,7 @@ export const Header = () => {
       <div className="flex justify-center items-center pb-4">
         <Link to={"/home"}>
           <img
-            src={images}
+            src={goodfoodlogo1}
             alt="logo"
             className=" w-56  mx-5 max-sm:w-56 py-3  overflow-hidden"
           />
