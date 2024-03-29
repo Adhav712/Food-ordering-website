@@ -28,7 +28,7 @@ To run tests, run the following command
 
 ## Screenshots
 
-![App Screenshot](http://localhost:5174/)
+![App Screenshot](./src/images/GoodFood.png)
 
 ## 🛠 Skills
 
