@@ -18,7 +18,7 @@ export const Header = () => {
 
   return (
     <div
-      className="z-10 backdrop-blur-md w-full
+      className="z-10 bg-white w-full
        fixed top-0 flex justify-between items-center
           max-sm:block max-md:px-1  max-lg:block  
       shadow-lg shadow-gray-300 px-32"
