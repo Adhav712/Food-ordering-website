@@ -1,6 +1,10 @@
-
 import { useDispatch, useSelector } from "react-redux";
-import { additems, incrementQuantity, decrementQuantity, deleteItems } from "../utils/Cartslice";
+import {
+  additems,
+  incrementQuantity,
+  decrementQuantity,
+  deleteItems,
+} from "../utils/Cartslice";
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { EmptyCart } from "./EmptyCart";
@@ -8,12 +12,10 @@ import { EmptyCart } from "./EmptyCart";
 //*  COMMON CARD DETAILS - { ACCORDIAN DETAILS }!!
 
 export const Restaurantgroupcard = ({ data, exit }) => {
+  const selector = useSelector((state) => state.cart.cartItems);
+  const cart = useSelector((state) => state.cart);
 
-  const selector = useSelector((state => state.cart.cartItems))
-  const cart = useSelector(state => state.cart)
-
-
-  let dispatch = useDispatch()
+  let dispatch = useDispatch();
 
   const [buttonVisibility, setButtonVisibility] = useState({});
 
@@ -23,13 +25,12 @@ export const Restaurantgroupcard = ({ data, exit }) => {
       //(selectItem);
       data.forEach((item) => {
         if (selectItem.card.info.id === item.card.info.id) {
-          visibilityState[item.card.info.id] = selectItem.quantity
+          visibilityState[item.card.info.id] = selectItem.quantity;
         }
       });
     });
     setButtonVisibility(visibilityState);
   }, [selector]);
-
 
   //(buttonVisibility);
   //([data].map(item => item));
@@ -38,7 +39,6 @@ export const Restaurantgroupcard = ({ data, exit }) => {
       {data.map((item, index) => {
         const { name, description, defaultPrice, imageId, id, price } =
           item?.card?.info;
-
 
         return (
           <div
@@ -62,113 +62,115 @@ export const Restaurantgroupcard = ({ data, exit }) => {
                   {description}
                 </h1>
               </div>
-              <div className="relative">
-                {imageId && (
-                  <img
-                    className="object-cover size-28 rounded-xl shadow-md shadow-gray-400"
-                    src={
-                      "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/" +
-                      imageId
-                    }
-                    alt=""
-                  />
-                )}
-                {buttonVisibility[id] >= 1 ? (
-                  imageId ?
-                    (< div className=" absolute top-[5.5em] w-20 bg-red-200 flex justify-between px-2 items-center m-1 mx-4 rounded-sm py-[7px]">
-                      <button
-                        onClick={() => {
-                          dispatch(decrementQuantity(item))
-                        }}
-                        className="px-[6px] rounded-sm cursor-pointer"
-                      >
-                        -
-                      </button>
+              <section className="flex items-center justify-between max-sm:w-15 max-lg:w-[10em] max-2xl:w-[15em] max-xl:w-[15em] max-md:w-[15em] max-sm:w-[15em] ">
+                <div className="relative">
+                  {imageId && (
+                    <img
+                      className="object-cover size-28 rounded-xl shadow-md shadow-gray-400"
+                      src={
+                        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/" +
+                        imageId
+                      }
+                      alt=""
+                    />
+                  )}
+                  {buttonVisibility[id] >= 1 ? (
+                    imageId ? (
+                      <div className=" absolute top-[5.5em] w-20 bg-red-200 flex justify-between px-2 items-center m-1 mx-4 rounded-sm py-[7px]">
+                        <button
+                          onClick={() => {
+                            dispatch(decrementQuantity(item));
+                          }}
+                          className="px-[6px] rounded-sm cursor-pointer"
+                        >
+                          -
+                        </button>
 
-                      <span className=" text-neutral-600 cursor-default text-sm ">
-                        {cart.cartItems.map(itemId => {
-                          if (itemId.card.info.id === id) {
-                            return itemId.quantity
-                          }
-                        })}
-                      </span>
+                        <span className=" text-neutral-600 cursor-default text-sm ">
+                          {cart.cartItems.map((itemId) => {
+                            if (itemId.card.info.id === id) {
+                              return itemId.quantity;
+                            }
+                          })}
+                        </span>
 
-                      <button
-                        className="cursor-pointer px-1 rounded-sm"
-                        onClick={(e) => {
-                          dispatch(incrementQuantity(item))
-                        }}
-                      >
-                        +
-                      </button>
-                    </div>) :
-                    (< div className="absolute right-0 bottom-0 w-20 bg-red-200 flex justify-between px-2 items-center mx-4 rounded-sm py-[7px]">
-                      <button
-                        onClick={() => {
-                          dispatch(decrementQuantity(item))
-                        }}
-                        className="px-[6px] rounded-sm cursor-pointer"
-                      >
-                        -
-                      </button>
+                        <button
+                          className="cursor-pointer px-1 rounded-sm"
+                          onClick={(e) => {
+                            dispatch(incrementQuantity(item));
+                          }}
+                        >
+                          +
+                        </button>
+                      </div>
+                    ) : (
+                      <div className="absolute right-0 bottom-0 w-20 bg-red-200 flex justify-between px-2 items-center mx-4 rounded-sm py-[7px]">
+                        <button
+                          onClick={() => {
+                            dispatch(decrementQuantity(item));
+                          }}
+                          className="px-[6px] rounded-sm cursor-pointer"
+                        >
+                          -
+                        </button>
 
-                      <span className=" text-neutral-600 cursor-default text-sm ">
-                        {cart.cartItems.map(itemId => {
-                          if (itemId.card.info.id === id) {
-                            return itemId.quantity
-                          }
-                        })}
-                      </span>
+                        <span className=" text-neutral-600 cursor-default text-sm ">
+                          {cart.cartItems.map((itemId) => {
+                            if (itemId.card.info.id === id) {
+                              return itemId.quantity;
+                            }
+                          })}
+                        </span>
 
-                      <button
-                        className="cursor-pointer px-1 rounded-sm"
-                        onClick={(e) => {
-                          dispatch(incrementQuantity(item))
-                        }}
-                      >
-                        +
-                      </button>
-                    </div>)
-                ) : (
-                  imageId ?
-                    (<button
+                        <button
+                          className="cursor-pointer px-1 rounded-sm"
+                          onClick={(e) => {
+                            dispatch(incrementQuantity(item));
+                          }}
+                        >
+                          +
+                        </button>
+                      </div>
+                    )
+                  ) : imageId ? (
+                    <button
                       onClick={(e) => {
-                        dispatch(additems(item))
+                        dispatch(additems(item));
                       }}
                       className="hover:text-green-500 text-white bg-green-500 border border-green-400
                                         rounded-md shadow-md w-20 py-1 absolute top-24 right-4 hover:bg-white "
                       type="button"
                     >
                       Add
-                    </button>) :
-                    (<button
+                    </button>
+                  ) : (
+                    <button
                       onClick={(e) => {
-                        dispatch(additems(item))
+                        dispatch(additems(item));
                       }}
                       className="hover:text-green-500 text-white bg-green-500 border border-green-400
                                         rounded-md shadow-md w-20 py-1 absolute bottom-2 right-6 hover:bg-white "
                       type="button"
                     >
                       Add
-                    </button>)
-                )}
-              </div>
-
-              {exit &&
-                <div className="hover:bg-slate-200 rounded-full p-1 cursor-pointer">
-                  <X
-                    onClick={() => {
-                      dispatch(deleteItems(id))
-                    }}
-                  />
+                    </button>
+                  )}
                 </div>
-              }
+
+                {exit && (
+                  <div className="hover:bg-slate-200 rounded-full p-1 cursor-pointer">
+                    <X
+                      onClick={() => {
+                        dispatch(deleteItems(id));
+                      }}
+                    />
+                  </div>
+                )}
+              </section>
             </div>
           </div>
         );
       })}
-    </div >
+    </div>
   );
 };
-
-
